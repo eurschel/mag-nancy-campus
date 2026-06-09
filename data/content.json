@@ -563,7 +563,560 @@
       "color_secondary": "#0F172A",
       "for_who": "Tronc commun BTS — Pigier (MCO, NDRC, GPME, CG, Com, CI…)",
       "icon": "scale",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "ECO-MARCHES",
+          "title": "Économie : marchés, croissance, mondialisation",
+          "tagline": "Comprendre les mécanismes de marché, les moteurs de la croissance et les enjeux de la mondialisation",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que la croissance économique ?",
+                "url": "https://www.vie-publique.fr/fiches/270258-quest-ce-que-la-croissance-economique"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que la mondialisation ?",
+                "url": "https://www.vie-publique.fr/fiches/274927-quest-ce-que-la-mondialisation"
+              },
+              {
+                "type": "articles",
+                "source": "Insee",
+                "title": "Produit intérieur brut (PIB) - Définition",
+                "url": "https://www.insee.fr/fr/metadonnees/definition/c1832"
+              },
+              {
+                "type": "articles",
+                "source": "Insee",
+                "title": "Tableau de bord de l'économie française",
+                "url": "https://www.insee.fr/fr/outil-interactif/5367857/tableau/10_DPC/20_INF"
+              },
+              {
+                "type": "articles",
+                "source": "Banque de France",
+                "title": "Projections macroéconomiques pour la France",
+                "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/projections-macroeconomiques-france"
+              },
+              {
+                "type": "articles",
+                "source": "OFCE",
+                "title": "Perspectives économiques 2024-2025",
+                "url": "https://www.ofce.sciences-po.fr/publications/revues.php"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Différence entre microéconomie et macroéconomie",
+                "url": "https://www.vie-publique.fr/fiches/270238-quelle-est-la-difference-entre-microeconomie-et-macroeconomie"
+              },
+              {
+                "type": "articles",
+                "source": "Ministère de l'Économie",
+                "title": "Comprendre la politique commerciale de l'UE",
+                "url": "https://www.economie.gouv.fr/cedef/politique-commerciale-ue"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que le commerce international ?",
+                "url": "https://www.vie-publique.fr/fiches/269998-quest-ce-que-le-commerce-international"
+              },
+              {
+                "type": "articles",
+                "source": "Insee",
+                "title": "Les entreprises en France - Édition 2023",
+                "url": "https://www.insee.fr/fr/statistiques/7651654"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Dessine-moi l'éco",
+                "title": "Qu'est-ce que la croissance économique ?",
+                "url": "https://www.youtube.com/watch?v=Pl4N7Iagjlk"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / Xerfi Canal",
+                "title": "La mondialisation en mutation",
+                "url": "https://www.youtube.com/watch?v=6_dDQzVTaJU"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / Heu?reka",
+                "title": "Le PIB, c'est quoi exactement ?",
+                "url": "https://www.youtube.com/watch?v=eOyrCedKZyA"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "France Stratégie",
+                "title": "Les politiques industrielles en France",
+                "url": "https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-rapport-politiques-industrielles-29-novembre-2020_0.pdf"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "ECO-POLITIQUES",
+          "title": "Économie : politiques économiques, État, Europe",
+          "tagline": "Le rôle de l'État, la politique monétaire et budgétaire, l'Union européenne",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce qu'une politique économique ?",
+                "url": "https://www.vie-publique.fr/fiches/269995-quest-ce-quune-politique-economique"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Les politiques budgétaires : objectifs, instruments",
+                "url": "https://www.vie-publique.fr/fiches/21873-politiques-budgetaires-quels-objectifs-quels-instruments"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que la politique monétaire ?",
+                "url": "https://www.vie-publique.fr/fiches/270265-quest-ce-que-la-politique-monetaire"
+              },
+              {
+                "type": "articles",
+                "source": "Banque de France",
+                "title": "Le rôle de la BCE et l'Eurosystème",
+                "url": "https://www.banque-france.fr/fr/la-banque-de-france/missions/leurosysteme-et-la-banque-centrale-europeenne-bce"
+              },
+              {
+                "type": "articles",
+                "source": "Ministère de l'Économie",
+                "title": "Le budget de l'État expliqué",
+                "url": "https://www.economie.gouv.fr/budget-etat-presentation"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que l'Union européenne ?",
+                "url": "https://www.vie-publique.fr/fiches/20327-quest-ce-que-lunion-europeenne"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Les institutions de l'Union européenne",
+                "url": "https://www.vie-publique.fr/fiches/20330-quelles-sont-les-institutions-de-lunion-europeenne"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que la dette publique ?",
+                "url": "https://www.vie-publique.fr/fiches/21895-quest-ce-que-la-dette-publique"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "L'État providence - définition et rôle",
+                "url": "https://www.vie-publique.fr/fiches/270283-letat-providence-definition-et-role"
+              },
+              {
+                "type": "articles",
+                "source": "Toute l'Europe",
+                "title": "Comprendre le budget européen",
+                "url": "https://www.touteleurope.eu/economie-et-social/le-budget-de-l-union-europeenne/"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Dessine-moi l'éco",
+                "title": "Comment fonctionne la BCE ?",
+                "url": "https://www.youtube.com/watch?v=Hk_VOY5OZyc"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / Toute l'Europe",
+                "title": "L'Union européenne en 3 minutes",
+                "url": "https://www.youtube.com/watch?v=O37yJBFRrfg"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Banque de France",
+                "title": "Rapport annuel de la Banque de France",
+                "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/rapport-annuel-de-la-banque-de-france"
+              },
+              {
+                "type": "whitepapers",
+                "source": "Cour des comptes",
+                "title": "Rapport sur la situation et les perspectives des finances publiques",
+                "url": "https://www.ccomptes.fr/fr/publications/le-rapport-sur-la-situation-et-les-perspectives-des-finances-publiques-2024"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "DROIT-SOURCES",
+          "title": "Droit : sources, contrats, responsabilité",
+          "tagline": "Les fondements du droit français, le contrat et la responsabilité civile",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Quelles sont les sources du droit ?",
+                "url": "https://www.vie-publique.fr/fiches/23933-quelles-sont-les-sources-du-droit"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce que la hiérarchie des normes ?",
+                "url": "https://www.vie-publique.fr/fiches/19524-quest-ce-que-la-hierarchie-des-normes"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Les juridictions de l'ordre judiciaire et administratif",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F18839"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Quelle est l'organisation de la justice en France ?",
+                "url": "https://www.vie-publique.fr/fiches/268547-quelle-est-lorganisation-de-la-justice-en-france"
+              },
+              {
+                "type": "articles",
+                "source": "Légifrance",
+                "title": "Code civil - Des contrats",
+                "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000032040788/"
+              },
+              {
+                "type": "articles",
+                "source": "Légifrance",
+                "title": "Code civil - De la responsabilité extracontractuelle",
+                "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006136352/"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Qu'est-ce qu'un contrat ?",
+                "url": "https://www.vie-publique.fr/fiches/268555-quest-ce-quun-contrat"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Conditions de validité d'un contrat",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F31363"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Quels sont les différents types de responsabilité civile ?",
+                "url": "https://www.vie-publique.fr/fiches/38071-quels-sont-les-differents-types-de-responsabilite-civile"
+              },
+              {
+                "type": "articles",
+                "source": "Conseil constitutionnel",
+                "title": "La Constitution de 1958",
+                "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Jurixio",
+                "title": "Les sources du droit expliquées",
+                "url": "https://www.youtube.com/watch?v=cN8s11sBohw"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / Jurixio",
+                "title": "Comment former un contrat valide ?",
+                "url": "https://www.youtube.com/watch?v=L5LquhHGEYM"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / Jurixio",
+                "title": "La responsabilité civile en 10 minutes",
+                "url": "https://www.youtube.com/watch?v=ePoMHIGcTrM"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Ministère de la Justice",
+                "title": "Les chiffres-clés de la Justice 2023",
+                "url": "https://www.justice.gouv.fr/sites/default/files/2023-10/Chiffres_Cles_2023.pdf"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "DROIT-TRAVAIL",
+          "title": "Droit : droit du travail, droit des sociétés",
+          "tagline": "Contrat de travail, relations sociales, formes juridiques de l'entreprise",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Le contrat de travail CDI",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F1910"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Le contrat à durée déterminée (CDD)",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F1909"
+              },
+              {
+                "type": "articles",
+                "source": "Ministère du Travail",
+                "title": "Le contrat de travail",
+                "url": "https://travail-emploi.gouv.fr/droit-du-travail/le-contrat-de-travail"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Rupture conventionnelle du contrat de travail",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F987"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "CSE - Comité social et économique",
+                "url": "https://www.vie-publique.fr/eclairage/19562-cse-comite-social-et-economique"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Comité social et économique (CSE)",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F34474"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Les formes juridiques d'entreprise",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32887"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Choisir le statut juridique de son entreprise",
+                "url": "https://bpifrance-creation.fr/encyclopedie/structures-juridiques/sarl-eurl-sa-sas-sasu-snc/comment-choisir-statut-juridique"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Société à responsabilité limitée (SARL)",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F31201"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Société par actions simplifiée (SAS)",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32595"
+              },
+              {
+                "type": "articles",
+                "source": "Ministère du Travail",
+                "title": "La durée du travail",
+                "url": "https://travail-emploi.gouv.fr/droit-du-travail/la-duree-du-travail"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Maître Eolas",
+                "title": "Comprendre la rupture conventionnelle",
+                "url": "https://www.youtube.com/watch?v=qZ45OPLWa3I"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Ministère du Travail",
+                "title": "Code du travail numérique",
+                "url": "https://code.travail.gouv.fr/"
+              },
+              {
+                "type": "whitepapers",
+                "source": "BPI France",
+                "title": "Guide juridique du créateur d'entreprise",
+                "url": "https://bpifrance-creation.fr/encyclopedie/structures-juridiques"
+              }
+            ]
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "MGMT-ENT",
+          "title": "Management de l'entreprise : structure, décision, performance",
+          "tagline": "Organisation, prise de décision, stratégie et mesure de la performance",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Les structures organisationnelles",
+                "url": "https://www.manager-go.com/organisation-entreprise/dossiers-methodes/structures-organisationnelles"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Le processus de décision en management",
+                "url": "https://www.manager-go.com/management/dossiers-methodes/processus-de-decision"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Analyse SWOT - Méthode et exemples",
+                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/diagnostic-swot"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "La chaîne de valeur de Porter",
+                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/chaine-de-valeur-de-porter"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Les 5 forces de Porter",
+                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/5-forces-de-porter"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Tableau de bord et indicateurs de performance",
+                "url": "https://www.manager-go.com/management-de-la-performance/dossiers-methodes/methode-tableau-de-bord"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Définir la stratégie d'entreprise",
+                "url": "https://www.manager-go.com/strategie-entreprise/"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Revue Française de Gestion",
+                "url": "https://www.cairn.info/revue-francaise-de-gestion.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Xerfi Canal",
+                "title": "Stratégie d'entreprise et management",
+                "url": "https://www.xerficanal.com/strategie-management/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Mintzberg : les configurations organisationnelles",
+                "url": "https://www.manager-go.com/organisation-entreprise/dossiers-methodes/mintzberg-configurations-structurelles"
+              },
+              {
+                "type": "articles",
+                "source": "Harvard Business Review France",
+                "title": "Articles en accès libre sur la stratégie",
+                "url": "https://www.hbrfrance.fr/category/strategie/"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Xerfi Canal",
+                "title": "Les 5 forces de Porter expliquées",
+                "url": "https://www.youtube.com/watch?v=mYF2_FBCvXw"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "BPI France Le Lab",
+                "title": "Études et publications sur les PME",
+                "url": "https://lelab.bpifrance.fr/etudes"
+              },
+              {
+                "type": "whitepapers",
+                "source": "France Stratégie",
+                "title": "L'avenir du travail et des organisations",
+                "url": "https://www.strategie.gouv.fr/publications"
+              }
+            ]
+          }
+        },
+        "6": {
+          "num": 6,
+          "code": "METHODE-CEJM",
+          "title": "Méthode CEJM : analyser un cas, rédiger sa note",
+          "tagline": "Maîtriser l'épreuve : analyse de cas, structuration de la note, argumentation",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Réseau CERTA",
+                "title": "Sujets et corrigés CEJM",
+                "url": "https://www.reseaucerta.org/cejm-bts-services"
+              },
+              {
+                "type": "articles",
+                "source": "CRCM-TL",
+                "title": "Ressources et sujets corrigés CEJM",
+                "url": "https://crcm-tl.fr/index.php/economie-droit-management/cejm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Rédiger une note de synthèse - Méthode",
+                "url": "https://www.manager-go.com/efficacite-professionnelle/dossiers-methodes/note-de-synthese"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "BTS - Modalités d'examen",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F285"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Comment est élaborée une décision de justice ?",
+                "url": "https://www.vie-publique.fr/fiches/268559-comment-est-elaboree-une-decision-de-justice"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Jurixio",
+                "title": "Méthodologie du cas pratique en droit",
+                "url": "https://www.youtube.com/watch?v=2N0VgnQrwRY"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Réseau CERTA",
+                "title": "Sujets zéro et corrigés CEJM",
+                "url": "https://www.reseaucerta.org/cejm-bts-services"
+              },
+              {
+                "type": "whitepapers",
+                "source": "CRCM-TL",
+                "title": "Banque de ressources CEJM",
+                "url": "https://crcm-tl.fr/index.php/economie-droit-management/cejm/sujets-et-corriges"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "marketing": {

@@ -1,11 +1,6 @@
 """
 Le Mag Campus Nancy — site de veille étudiante (Flask)
 =======================================================
-Site public proposant un panorama de ressources curées (articles, vidéos,
-études) par grandes thématiques, pour les étudiants des écoles Eduservices
-de Nancy (Pigier, MyDigitalSchool, Win Sport School). Toutes les ressources
-sont externes (sources françaises de qualité). Pas de contenu pédagogique
-propre — uniquement de la veille et de l'orientation vers les sources.
 """
 import json
 import os
@@ -17,7 +12,6 @@ from flask import Flask, render_template, jsonify, send_from_directory, abort
 BASE_DIR = Path(__file__).resolve().parent
 DATA_FILE = BASE_DIR / "data" / "content.json"
 
-# URL de redirection externe (site du campus officiel, à régler en env)
 CAMPUS_URL = os.environ.get(
     "CAMPUS_URL", "https://www.pigier.com/ecole-commerce-nancy"
 )
@@ -34,7 +28,6 @@ DEFAULT_THEMATIC = DATA.get(
     "default_thematic", next(iter(THEMATICS), "culture-generale")
 )
 
-# Overlay de la veille hebdomadaire (Le Récap), fichier léger mis à jour par la tâche du dimanche.
 VEILLE_FILE = BASE_DIR / "data" / "veille.json"
 try:
     if VEILLE_FILE.exists():
@@ -156,4 +149,12 @@ def robots():
 
 @app.errorhandler(404)
 def not_found(_e):
-    if "/api/" in (str(_e) or 
+    if "/api/" in (str(_e) or ""):
+        return jsonify(error="not found"), 404
+    return _render_index(), 200
+
+
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8080))
+    debug = os.environ.get("FLASK_DEBUG", "0") == "1"
+    app.run(host="0.0.0.0", port=port, debug=debug)

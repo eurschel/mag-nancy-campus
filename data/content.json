@@ -3136,7 +3136,305 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS CG, GPME · DCG, DSCG · Bachelor Gestion-Finance, Paie",
       "icon": "calculator",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "COMPTA",
+          "title": "Comptabilité générale",
+          "tagline": "Plan comptable, écritures, bilan et compte de résultat",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Compta Online",
+                "title": "Le plan comptable général (PCG)",
+                "url": "https://www.compta-online.com/le-plan-comptable-general-pcg-ao350"
+              },
+              {
+                "type": "articles",
+                "source": "Compta Online",
+                "title": "Bilan comptable : actif, passif et présentation",
+                "url": "https://www.compta-online.com/le-bilan-comptable-ao533"
+              },
+              {
+                "type": "articles",
+                "source": "Compta Online",
+                "title": "Le compte de résultat : définition",
+                "url": "https://www.compta-online.com/le-compte-de-resultat-ao535"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Obligations comptables du commerçant",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F22270"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Tenir sa comptabilité au quotidien",
+                "url": "https://bpifrance-creation.fr/encyclopedie/comptabilite-gestion-financiere/comptabilite/tenir-comptabilite-au-quotidien"
+              },
+              {
+                "type": "articles",
+                "source": "Compta Online",
+                "title": "Les amortissements comptables",
+                "url": "https://www.compta-online.com/les-amortissements-comptables-ao537"
+              },
+              {
+                "type": "articles",
+                "source": "Légifrance",
+                "title": "Code de commerce - obligations comptables",
+                "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006146049/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Comprendre les états financiers",
+                "url": "https://www.manager-go.com/finance/etats-financiers.htm"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Cairn",
+                "title": "Revue Comptabilité Contrôle Audit",
+                "url": "https://www.cairn.info/revue-comptabilite-controle-audit.htm"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "FISCAL",
+          "title": "Fiscalité",
+          "tagline": "TVA, IS, IR et obligations déclaratives",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "TVA : régimes d'imposition",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F23566"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Impôt sur les sociétés (IS)",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F23575"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Bénéfices industriels et commerciaux (BIC)",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32094"
+              },
+              {
+                "type": "articles",
+                "source": "Légifrance",
+                "title": "Code général des impôts",
+                "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577/"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Choisir son régime fiscal",
+                "url": "https://bpifrance-creation.fr/encyclopedie/fiscalite-entreprise"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "CFE - Cotisation foncière des entreprises",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F23547"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Déclaration de résultats",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F23458"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Insee",
+                "title": "Les prélèvements obligatoires en France",
+                "url": "https://www.insee.fr/fr/statistiques/2381418"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "FINENT",
+          "title": "Finance d'entreprise",
+          "tagline": "Analyse financière, investissement, financement",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "L'analyse financière d'une entreprise",
+                "url": "https://www.manager-go.com/finance/analyse-financiere.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Calculer la rentabilité d'un investissement (VAN, TRI)",
+                "url": "https://www.manager-go.com/finance/dossiers-methodes/choix-investissement"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Le plan de financement initial",
+                "url": "https://bpifrance-creation.fr/encyclopedie/previsionnel/plan-financement-initial"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Le besoin en fonds de roulement (BFR)",
+                "url": "https://bpifrance-creation.fr/encyclopedie/comptabilite-gestion-financiere/comprendre-mecanismes-financiers/besoin-fonds"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Les soldes intermédiaires de gestion (SIG)",
+                "url": "https://www.manager-go.com/finance/soldes-intermediaires-de-gestion.htm"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Les modes de financement de l'entreprise",
+                "url": "https://bpifrance-creation.fr/encyclopedie/financements"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Cairn",
+                "title": "Revue Finance Contrôle Stratégie",
+                "url": "https://www.cairn.info/revue-finance-controle-strategie.htm"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "BUDGET",
+          "title": "Gestion budgétaire & contrôle de gestion",
+          "tagline": "Budgets, tableaux de bord, pilotage de la performance",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Construire un budget prévisionnel",
+                "url": "https://www.manager-go.com/finance/budget.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Le contrôle de gestion : missions et outils",
+                "url": "https://www.manager-go.com/controle-de-gestion.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Tableau de bord de gestion",
+                "url": "https://www.manager-go.com/management/tableau-de-bord.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Calcul du seuil de rentabilité",
+                "url": "https://www.manager-go.com/finance/seuil-de-rentabilite.htm"
+              },
+              {
+                "type": "articles",
+                "source": "BPI France Création",
+                "title": "Le compte de résultat prévisionnel",
+                "url": "https://bpifrance-creation.fr/encyclopedie/previsionnel/compte-resultat-previsionnel"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Méthode ABC",
+                "url": "https://www.manager-go.com/finance/methode-abc.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Analyse des écarts budgétaires",
+                "url": "https://www.manager-go.com/finance/analyse-des-ecarts.htm"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "PAIE",
+          "title": "Paie",
+          "tagline": "Bulletin de salaire, cotisations, DSN",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Bulletin de paie : mentions obligatoires",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F559"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "DSN - Déclaration sociale nominative",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32004"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Cotisations sociales : taux et calcul",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F23878"
+              },
+              {
+                "type": "articles",
+                "source": "Légifrance",
+                "title": "Code du travail - Salaire",
+                "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "SMIC : montant et revalorisation",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F2300"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Heures supplémentaires et complémentaires",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F2374"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Prélèvement à la source par l'employeur",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32524"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Congés payés : calcul et indemnisation",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F2258"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        }
+      },
       "veille": {}
     },
     "gestion-projet": {
@@ -3148,7 +3446,243 @@
       "color_secondary": "#0F172A",
       "for_who": "Bachelor, MBA, MyDigitalSchool, Win Sport",
       "icon": "kanban",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "FOND",
+          "title": "Fondamentaux de la gestion de projet",
+          "tagline": "Cadrage, planning, livrables et parties prenantes",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Conduire un projet : étapes clés",
+                "url": "https://www.manager-go.com/gestion-de-projet/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Le cahier des charges",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/cahier-des-charges"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Définir le périmètre d'un projet",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/cadrage-de-projet"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Note de cadrage projet",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/note-de-cadrage"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Parties prenantes : identifier et analyser",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/parties-prenantes"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "WBS - Work Breakdown Structure",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/wbs"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Gestion de projet : guide complet",
+                "url": "https://blog.hubspot.fr/marketing/gestion-projet"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Le diagramme de Gantt",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/diagramme-de-gantt"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Cairn",
+                "title": "Revue Gestion 2000 - Management de projet",
+                "url": "https://www.cairn.info/revue-gestion-2000.htm"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "METHO",
+          "title": "Méthodes : Waterfall, Agile/Scrum, Kanban",
+          "tagline": "Choisir et appliquer la bonne méthodologie",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Méthode Agile : principes et bénéfices",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/methode-agile"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Scrum : framework agile",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/scrum"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "La méthode Kanban",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/kanban"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Cycle en V vs Agile",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/cycle-en-v"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Méthode Agile : guide complet",
+                "url": "https://blog.hubspot.fr/marketing/methode-agile"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Scrum master : rôle et missions",
+                "url": "https://blog.hubspot.fr/marketing/scrum-master"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Kanban : méthode de gestion visuelle",
+                "url": "https://blog.hubspot.fr/marketing/kanban"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "OUTILS",
+          "title": "Outils : Trello, Notion, Asana, MS Project",
+          "tagline": "Plateformes de gestion collaborative et pilotage",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Trello : guide d'utilisation",
+                "url": "https://blog.hubspot.fr/marketing/trello"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Notion : tout savoir sur l'outil",
+                "url": "https://blog.hubspot.fr/marketing/notion"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Asana : présentation et utilisation",
+                "url": "https://blog.hubspot.fr/marketing/asana"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Les meilleurs outils de gestion de projet",
+                "url": "https://blog.hubspot.fr/marketing/logiciel-gestion-projet"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Choisir son logiciel de gestion de projet",
+                "url": "https://www.manager-go.com/gestion-de-projet/logiciel-gestion-projet.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Microsoft Teams pour collaborer",
+                "url": "https://blog.hubspot.fr/marketing/microsoft-teams"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Slack : usage en entreprise",
+                "url": "https://blog.hubspot.fr/marketing/slack"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "RISQUES",
+          "title": "Pilotage & gestion des risques",
+          "tagline": "Suivi, indicateurs, anticipation des aléas",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Analyse des risques projet",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/analyse-des-risques"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Matrice des risques",
+                "url": "https://www.manager-go.com/management-du-risque/dossiers-methodes/matrice-des-risques"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Tableau de bord projet",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/tableau-de-bord-projet"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Indicateurs de pilotage projet",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/indicateurs-de-pilotage"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Comité de pilotage : rôle et organisation",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/comite-de-pilotage"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Revue de projet et bilan",
+                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/bilan-projet"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Méthode AMDEC",
+                "url": "https://www.manager-go.com/management-du-risque/dossiers-methodes/amdec"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Gérer les risques d'un projet",
+                "url": "https://blog.hubspot.fr/marketing/gestion-risques-projet"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        }
+      },
       "veille": {}
     },
     "rh": {
@@ -3160,7 +3694,318 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS GPME · Bachelor RH, Recrutement · MBA RH",
       "icon": "user-plus",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "RECRUT",
+          "title": "Recrutement & marque employeur",
+          "tagline": "Sourcing, expérience candidat, attractivité",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Marque employeur : guide complet",
+                "url": "https://www.welcometothejungle.com/fr/articles/marque-employeur"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Recruter un cadre : étapes et conseils",
+                "url": "https://www.apec.fr/recruteur/page-conseils.html"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Études Apec - Tendances recrutement cadres",
+                "url": "https://corporate.apec.fr/home/nos-etudes.html"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "Recrutement : actualités et bonnes pratiques",
+                "url": "https://www.andrh.fr/actualites"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Expérience candidat : enjeux",
+                "url": "https://www.welcometothejungle.com/fr/articles/experience-candidat"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Marque employeur : stratégie et exemples",
+                "url": "https://blog.hubspot.fr/marketing/marque-employeur"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Conduire un entretien de recrutement",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/entretien-de-recrutement"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Sourcing : trouver les bons profils",
+                "url": "https://www.welcometothejungle.com/fr/articles/sourcing-recrutement"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Apec",
+                "title": "Baromètre Apec des intentions de recrutement",
+                "url": "https://corporate.apec.fr/home/nos-etudes/toutes-nos-etudes.html"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "FORMA",
+          "title": "Formation & développement des compétences",
+          "tagline": "Plan de développement, CPF, upskilling",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Compte personnel de formation (CPF)",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F10705"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Plan de développement des compétences",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32010"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Bilan de compétences",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F14999"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Construire un plan de formation",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/plan-de-formation"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "Développement des compétences",
+                "url": "https://www.andrh.fr/actualites"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "VAE - Validation des acquis de l'expérience",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F2401"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Évolution professionnelle et formation",
+                "url": "https://www.apec.fr/candidat/evoluer-dans-sa-carriere.html"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "France Stratégie",
+                "title": "Compétences transférables et transversales",
+                "url": "https://www.strategie.gouv.fr/publications/competences-transferables"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "PAIE-DT",
+          "title": "Paie & droit du travail",
+          "tagline": "Contrats, rémunération, conformité légale",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Légifrance",
+                "title": "Code du travail - texte intégral",
+                "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006072050/"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Contrat de travail à durée indéterminée (CDI)",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F1910"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Contrat à durée déterminée (CDD)",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F36"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Rupture du contrat de travail",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/N510"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Durée du travail et temps de repos",
+                "url": "https://www.service-public.fr/particuliers/vosdroits/F990"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Convention collective : application",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F23896"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Représentants du personnel - CSE",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32084"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "Veille juridique RH",
+                "url": "https://www.andrh.fr/actualites"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "GRH",
+          "title": "GRH : entretiens, mobilité, GPEC",
+          "tagline": "Entretien annuel, mobilité interne, gestion prévisionnelle",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Entretien professionnel obligatoire",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F32040"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Conduire un entretien annuel",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/entretien-annuel-evaluation"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "GPEC : gestion prévisionnelle",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/gpec"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Mobilité interne : enjeux",
+                "url": "https://www.apec.fr/candidat/evoluer-dans-sa-carriere.html"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Fiche de poste : élaboration",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/fiche-de-poste"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Mobilité interne et carrière",
+                "url": "https://www.welcometothejungle.com/fr/articles/mobilite-interne"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Référentiel de compétences",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/referentiel-competences"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "France Stratégie",
+                "title": "Prospective des métiers et qualifications",
+                "url": "https://www.strategie.gouv.fr/publications/metiers-2030"
+              }
+            ]
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "DEI-QVT",
+          "title": "DEI & qualité de vie au travail",
+          "tagline": "Diversité, inclusion, bien-être au travail",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Index égalité professionnelle femmes-hommes",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F34470"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Diversité et inclusion en entreprise",
+                "url": "https://www.welcometothejungle.com/fr/collections/diversite-inclusion"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "QVT - Qualité de vie au travail",
+                "url": "https://www.welcometothejungle.com/fr/collections/bien-etre-au-travail"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "Diversité et inclusion",
+                "url": "https://www.andrh.fr/actualites"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Risques psychosociaux : prévention",
+                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/risques-psychosociaux"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Télétravail et hybridation",
+                "url": "https://www.welcometothejungle.com/fr/articles/teletravail"
+              },
+              {
+                "type": "articles",
+                "source": "Service-Public.fr",
+                "title": "Document unique d'évaluation des risques (DUERP)",
+                "url": "https://entreprendre.service-public.fr/vosdroits/F34750"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Insee",
+                "title": "Femmes et hommes, l'égalité en question",
+                "url": "https://www.insee.fr/fr/statistiques/6047781"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "ia-outils": {

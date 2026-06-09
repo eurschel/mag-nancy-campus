@@ -551,7 +551,400 @@
       "color_secondary": "#0F172A",
       "for_who": "Tronc commun BTS — épreuve d'anglais, TOEIC en bachelor",
       "icon": "globe-en",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "COMPREHENSION",
+          "title": "Compréhension orale & accent",
+          "tagline": "S'habituer aux accents anglais et américains, comprendre l'anglais parlé naturel",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "BBC Learning English",
+                "title": "6 Minute English",
+                "url": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
+              },
+              {
+                "type": "articles",
+                "source": "BBC Learning English",
+                "title": "The English We Speak",
+                "url": "https://www.bbc.co.uk/learningenglish/english/features/the-english-we-speak"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Listening skills practice",
+                "url": "https://learnenglish.britishcouncil.org/skills/listening"
+              },
+              {
+                "type": "articles",
+                "source": "Anglais Facile",
+                "title": "Exercices de compréhension orale",
+                "url": "https://www.anglaisfacile.com/cours-anglais/comprehension-anglais.php"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "Comprendre l'anglais oral",
+                "url": "https://ispeakspokespoken.com/comprehension-orale-anglais/"
+              },
+              {
+                "type": "articles",
+                "source": "NPR",
+                "title": "NPR News",
+                "url": "https://www.npr.org/sections/news/"
+              },
+              {
+                "type": "articles",
+                "source": "BBC News",
+                "title": "BBC News Home",
+                "url": "https://www.bbc.com/news"
+              },
+              {
+                "type": "articles",
+                "source": "TED",
+                "title": "TED Talks",
+                "url": "https://www.ted.com/talks"
+              },
+              {
+                "type": "articles",
+                "source": "Luke's English Podcast",
+                "title": "Luke's English Podcast",
+                "url": "https://teacherluke.co.uk/"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "LearnEnglish Podcasts",
+                "url": "https://learnenglish.britishcouncil.org/general-english/podcasts"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Learn English with Lucy",
+                "title": "British vs American English Pronunciation",
+                "url": "https://www.youtube.com/watch?v=4PRWi5wK_qE"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / BBC Learning English",
+                "title": "6 Minute English - News headlines",
+                "url": "https://www.youtube.com/watch?v=mfb3HJa5YO0"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "British Council",
+                "title": "CEFR Level guide - B1 B2",
+                "url": "https://learnenglish.britishcouncil.org/english-levels/understand-your-english-level"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "BUSINESS",
+          "title": "Vocabulaire métier & Business English",
+          "tagline": "Le lexique pro du monde du travail",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "BBC Learning English",
+                "title": "English at Work",
+                "url": "https://www.bbc.co.uk/learningenglish/english/features/english-at-work"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Business English - Magazine",
+                "url": "https://learnenglish.britishcouncil.org/business-english/business-magazine"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Podcasts for Professionals",
+                "url": "https://learnenglish.britishcouncil.org/business-english/podcasts-for-professionals"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "Vocabulaire business anglais",
+                "url": "https://ispeakspokespoken.com/vocabulaire-business-anglais/"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Vocabulaire anglais des affaires",
+                "url": "https://wallstreetenglish.fr/blog/vocabulaire-anglais/vocabulaire-anglais-des-affaires"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Anglais professionnel - expressions courantes",
+                "url": "https://wallstreetenglish.fr/blog/conseils-pour-apprendre-l-anglais/anglais-professionnel"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "You're Hired - business English series",
+                "url": "https://learnenglish.britishcouncil.org/business-english/youre-hired"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "General English - Business",
+                "url": "https://learnenglish.britishcouncil.org/business-english"
+              },
+              {
+                "type": "articles",
+                "source": "BBC News",
+                "title": "BBC Business News",
+                "url": "https://www.bbc.com/news/business"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Learn English with Lucy",
+                "title": "Business English Vocabulary",
+                "url": "https://www.youtube.com/watch?v=8b7sCRZUVf8"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "British Council",
+                "title": "Business English Skills - Complete Guide",
+                "url": "https://learnenglish.britishcouncil.org/business-english/business-magazine"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "TOEIC",
+          "title": "TOEIC & certifications",
+          "tagline": "Méthode et entraînement gratuit pour TOEIC/IELTS",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "ETS Global",
+                "title": "TOEIC - Préparation",
+                "url": "https://www.etsglobal.org/fr/fr/toeic-tests/preparation"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "Réussir le TOEIC - méthode complète",
+                "url": "https://ispeakspokespoken.com/toeic/"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Comment se préparer au TOEIC",
+                "url": "https://wallstreetenglish.fr/blog/passer-les-examens-d-anglais/comment-bien-preparer-le-toeic"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "IELTS preparation",
+                "url": "https://learnenglish.britishcouncil.org/exams/ielts-preparation"
+              },
+              {
+                "type": "articles",
+                "source": "ETS Global",
+                "title": "TOEIC Listening and Reading - exemples",
+                "url": "https://www.etsglobal.org/fr/fr/toeic-tests/toeic-listening-and-reading-test"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Score TOEIC - comment l'interpréter",
+                "url": "https://wallstreetenglish.fr/blog/passer-les-examens-d-anglais/score-toeic"
+              },
+              {
+                "type": "articles",
+                "source": "Anglais Facile",
+                "title": "Tests d'anglais en ligne",
+                "url": "https://www.anglaisfacile.com/cours-anglais/tests-anglais.php"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "British Council",
+                "title": "English level test",
+                "url": "https://www.britishcouncil.fr/en/english/levels/online-test"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "WRITING",
+          "title": "Expression écrite — email, CV, lettre",
+          "tagline": "Écrire pro en anglais sans fautes",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Writing skills practice",
+                "url": "https://learnenglish.britishcouncil.org/skills/writing"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Writing an email - B1",
+                "url": "https://learnenglish.britishcouncil.org/skills/writing/b1-writing/an-email-to-a-new-friend"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "A covering email for a job application",
+                "url": "https://learnenglish.britishcouncil.org/skills/writing/b2-writing/a-covering-email-for-a-job-application"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "A CV",
+                "url": "https://learnenglish.britishcouncil.org/skills/writing/b1-writing/a-cv"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "Email professionnel en anglais",
+                "url": "https://ispeakspokespoken.com/email-anglais/"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "CV en anglais",
+                "url": "https://ispeakspokespoken.com/cv-anglais/"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Écrire un email professionnel en anglais",
+                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/email-professionnel-en-anglais"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Rédiger un CV en anglais",
+                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/cv-en-anglais"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Lettre de motivation en anglais",
+                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/lettre-de-motivation-en-anglais"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Learn English with Lucy",
+                "title": "How to Write Professional Emails in English",
+                "url": "https://www.youtube.com/watch?v=g6jXyfwOWKM"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "British Council",
+                "title": "Writing skills - complete B1 B2 guide",
+                "url": "https://learnenglish.britishcouncil.org/skills/writing/b2-writing"
+              }
+            ]
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "SPEAKING",
+          "title": "Expression orale & présentation",
+          "tagline": "Entretien et pitch produit en anglais",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Speaking skills practice",
+                "url": "https://learnenglish.britishcouncil.org/skills/speaking"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "A job interview",
+                "url": "https://learnenglish.britishcouncil.org/skills/speaking/b1-speaking/a-job-interview"
+              },
+              {
+                "type": "articles",
+                "source": "British Council",
+                "title": "Making a presentation",
+                "url": "https://learnenglish.britishcouncil.org/business-english/business-magazine/making-presentations"
+              },
+              {
+                "type": "articles",
+                "source": "BBC Learning English",
+                "title": "Pronunciation",
+                "url": "https://www.bbc.co.uk/learningenglish/english/features/pronunciation"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "Entretien d'embauche en anglais",
+                "url": "https://ispeakspokespoken.com/entretien-embauche-anglais/"
+              },
+              {
+                "type": "articles",
+                "source": "ISpeakSpokeSpoken",
+                "title": "Se présenter en anglais",
+                "url": "https://ispeakspokespoken.com/se-presenter-en-anglais/"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Réussir un entretien d'embauche en anglais",
+                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/entretien-en-anglais"
+              },
+              {
+                "type": "articles",
+                "source": "Wall Street English",
+                "title": "Faire une présentation en anglais",
+                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/faire-une-presentation-en-anglais"
+              },
+              {
+                "type": "articles",
+                "source": "TED",
+                "title": "TED Talks - public speaking",
+                "url": "https://www.ted.com/topics/public+speaking"
+              },
+              {
+                "type": "articles",
+                "source": "Luke's English Podcast",
+                "title": "Conversational English episodes",
+                "url": "https://teacherluke.co.uk/episodes/"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "British Council",
+                "title": "Speaking skills - complete B1 B2 guide",
+                "url": "https://learnenglish.britishcouncil.org/skills/speaking/b2-speaking"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "cejm": {

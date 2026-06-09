@@ -2564,7 +2564,294 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS NDRC, MCO · Bachelor Commerce · MBA",
       "icon": "users",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "PROSP",
+          "title": "Prospection commerciale",
+          "tagline": "Trouver, qualifier et engager les bons prospects en BtoB comme en BtoC",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Prospection commerciale : comment trouver des clients ?",
+                "url": "https://www.manager-go.com/vente/prospection-commerciale.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Établir un plan de prospection — les 5 étapes",
+                "url": "https://www.manager-go.com/vente/dossiers-methodes/organiser-la-prospection"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Prospection téléphonique : les techniques",
+                "url": "https://www.manager-go.com/vente/prospection-telephonique.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Fichier de prospection",
+                "url": "https://www.manager-go.com/vente/fichier-de-prospection.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Prospection commerciale : 8 étapes pour garantir son succès",
+                "url": "https://blog.hubspot.fr/sales/prospection-commerciale"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Plan de prospection en 5 étapes",
+                "url": "https://blog.hubspot.fr/sales/plan-de-prospection"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "31 chiffres clés sur la prospection commerciale en 2025",
+                "url": "https://blog.hubspot.fr/sales/statistiques-prospection-commerciale"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Comment faire de la prospection digitale ?",
+                "url": "https://blog.hubspot.fr/sales/prospection-digitale"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Technique de Vente Edition",
+                "title": "Les 6 étapes clés de la prospection",
+                "url": "https://www.youtube.com/watch?v=cwpAd4Ag5v8"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Hubspot",
+                "title": "Livre blanc — Transformation des ventes",
+                "url": "https://cdn2.hubspot.net/hubfs/689821/C2%202017%20SALES%20Campaign/LIVRES%20BLANC/LIVRE%20BLANC%20-%20TRANSFORMATION%20DES%20VENTES.pdf"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "NEGO",
+          "title": "Négociation commerciale",
+          "tagline": "Préparer, défendre sa valeur et conclure des accords gagnant-gagnant",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Méthode Harvard : la négociation commerciale",
+                "url": "https://blog.hubspot.fr/sales/methode-harvard"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "10 compétences de négociation pour les commerciaux",
+                "url": "https://blog.hubspot.fr/sales/competences-negociation-commerciaux"
+              },
+              {
+                "type": "articles",
+                "source": "Salesforce FR",
+                "title": "BATNA : définition, intérêt et déploiement",
+                "url": "https://www.salesforce.com/fr/resources/definition/batna/"
+              },
+              {
+                "type": "articles",
+                "source": "Salesforce FR",
+                "title": "Conclure une vente : 6 étapes pour réussir un closing",
+                "url": "https://www.salesforce.com/fr/resources/articles/sales-closing-techniques/"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Closing : définition et techniques",
+                "url": "https://blog.hubspot.fr/sales/conclure-une-vente"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Les 7 étapes du processus de vente B2B",
+                "url": "https://blog.hubspot.fr/sales/etapes-essentielles-processus-vente-b2b"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "8 conseils pour conclure davantage de ventes B2B",
+                "url": "https://blog.hubspot.fr/sales/conseils-ventes-b2b"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "Négociation : 10 techniques d'expert (Harvard, FBI, GIGN)",
+                "url": "https://www.youtube.com/watch?v=aGI7puAXf6w"
+              }
+            ],
+            "whitepapers": []
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "VENTE",
+          "title": "Techniques de vente",
+          "tagline": "Maîtriser les méthodes structurées pour découvrir, argumenter et convaincre",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Techniques de vente : outils pour mieux vendre",
+                "url": "https://www.manager-go.com/vente/techniques-commerciales.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "SPIN selling : définition, exemples et conseils",
+                "url": "https://blog.hubspot.fr/sales/spin-selling"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "12 techniques de vente et comment les utiliser",
+                "url": "https://blog.hubspot.fr/sales/techniques-de-vente"
+              },
+              {
+                "type": "articles",
+                "source": "Salesforce FR",
+                "title": "Conclure une vente : 6 étapes",
+                "url": "https://www.salesforce.com/fr/resources/articles/sales-closing-techniques/"
+              },
+              {
+                "type": "articles",
+                "source": "Salesforce FR",
+                "title": "Optimiser votre cycle de vente en 7 étapes",
+                "url": "https://www.salesforce.com/fr/blog/2019/03/optimiser-votre-cycle-de-vente-en-7-etapes-.html"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Le CRM (action commerciale)",
+                "url": "https://shs.cairn.info/action-commerciale--9782340047556-page-165?lang=fr"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "FIDE",
+          "title": "Fidélisation client",
+          "tagline": "Transformer la satisfaction en engagement durable et en rentabilité",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Fidélisation client — obtenir une clientèle loyale",
+                "url": "https://www.manager-go.com/marketing/fidelisation.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Fidélisation client : comment faire ?",
+                "url": "https://blog.hubspot.fr/service/guide-fidelisation-clients"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "8 outils de fidélisation client à connaître",
+                "url": "https://blog.hubspot.fr/service/outils-de-fidelisation"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Créer un programme de fidélité (10 exemples)",
+                "url": "https://blog.hubspot.fr/service/programme-de-fidelite"
+              },
+              {
+                "type": "articles",
+                "source": "e-marketing.fr",
+                "title": "Stratégie de fidélisation : définition, enjeux",
+                "url": "https://www.e-marketing.fr/Thematique/experience-1295/experience-client-2240/Breves/Strategie-de-fidelisation-definition-enjeux-et-conseils-382949.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Manager la relation clients afin de les fidéliser",
+                "url": "https://www.cairn.info/entreprises-vers-l-excellence--9782100772353-page-167.htm"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "CRM-CX",
+          "title": "CRM & expérience client (CX)",
+          "tagline": "Piloter la relation 360° et orchestrer un parcours client sans friction",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Expérience client : essentiel et application",
+                "url": "https://www.manager-go.com/marketing/experience-client.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Parcours client : analyse et amélioration",
+                "url": "https://www.manager-go.com/marketing/parcours-client.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Satisfaction client : enjeux, mesure, amélioration",
+                "url": "https://www.manager-go.com/marketing/satisfaction-client.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Salesforce FR",
+                "title": "CRM pour les ventes : pourquoi indispensable ?",
+                "url": "https://www.salesforce.com/fr/blog/crm-pour-les-ventes-pourquoi-indispensable/"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "La gestion de la relation client (CRM)",
+                "url": "https://shs.cairn.info/marketing--9782100563579-page-355?lang=fr"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "GRC et performance des PME",
+                "url": "https://shs.cairn.info/revue-decisions-marketing-2015-1-page-13?lang=fr"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Salesforce",
+                "title": "Qu'est-ce qu'un CRM ?",
+                "url": "https://www.youtube.com/watch?v=uKizOpoSypY"
+              }
+            ],
+            "whitepapers": []
+          }
+        }
+      },
       "veille": {}
     },
     "management": {
@@ -2576,7 +2863,268 @@
       "color_secondary": "#0F172A",
       "for_who": "Tous BTS pro, Bachelor & MBA Management",
       "icon": "users-cog",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "LEAD",
+          "title": "Leadership",
+          "tagline": "Adopter une posture de leader et inspirer une vision partagée",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Le management du leader transformationnel",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/le-leadership-base-sur-lemotion-du-leader-transformationnel/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Êtes-vous manager, leader ou les deux ?",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/etes-vous-plutot-manager-plutot-leader/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Un leader, c'est quoi exactement ?",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/un-leader-cest-quoi-exactement/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "4 styles de management pour gérer votre équipe",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/4-styles-de-management-pour-gerer-votre-equipe-2/"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Réunion : 4 conseils pour grandir votre leadership",
+                "url": "https://www.welcometothejungle.com/fr/articles/leadership-reunion"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Comment être un bon manager — 10 règles clés",
+                "url": "https://www.welcometothejungle.com/fr/articles/etre-un-bon-manager-conseils"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Faire émerger des leaders au lieu de former des managers",
+                "url": "https://www.welcometothejungle.com/fr/articles/leadership-management"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Leadership Circle",
+                "title": "Maîtriser l'Art du Leadership (Bob Anderson)",
+                "url": "https://leadershipcircle.com/wp-content/uploads/2022/11/Maitriser-lart-du-leadership.pdf"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "MOTI",
+          "title": "Motivation & cohésion d'équipe",
+          "tagline": "Engager les collaborateurs, renforcer la confiance et la performance collective",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "10 clés pour accompagner et motiver votre équipe",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/dirigeant-10-cles-motiver-equipe/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "5 erreurs impardonnables à éviter",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/motiver-votre-equipe/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Booster la motivation de vos collaborateurs",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/booster-la-motivation-de-vos-collaborateurs/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "5 pratiques pour réussir le travail d'équipe",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/reussir-le-travail-dune-equipe/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "4 principes pour établir la confiance",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/4-principes-pour-etablir-la-confiance/"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Management bienveillant : de quoi parle-t-on ?",
+                "url": "https://www.welcometothejungle.com/fr/articles/management-bienveillant-definition"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "CHG",
+          "title": "Conduite du changement",
+          "tagline": "Accompagner les transformations et lever les résistances",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Les 8 étapes du changement de Kotter",
+                "url": "https://www.manager-go.com/gestion-de-projet/8-etapes-du-changement-de-kotter.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Conduite du changement : accompagner les équipes",
+                "url": "https://www.welcometothejungle.com/fr/articles/management-conduite-changement-accompagnement"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "La courbe du changement booste votre management",
+                "url": "https://www.welcometothejungle.com/fr/articles/courbe-changement-management-transition"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Pourquoi a-t-on peur du changement en entreprise ?",
+                "url": "https://www.welcometothejungle.com/fr/articles/changement-peur-conseils"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Télétravail des cadres : à la recherche d'équilibres",
+                "url": "https://corporate.apec.fr/home/espace-medias/teletravail-des-cadres--entrepri.html"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "La conduite du changement John KOTTER (en 5 min)",
+                "url": "https://www.youtube.com/watch?v=vD4hAgXqjCM"
+              }
+            ],
+            "whitepapers": []
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "AGIL",
+          "title": "Agilité & management hybride",
+          "tagline": "Manager en mode agile, en présentiel et à distance, dans un monde VUCA",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Management agile : définition et guide pratique",
+                "url": "https://www.manager-go.com/management/quest-ce-que-le-management-agile.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Méthodes agiles dans les projets + Scrum",
+                "url": "https://www.manager-go.com/gestion-de-projet/methodes-agiles.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Comment rendre votre entreprise agile ?",
+                "url": "https://www.manager-go.com/organisation-entreprise/agilite-et-developpement.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "10 actions concrètes pour une entreprise agile",
+                "url": "https://www.manager-go.com/organisation-entreprise/entreprise-agile-10-actions.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Le manager en 2030",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/le-manager-en-2030/"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Travail hybride à l'Apec : démarche co-construite",
+                "url": "https://corporate.apec.fr/home/actualites/travail-hybride-a-lapec--une-demarche-co-construite-avec-lensemble-des-collaborateurs-et-collaboratrices.html"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "RPS",
+          "title": "RPS, QVCT & bien-être au travail",
+          "tagline": "Prévenir les risques psychosociaux et promouvoir la QVCT",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Les risques psychosociaux : nouveau mal du travail ?",
+                "url": "https://www.welcometothejungle.com/fr/articles/les-risques-psycho-sociaux-au-travail"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "Faites le point sur la QVT",
+                "url": "https://www.andrh.fr/article/coup-denvoi-de-la-semaine-de-la-qvt"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "QVCT : quels moyens pour les DRH ?",
+                "url": "https://www.andrh.fr/article/les-fondamentaux-de-la-qualite-de-vie-et-des-conditions-de-travail"
+              },
+              {
+                "type": "articles",
+                "source": "ANDRH",
+                "title": "Santé & QVCT - dossier",
+                "url": "https://www.andrh.fr/actualites/sante-qvt"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Intelligence émotionnelle : 6 clés pour manager",
+                "url": "https://www.cadre-dirigeant-magazine.com/manager/intelligence-emotionnelle-5-atouts-a-exploiter-pour-bien-diriger/"
+              },
+              {
+                "type": "articles",
+                "source": "Cadre & Dirigeant Magazine",
+                "title": "Santé mentale du dirigeant : burn-out et solutions",
+                "url": "https://www.cadre-dirigeant-magazine.com/reussir-en-entreprise/sante-mentale-du-dirigeant-stress-burn-out-et-solutions-concretes/"
+              },
+              {
+                "type": "articles",
+                "source": "Apec",
+                "title": "Burn-out chez les cadres : se reconstruire",
+                "url": "https://corporate.apec.fr/home/actus-medias/toutes-nos-actualites/burn-out-chez-les-cadres-comment-se-reconstruire-et-reprendre-une-activite-professionnelle.html"
+              }
+            ],
+            "videos": [],
+            "whitepapers": []
+          }
+        }
+      },
       "veille": {}
     },
     "gestion-compta": {

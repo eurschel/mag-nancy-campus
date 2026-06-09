@@ -3,7 +3,11 @@
     "name": "Le Mag Campus Nancy",
     "tagline": "La veille pro qui sert tes études",
     "campus": "Campus Eduservices Nancy",
-    "schools": ["Pigier", "MyDigitalSchool", "Win Sport School"],
+    "schools": [
+      "Pigier",
+      "MyDigitalSchool",
+      "Win Sport School"
+    ],
     "address": "8 rue des Cinq Piquets, 54100 Nancy"
   },
   "build_date": "2026-06-09",
@@ -18,7 +22,524 @@
       "color_secondary": "#0F172A",
       "for_who": "Tronc commun à tous les BTS — épreuve de culture générale et expression",
       "icon": "globe",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "ANIMAUX",
+          "title": "Les animaux et nous : imaginer, connaître, comprendre l'animal",
+          "tagline": "Thème officiel BTS session 2026 : explorer notre rapport ambivalent au vivant non-humain",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Ministère de l'Enseignement supérieur",
+                "title": "Thème CGE session 2026 : Les animaux et nous (note de service)",
+                "url": "https://www.enseignementsup-recherche.gouv.fr/fr/bo/2025/Hebdo24/MENS2508196N"
+              },
+              {
+                "type": "articles",
+                "source": "Académie de Nancy-Metz",
+                "title": "BTS Lettres - Ressources et thèmes",
+                "url": "https://sites.ac-nancy-metz.fr/lettres/bts/ressources-et-themes/"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "Vivez vegan (recension)",
+                "url": "https://laviedesidees.fr/Vivez-vegan"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "Patient humain cherche greffon animal",
+                "url": "https://laviedesidees.fr/Patient-humain-cherche-greffon-animal"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "S'engager pour les animaux",
+                "url": "https://laviedesidees.fr/S-engager-pour-les-animaux.html"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn / Natures Sciences Sociétés",
+                "title": "La résistible ascension de l'éthique ? Sciences sociales et question animale",
+                "url": "https://stm.cairn.info/revue-natures-sciences-societes-2023-2-page-166?tab=resume"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn / Esprit",
+                "title": "Pour une écologie des relations entre vivants",
+                "url": "https://shs.cairn.info/revue-esprit-2017-3-page-29?lang=fr"
+              },
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "Bien-être animal… parlons plutôt du bien-être des animaux",
+                "url": "https://theconversation.com/bien-etre-animal-parlons-plutot-du-bien-etre-des-animaux-187953"
+              },
+              {
+                "type": "articles",
+                "source": "Centre Pompidou",
+                "title": "Vinciane Despret, une philosophe chez les bêtes",
+                "url": "https://www.centrepompidou.fr/fr/pompidou-plus/magazine/article/vinciane-despret-une-philosophe-chez-les-betes"
+              },
+              {
+                "type": "articles",
+                "source": "Histoire par l'image",
+                "title": "Les animaux de la ménagerie du Jardin des Plantes",
+                "url": "https://histoire-image.org/etudes/animaux-menagerie-jardin-plantes-representes-images-epinal"
+              },
+              {
+                "type": "articles",
+                "source": "BnF Gallica",
+                "title": "Le bestiaire de La Fontaine",
+                "url": "https://gallica.bnf.fr/essentiels/fontaine/fables/bestiaire-fontaine"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / La Grande Librairie",
+                "title": "Vinciane Despret : ce que les animaux nous apprennent",
+                "url": "https://www.youtube.com/watch?v=Xzi_ir4EVhM"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / France Culture",
+                "title": "Comment réinventer notre rapport aux animaux ?",
+                "url": "https://www.youtube.com/watch?v=zQk7caaxY-M"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "Le bestiaire des Fables de La Fontaine",
+                "url": "https://www.youtube.com/watch?v=o2iTM_mJu7s"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "PodEduc / Académie de Rennes",
+                "title": "Conférence pédagogique : Les animaux et nous (thème BTS 2026)",
+                "url": "https://podeduc.apps.education.fr/lettres-academie-de-rennes/bts-culture-generale-et-expression/video/129225-les-animaux-et-nous-imaginer-connaitre-comprendre-lanimal/"
+              },
+              {
+                "type": "whitepapers",
+                "source": "BnF",
+                "title": "Dossier : Les animaux dans l'art",
+                "url": "https://www.bnf.fr/fr/mediatheque/les-animaux-dans-lart"
+              },
+              {
+                "type": "whitepapers",
+                "source": "Université de Strasbourg (Lethica)",
+                "title": "Baptiste Morizot, Sur la piste animale",
+                "url": "https://lethica.unistra.fr/en/lethictionnaire/revolutions-morales/baptiste-morizot-sur-la-piste-animale/"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "ATABLE",
+          "title": "À table ! Formes et enjeux du repas",
+          "tagline": "Thème reconduit pour 2026 : le repas comme fait social total (culture, politique, économie, identité)",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "La culture du repas",
+                "url": "https://laviedesidees.fr/La-culture-du-repas"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "L'intégration à l'aune du repas familial",
+                "url": "https://laviedesidees.fr/L-integration-jaugee-a-l-aulne-du"
+              },
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "Le travail émotionnel des repas de famille : le prix de la convivialité",
+                "url": "https://theconversation.com/le-travail-emotionnel-des-repas-de-famille-le-prix-de-la-convivialite-246291"
+              },
+              {
+                "type": "articles",
+                "source": "Vie publique",
+                "title": "Les Français et leur culture alimentaire : approche historique (Julia Csergo)",
+                "url": "https://www.vie-publique.fr/parole-dexpert/271830-les-francais-et-leur-culture-alimentaire-approche-historique"
+              },
+              {
+                "type": "articles",
+                "source": "Ministère de l'Agriculture",
+                "title": "Les Français et les repas, une tradition qui perdure",
+                "url": "https://agriculture.gouv.fr/les-francais-et-les-repas-une-tradition-qui-perdure"
+              },
+              {
+                "type": "articles",
+                "source": "OpenEdition",
+                "title": "Du repas familial au snack entre copains : le point de vue des adolescents",
+                "url": "https://journals.openedition.org/aof/7883"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Rejouer sa condition sociale sur la scène de l'alimentation partagée",
+                "url": "https://shs.cairn.info/revue-sciences-et-actions-sociales-2021-1-page-63?lang=fr"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn / Le Temps des médias",
+                "title": "Les émissions culinaires à la télévision française (1954-2015)",
+                "url": "https://shs.cairn.info/revue-le-temps-des-medias-2015-1-page-165?lang=fr"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Matières à Mijoter",
+                "title": "Olivier Assouly : Qui décide et qui apprécie ce que je mange ?",
+                "url": "https://www.youtube.com/watch?v=dhYw42QMRoM"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "INA",
+                "title": "Archives Gastronomie",
+                "url": "https://www.ina.fr/themes/art-et-culture/gastronomie"
+              },
+              {
+                "type": "whitepapers",
+                "source": "Éduscol",
+                "title": "Éducation à l'alimentation et au goût",
+                "url": "https://eduscol.education.gouv.fr/media/90075/download?attachment="
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "MEDIAS",
+          "title": "Médias, information, désinformation",
+          "tagline": "Comprendre comment l'information circule (et se déforme) à l'ère des réseaux et de l'IA",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "CLEMI",
+                "title": "Accueil CLEMI - Éducation aux médias et à l'information",
+                "url": "https://www.clemi.fr/"
+              },
+              {
+                "type": "articles",
+                "source": "Éduscol",
+                "title": "Éducation aux médias et à l'information",
+                "url": "https://eduscol.education.gouv.fr/4704/education-aux-medias-et-l-information"
+              },
+              {
+                "type": "articles",
+                "source": "Éduscol",
+                "title": "Déconstruire la désinformation et les théories conspirationnistes",
+                "url": "https://eduscol.education.gouv.fr/5997/deconstruire-la-desinformation-et-les-theories-conspirationnistes"
+              },
+              {
+                "type": "articles",
+                "source": "France Culture",
+                "title": "Fake News / Infox : tous les décryptages",
+                "url": "https://www.franceculture.fr/theme/fake-news"
+              },
+              {
+                "type": "articles",
+                "source": "BnF",
+                "title": "Fake news, infox et fausses nouvelles (guide thématique)",
+                "url": "https://bnf.libguides.com/presse_medias/fake_news_infox"
+              },
+              {
+                "type": "articles",
+                "source": "CLEMI",
+                "title": "Comment vérifier l'authenticité d'une vidéo publiée sur les réseaux sociaux",
+                "url": "https://www.clemi.fr/ressources/series-de-ressources-videos/ateliers-decliccritique/comment-verifier-lauthenticite-dune-video-publiee-sur-les-reseaux-sociaux"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "Les réseaux sociaux dans le miroir",
+                "url": "https://laviedesidees.fr/Les-reseaux-sociaux-dans-le-miroir.html"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "Aux algorithmes citoyens !",
+                "url": "https://laviedesidees.fr/David-Robinson-Voices-in-the-code"
+              },
+              {
+                "type": "articles",
+                "source": "ARCOM",
+                "title": "Kit pédagogique du citoyen numérique",
+                "url": "https://www.arcom.fr/se-documenter/ressources-pedagogiques/education-aux-medias-et-citoyennete-numerique/kit-pedagogique-du-citoyen-numerique-retrouvez-toutes-les-ressources"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Le Monde",
+                "title": "Les Décodeurs - Émission de fact-checking",
+                "url": "https://www.youtube.com/playlist?list=PLFuK0VAIne9IOBPFXZW9arEwYhbf2KaY_"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / HugoDécrypte",
+                "title": "Fake news and the role of media",
+                "url": "https://www.youtube.com/watch?v=ymZMsmGCu_Q"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Ministère des Armées",
+                "title": "Guide contre la désinformation (juillet 2024, PDF)",
+                "url": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Guide%20contre%20la%20d%C3%A9sinformation%20-%20Minist%C3%A9re%20des%20Arm%C3%A9es%20-%20Juillet%202024.pdf"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "NUMERIQUE",
+          "title": "Société numérique, IA et nouvelles technologies",
+          "tagline": "Comprendre comment l'IA, les algorithmes et les données transforment notre quotidien et notre travail",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "Faire de l'IA une force de progrès plutôt qu'une menace",
+                "url": "https://theconversation.com/faire-de-lia-une-force-de-progres-plutot-quune-menace-259860"
+              },
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "L'IA générative est-elle soutenable ? Le vrai coût écologique d'un prompt",
+                "url": "https://theconversation.com/lia-generative-est-elle-soutenable-le-vrai-cout-ecologique-dun-prompt-269432"
+              },
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "Pourquoi l'IA oblige les entreprises à repenser la valeur du travail",
+                "url": "https://theconversation.com/pourquoi-lia-oblige-les-entreprises-a-repenser-la-valeur-du-travail-268253"
+              },
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "L'IA menace-t-elle l'apprentissage des langues ?",
+                "url": "https://theconversation.com/lia-menace-t-elle-lapprentissage-des-langues-239003"
+              },
+              {
+                "type": "articles",
+                "source": "The Conversation",
+                "title": "Intelligence artificielle : prendre en compte ses risques concrets",
+                "url": "https://theconversation.com/intelligence-artificielle-prendre-en-compte-ses-risques-concrets-plutot-que-de-potentielles-menaces-existentielles-208246"
+              },
+              {
+                "type": "articles",
+                "source": "CNIL",
+                "title": "Le kit pédagogique du citoyen numérique",
+                "url": "https://www.cnil.fr/fr/la-cnil-le-csa-le-defenseur-des-droits-et-lhadopi-creent-le-kit-pedagogique-du-citoyen-numerique"
+              },
+              {
+                "type": "articles",
+                "source": "CNIL",
+                "title": "Ressources pour enseignants et formateurs",
+                "url": "https://www.cnil.fr/fr/education/enseignants-et-formateurs"
+              },
+              {
+                "type": "articles",
+                "source": "Éduscol",
+                "title": "Le référentiel CNIL de protection des données personnelles",
+                "url": "https://eduscol.education.fr/574/le-referentiel-cnil-de-formation-des-eleves-la-protection-des-donnees-personnelles"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / France Culture",
+                "title": "Prêts pour la fin du monde ? - Les Chemins de la philosophie",
+                "url": "https://www.youtube.com/watch?v=_3xiVGqmK5I"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "CNIL",
+                "title": "Le numérique responsable, ça s'apprend ! Kit pédagogique (PDF)",
+                "url": "https://www.cnil.fr/sites/default/files/2024-02/brochure_kit_pedagogique_du_citoyen_numerique.pdf"
+              }
+            ]
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "METHODE",
+          "title": "Méthode : synthèse de documents & écriture personnelle",
+          "tagline": "Maîtriser les deux exercices de l'épreuve E1 (4h) : confrontation des documents + opinion argumentée",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Académie de Versailles",
+                "title": "La synthèse de documents au BTS (PDF)",
+                "url": "https://lettres-histoire.ac-versailles.fr/IMG/pdf/la_synthese_de_documents_au_bts.pdf"
+              },
+              {
+                "type": "articles",
+                "source": "Académie de Grenoble",
+                "title": "Annales BTS - Culture générale et expression",
+                "url": "https://lettres-pedagogie.web.ac-grenoble.fr/annales-des-epreuves-de-bts"
+              },
+              {
+                "type": "articles",
+                "source": "Académie de Toulouse",
+                "title": "Programmes et documents institutionnels BTS",
+                "url": "https://pedagogie.ac-toulouse.fr/lettres/programmes-et-documents-institutionnels-bts"
+              },
+              {
+                "type": "articles",
+                "source": "Académie de Strasbourg",
+                "title": "Les deux thèmes de l'année - Lettres / BTS",
+                "url": "https://pedagogie.ac-strasbourg.fr/lettres/francais-bts/les-deux-themes-de-lannee/"
+              },
+              {
+                "type": "articles",
+                "source": "weblettres.net",
+                "title": "Groupe de travail BTS - Ressources mutualisées",
+                "url": "https://www.weblettres.net/pedagogie/gt.php?wg=2&p=fichiers"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "Méthodologie de la synthèse de documents BTS",
+                "url": "https://www.youtube.com/watch?v=w6_QijJJ_mY"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "BTS synthèse - Introduction",
+                "url": "https://www.youtube.com/watch?v=NQr_8ZgTOVE"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "BTS synthèse - Tableau de confrontation",
+                "url": "https://www.youtube.com/watch?v=0v1HPuFM11k"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "BTS : Réussir sa synthèse (exemple commenté p.1)",
+                "url": "https://www.youtube.com/watch?v=4LHuRJ6208g"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "BTS : Rédiger une synthèse (partie 2)",
+                "url": "https://www.youtube.com/watch?v=_KsZO9mAjcs"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube",
+                "title": "Méthodologie de l'écriture personnelle",
+                "url": "https://www.youtube.com/watch?v=BvyslxBQlOU"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Académie de Versailles (PDF)",
+                "title": "La synthèse de documents au BTS - Guide",
+                "url": "https://lettres-histoire.ac-versailles.fr/IMG/pdf/la_synthese_de_documents_au_bts.pdf"
+              }
+            ]
+          }
+        },
+        "6": {
+          "num": 6,
+          "code": "CLASSIQUES",
+          "title": "Grands classiques pour s'enrichir",
+          "tagline": "Une réserve de références (philo, littérature, sciences sociales) à mobiliser dans l'écriture personnelle",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "BnF Gallica",
+                "title": "Jean de La Fontaine - Le bestiaire des Fables",
+                "url": "https://gallica.bnf.fr/essentiels/fontaine/fables/bestiaire-fontaine"
+              },
+              {
+                "type": "articles",
+                "source": "Gallica",
+                "title": "Fables de la Fontaine - Gallica vous conseille",
+                "url": "https://gallica.bnf.fr/conseils/content/fables-de-la-fontaine"
+              },
+              {
+                "type": "articles",
+                "source": "OpenEdition / PU Rennes",
+                "title": "Peter Singer et La Libération animale",
+                "url": "https://books.openedition.org/pur/257402?lang=en"
+              },
+              {
+                "type": "articles",
+                "source": "Lethica / Unistra",
+                "title": "Baptiste Morizot - Sur la piste animale",
+                "url": "https://lethica.unistra.fr/en/lethictionnaire/revolutions-morales/baptiste-morizot-sur-la-piste-animale/"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "Page thématique - Animaux",
+                "url": "https://laviedesidees.fr/+-animaux-+.html"
+              },
+              {
+                "type": "articles",
+                "source": "La Vie des idées",
+                "title": "Page thématique - Alimentation",
+                "url": "https://laviedesidees.fr/+-alimentation-+"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Secrets d'Histoire",
+                "title": "Jean de La Fontaine, l'homme à fables",
+                "url": "https://www.youtube.com/watch?v=KJHm1r2mJew"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / France Culture",
+                "title": "Vinciane Despret - Ce que les oiseaux nous apprennent des territoires",
+                "url": "https://www.youtube.com/watch?v=4Cimoj_6OP4"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "BnF",
+                "title": "Les animaux dans l'art (dossier médiathèque)",
+                "url": "https://www.bnf.fr/fr/mediatheque/les-animaux-dans-lart"
+              },
+              {
+                "type": "whitepapers",
+                "source": "INA",
+                "title": "Cuisine et gastronomie dans les fonds de l'INA (PDF)",
+                "url": "https://www.inatheque.fr/medias/inatheque_fr/fonds_audiovisuels/guides_thematiques/Cuisine_et_gastronomie_dans_les_fonds_de_l_Ina.pdf"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "anglais": {

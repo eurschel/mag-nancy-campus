@@ -1930,7 +1930,291 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS Communication · Bachelor & MBA Com · MyDigitalSchool",
       "icon": "megaphone",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "INSTITUTIONNEL",
+          "title": "Communication institutionnelle & corporate",
+          "tagline": "Construire et piloter l'image globale d'une organisation",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Tendances Communication 2025 : enjeux et défis à l'ère de l'IA",
+                "url": "https://www.blogdumoderateur.com/agenda/tendances-communication-2025-enjeux-defis-relever-communicants-ere-ia/"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Plan de communication : création et exécution",
+                "url": "https://blog.hubspot.fr/marketing/plan-de-communication"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Comment créer une stratégie de communication",
+                "url": "https://blog.hubspot.fr/marketing/strategie-de-communication"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Communication 360 : définition, étapes et exemples",
+                "url": "https://blog.hubspot.fr/marketing/communication-360"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Comment réussir la communication interne",
+                "url": "https://blog.hubspot.fr/marketing/communication-interne"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Les différents canaux de communication",
+                "url": "https://blog.hubspot.fr/marketing/canaux-de-communication"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Conduite du changement : l'importance de la communication",
+                "url": "https://www.blogdumoderateur.com/conduite-changement-importance-communication/"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Marque et communication des entreprises",
+                "url": "https://shs.cairn.info/toute-la-fonction-communication--9782100543915-page-15?lang=fr"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "Welcome to the Jungle",
+                "title": "Métiers dans la Communication - missions",
+                "url": "https://www.welcometothejungle.com/fr/pages/metiers-communication"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "HubSpot FR",
+                "title": "Guide : élaborer un plan de communication (PDF gratuit)",
+                "url": "https://offers.hubspot.fr/guide-plan-de-communication"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "BRAND-CONTENT",
+          "title": "Brand content & contenu de marque",
+          "tagline": "Raconter la marque par le contenu plutôt que par la publicité",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Créer une stratégie de brand content : bonnes pratiques et erreurs à éviter",
+                "url": "https://www.blogdumoderateur.com/creer-strategie-brand-content-bonnes-pratiques-erreurs-eviter/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Brand content : le contenu, matière première de la marque employeur",
+                "url": "https://www.blogdumoderateur.com/brand-content-et-marque-employeur/"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Brand content : définition et conseils",
+                "url": "https://blog.hubspot.fr/marketing/brand-content"
+              },
+              {
+                "type": "articles",
+                "source": "e-marketing.fr",
+                "title": "Brand content et marque : définition et tendances 2026",
+                "url": "https://www.e-marketing.fr/marques-1296/strategie-de-marque-2250/brand-content-et-marque-definition-ecosysteme-et-tendances-2026-2-171728"
+              },
+              {
+                "type": "articles",
+                "source": "e-marketing.fr",
+                "title": "Piloter une stratégie de brand content - méthode en 4 étapes",
+                "url": "https://www.e-marketing.fr/marques-1296/strategie-de-marque-2250/comment-piloter-une-strategie-de-brand-content-et-de-marque-en-2026-methode-en-4-etapes-2-171730"
+              },
+              {
+                "type": "articles",
+                "source": "INfluencia",
+                "title": "Le brand content prolonge sa lune de miel avec les podcasts",
+                "url": "https://www.influencia.net/brand-content-prolonge-lune-miel-avec-podcasts/"
+              },
+              {
+                "type": "articles",
+                "source": "INfluencia",
+                "title": "Grand Prix du Brand Content 2026",
+                "url": "https://www.influencia.net/grand-prix-du-brand-content-2026/"
+              },
+              {
+                "type": "articles",
+                "source": "Stratégies",
+                "title": "Grand Prix Brand Content : McDo enflamme les réseaux sociaux",
+                "url": "https://www.strategies.fr/actualites/marques/LQ5102094C/grand-prix-strategies-du-brand-content-mcdo-enflamme-les-reseaux-sociaux.html"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "Stratégies",
+                "title": "Grand Prix Stratégies du Brand Content 2026 (replays)",
+                "url": "https://www.strategies.fr/nos-evenements/grand-prix-strategies-du-brand-content-2026"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "HubSpot Academy",
+                "title": "Formation gratuite Content Marketing (certifiante)",
+                "url": "https://academy.hubspot.fr/courses/content-marketing"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "PAROLE",
+          "title": "Prise de parole & media training",
+          "tagline": "Incarner la marque : du discours dirigeant au pitch en public",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Stratégies",
+                "title": "Prise de parole des dirigeants : au travail !",
+                "url": "https://www.strategies.fr/blogs-opinions/idees-tribunes/1006144W/prise-de-parole-des-dirigeants-au-travail-.html"
+              },
+              {
+                "type": "articles",
+                "source": "Stratégies",
+                "title": "Le dircom, partenaire stratégique du dirigeant",
+                "url": "https://www.strategies.fr/actualites/tribunes/LQ6140621C/le-dircom-partenaire-strategique-du-dirigeant-en-prise-de-fonction-vital-jeantet-iday.html"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Storytelling : définition, bonnes pratiques et exemples",
+                "url": "https://www.blogdumoderateur.com/storytelling-definition-bonnes-pratiques-exemples/"
+              },
+              {
+                "type": "articles",
+                "source": "ReputatioLab",
+                "title": "Communication de crise : communiqué de presse ou réseaux sociaux ?",
+                "url": "https://www.reputatiolab.com/2013/12/communication-de-crise-communique-de-presse-ou-reseaux-sociaux/"
+              },
+              {
+                "type": "articles",
+                "source": "ReputatioLab",
+                "title": "Les enseignements des crises numériques de 2022",
+                "url": "https://www.reputatiolab.com/2023/02/les-enseignements-des-crises-numeriques-de-2022/"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Créer une page presse - relations publiques",
+                "url": "https://blog.hubspot.fr/marketing/creer-page-presse"
+              },
+              {
+                "type": "articles",
+                "source": "Le blog du média trainer",
+                "title": "5 bonnes raisons d'utiliser les techniques de media training",
+                "url": "https://le-blog-du-mediatrainer.fr/2025/04/pourquoi-utiliser-les-techniques-de-media-training-lors-de-vos-prises-de-parole-en-public.html"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "INSP",
+                "title": "Prise de parole en public et leadership",
+                "url": "https://www.insp.gouv.fr/formation-continue/formations-courtes/offre-interministerielle/prise-de-parole-en-public-et"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "ReputatioLab",
+                "title": "Dossiers Crises, Réputation et Influence",
+                "url": "https://www.reputatiolab.com/"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "RP",
+          "title": "Relations presse & relations médias",
+          "tagline": "Travailler avec les journalistes pour gagner en earned media",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "IA, RP, réseaux sociaux : tendances médias 2026",
+                "url": "https://www.blogdumoderateur.com/ia-relations-presse-reseaux-sociaux-tendances-medias-connaitre-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Startup : réussir une campagne de relations presse",
+                "url": "https://www.blogdumoderateur.com/startup-comment-reussir-campagne-relations-presse/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Communiqué de presse : définition, avantages, exemples",
+                "url": "https://www.blogdumoderateur.com/communique-de-presse-avantages-exemples-modeles/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Dossier de presse : bonnes pratiques et exemples",
+                "url": "https://www.blogdumoderateur.com/dossier-presse-definition-bonnes-pratiques-exemples/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Relations presse : 7 solutions de gestion",
+                "url": "https://www.blogdumoderateur.com/tools/marketing-digital/relations-presse/"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Communiqué de presse : définition et exemples",
+                "url": "https://blog.hubspot.fr/marketing/communique-de-presse-exemple"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "Comment faire un dossier de presse",
+                "url": "https://blog.hubspot.fr/marketing/dossier-de-presse"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "5 étapes pour mettre en place une stratégie de RP",
+                "url": "https://blog.hubspot.fr/marketing/strategie-rp"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "HubSpot FR",
+                "title": "Guide gratuit : communiqué et dossier de presse",
+                "url": "https://offers.hubspot.fr/guide-communique-de-presse"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "social-media": {
@@ -1942,7 +2226,333 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS Com, MDS, Bachelor Communication & Webmarketing",
       "icon": "hashtag",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "STRAT-RS",
+          "title": "Stratégie réseaux sociaux & social media planning",
+          "tagline": "Cadrer objectifs, audiences et lignes éditoriales avant de publier",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Social media : ce qui a changé en 2025",
+                "url": "https://www.blogdumoderateur.com/social-media-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Chiffres clés Internet et réseaux sociaux juillet 2025",
+                "url": "https://www.blogdumoderateur.com/chiffres-cles-internet-reseaux-sociaux-juillet-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "We Are Social France",
+                "title": "Tendances social media 2025",
+                "url": "https://wearesocial.com/fr/blog/2025/01/les-tendances-social-media-2025-vues-par-les-dirigeant%C2%B7es-de-we-are-social-dans-le-monde/"
+              },
+              {
+                "type": "articles",
+                "source": "We Are Social France",
+                "title": "Digital Report France 2025",
+                "url": "https://wearesocial.com/fr/blog/2025/02/digital-report-france-2025-%F0%9F%87%AB%F0%9F%87%B7/"
+              },
+              {
+                "type": "articles",
+                "source": "Webmarketing & co'm",
+                "title": "Stratégie Social Media : conseils",
+                "url": "https://www.webmarketing-com.com/webmarketing/social-media"
+              },
+              {
+                "type": "articles",
+                "source": "Webmarketing & co'm",
+                "title": "Réseaux sociaux : créer son calendrier éditorial",
+                "url": "https://www.webmarketing-com.com/2018/06/14/81644-reseaux-sociaux-comment-creer-votre-calendrier-editorial"
+              },
+              {
+                "type": "articles",
+                "source": "e-marketing.fr",
+                "title": "Social media et marketing d'influence : tendances 2026",
+                "url": "https://www.e-marketing.fr/influences-1293/reseaux-sociaux-2216/social-media-et-marketing-dinfluence-definition-ecosysteme-et-tendances-2026-171530"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "We Are Social",
+                "title": "Digital Report France 2025 (rapport complet)",
+                "url": "https://wearesocial.com/fr/blog/2025/02/digital-report-france-2025-%F0%9F%87%AB%F0%9F%87%B7/"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "PLATEFORMES",
+          "title": "Plateformes : Instagram, TikTok, LinkedIn, YouTube",
+          "tagline": "Comprendre les codes propres à chaque réseau",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Instagram : algorithme 2025",
+                "url": "https://www.blogdumoderateur.com/instagram-algorithme-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Instagram : 5 nouveautés à ne pas manquer",
+                "url": "https://www.blogdumoderateur.com/instagram-5-nouveautes-avril-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Comment fonctionne l'algorithme de TikTok",
+                "url": "https://www.blogdumoderateur.com/comment-fonctionne-algorithme-tiktok/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "TikTok : 5 conseils pour plaire à l'algorithme",
+                "url": "https://www.blogdumoderateur.com/tiktok-conseils-videos-plaire-algorithme/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Algorithme LinkedIn : critères, horaires, portée",
+                "url": "https://www.blogdumoderateur.com/comment-fonctionne-algorithme-linkedin-criteres-horaires-portee-formats/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "LinkedIn : posts priorisés en 2025",
+                "url": "https://www.blogdumoderateur.com/linkedin-revoit-algorithme-posts-priorises/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "LinkedIn : 12 idées de publications",
+                "url": "https://www.blogdumoderateur.com/linkedin-12-idees-publications-virales-entreprises/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Guide : créer et développer sa chaîne YouTube pro",
+                "url": "https://www.blogdumoderateur.com/guide-creer-developper-chaine-youtube/"
+              },
+              {
+                "type": "articles",
+                "source": "Think with Google",
+                "title": "YouTube : ROI de votre stratégie social",
+                "url": "https://www.thinkwithgoogle.com/intl/fr-fr/strategies-marketing/video/youtube-strategie-social-media-roi-createurs/"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "Blog du Modérateur",
+                "title": "10 chaînes YouTube à suivre pour les pros du digital",
+                "url": "https://www.blogdumoderateur.com/chaines-youtube-pros-digital/"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Blog du Modérateur",
+                "title": "Meta Business Suite : le guide complet",
+                "url": "https://www.blogdumoderateur.com/meta-business-suite-guide/"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "COMMUNITY",
+          "title": "Community management",
+          "tagline": "Animer, modérer, fidéliser une communauté au quotidien",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Un community manager, ça fait quoi ?",
+                "url": "https://www.blogdumoderateur.com/definition-community-manager/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Community manager : fiche métier, études, salaire",
+                "url": "https://www.blogdumoderateur.com/metiers/community-manager/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "10 compétences qui font la différence",
+                "url": "https://www.blogdumoderateur.com/community-manager-competences-font-difference/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Outils préférés des community managers en 2025",
+                "url": "https://www.blogdumoderateur.com/outils-preferes-community-managers-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Social media : 5 métiers les mieux payés en 2025",
+                "url": "https://www.blogdumoderateur.com/social-media-metiers-mieux-payes-recrutent-2025/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Social media manager : fiche métier",
+                "url": "https://www.blogdumoderateur.com/metiers/social-media-manager/"
+              },
+              {
+                "type": "articles",
+                "source": "Welcome to the Jungle",
+                "title": "Le métier de Community Manager",
+                "url": "https://www.welcometothejungle.com/fr/articles/community-manager"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Welcome to the Jungle",
+                "title": "Interview CM : Mélissa Lambert (#HistoiresdeCM)",
+                "url": "https://www.youtube.com/watch?v=fvLInZvF8ZY"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "HubSpot Academy",
+                "title": "Formation gratuite Social Media Marketing",
+                "url": "https://academy.hubspot.fr/courses"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "INFLUENCE",
+          "title": "Influence, créateurs & UGC",
+          "tagline": "Activer les voix tierces : influenceurs, ambassadeurs, UGC",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Marketing d'influence 2025",
+                "url": "https://www.blogdumoderateur.com/marketing-influence-2025-reseaux-sociaux-preferes-choix-influenceurs-evolution-budget/"
+              },
+              {
+                "type": "articles",
+                "source": "INfluencia",
+                "title": "UGC, créateurs, ambassadeurs : 3 erreurs fatales",
+                "url": "https://www.influencia.net/ugc-createurs-ambassadeurs-une-confusion-et-trois-erreurs-fatales-qui-coutent-cher-aux-marques/"
+              },
+              {
+                "type": "articles",
+                "source": "INfluencia",
+                "title": "7 tendances marketing d'influence 2026",
+                "url": "https://www.influencia.net/marketing-dinfluence-budgets-en-hausse-co-creation-exigences-ethiques-7-tendances-a-retenir-pour-2026/"
+              },
+              {
+                "type": "articles",
+                "source": "Stratégies",
+                "title": "L'influence marketing responsable",
+                "url": "https://www.strategies.fr/actualites/agences/LQ2550280C/linfluence-marketing-responsable-sur-le-devant-de-la-scene.html"
+              },
+              {
+                "type": "articles",
+                "source": "Stratégies",
+                "title": "Influenceurs : conformité aux nouvelles règles ARPP",
+                "url": "https://www.strategies.fr/actualites/culture-tech/LQ3651346C/les-influenceurs-se-conforment-peu-peu-aux-nouvelles-regles-selon-l-arpp.html"
+              },
+              {
+                "type": "articles",
+                "source": "Stratégies",
+                "title": "Premier baromètre de l'influence 2025",
+                "url": "https://www.strategies.fr/actualites/culture-tech/LQ5355933C/engagement-vues-roi-que-revele-le-premier-barometre-de-l-influence-2025.html"
+              },
+              {
+                "type": "articles",
+                "source": "Siècle Digital",
+                "title": "Encadrement du métier d'influenceur",
+                "url": "https://siecledigital.fr/2023/03/24/bruno-le-maire-devoile-des-mesures-pour-encadrer-le-metier-dinfluenceur/"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Blog du Modérateur",
+                "title": "Étude marketing d'influence 2025",
+                "url": "https://www.blogdumoderateur.com/marketing-influence-2025-reseaux-sociaux-preferes-choix-influenceurs-evolution-budget/"
+              }
+            ]
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "KPIs",
+          "title": "KPIs, analytics & mesure de la performance",
+          "tagline": "Piloter par la donnée : indicateurs, reporting, ROI social media",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Social media : quels KPI suivre en 2026",
+                "url": "https://www.blogdumoderateur.com/social-media-quels-kpi-suivre/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "Étude LinkedIn 2024 : jours, heures et formats",
+                "url": "https://www.blogdumoderateur.com/etude-linkedin-2024-jours-heures-formats-publication/"
+              },
+              {
+                "type": "articles",
+                "source": "Blog du Modérateur",
+                "title": "LinkedIn 2025 : sujets discutés, entreprises influentes",
+                "url": "https://www.blogdumoderateur.com/comment-linkedin-evolue-2025-sujets-discutes-entreprises-influentes/"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "KPI marketing : les indicateurs à suivre",
+                "url": "https://blog.hubspot.fr/marketing/kpi-marketing-indicateurs-performance"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "KPI réseaux sociaux : 10 indicateurs",
+                "url": "https://blog.hubspot.fr/marketing/kpi-reseaux-sociaux"
+              },
+              {
+                "type": "articles",
+                "source": "HubSpot FR",
+                "title": "KPI : définition et solutions",
+                "url": "https://www.hubspot.fr/glossary/key-performance-indicators"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "HubSpot FR",
+                "title": "Modèle gratuit : tableau de bord KPI",
+                "url": "https://offers.hubspot.fr/tableau-kpi"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "relation-client": {

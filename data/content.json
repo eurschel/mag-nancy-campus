@@ -1521,7 +1521,404 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS MCO, NDRC, Com · Bachelor Commerce, Communication · MBA",
       "icon": "target",
-      "modules": {},
+      "modules": {
+        "1": {
+          "num": 1,
+          "code": "STRAT",
+          "title": "Stratégie marketing & étude de marché",
+          "tagline": "Analyser, segmenter, positionner : les fondations d'une stratégie qui convertit",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Stratégie marketing : définition et étapes",
+                "url": "https://www.definitions-marketing.com/definition/strategie-marketing/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Étude de marché : définition",
+                "url": "https://www.definitions-marketing.com/definition/etude-de-marche/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Élaborer sa stratégie marketing",
+                "url": "https://www.manager-go.com/marketing/strategie-marketing.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "L'analyse SWOT : méthode et exemple",
+                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/diagnostic-swot"
+              },
+              {
+                "type": "articles",
+                "source": "Marketing-Etudiant",
+                "title": "La segmentation marketing",
+                "url": "https://www.marketing-etudiant.fr/cours/marketing-strategique/segmentation.php"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Comment réaliser une étude de marché",
+                "url": "https://blog.hubspot.fr/marketing/etude-de-marche"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Matrice BCG : définition et exemples",
+                "url": "https://blog.hubspot.fr/marketing/matrice-bcg"
+              },
+              {
+                "type": "articles",
+                "source": "BDM",
+                "title": "Tendances marketing",
+                "url": "https://www.blogdumoderateur.com/tag/marketing/"
+              },
+              {
+                "type": "articles",
+                "source": "e-marketing.fr",
+                "title": "Études et veille marketing",
+                "url": "https://www.e-marketing.fr/Thematique/etudes-1313/"
+              },
+              {
+                "type": "articles",
+                "source": "Insee",
+                "title": "Études économiques sectorielles",
+                "url": "https://www.insee.fr/fr/statistiques"
+              }
+            ],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Xerfi Canal",
+                "title": "Analyses stratégiques sectorielles",
+                "url": "https://www.youtube.com/user/XerfiCanalTV"
+              }
+            ],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "BPI France",
+                "title": "Guide création d'entreprise et étude de marché",
+                "url": "https://bpifrance-creation.fr/encyclopedie/letude-marche"
+              }
+            ]
+          }
+        },
+        "2": {
+          "num": 2,
+          "code": "MIX",
+          "title": "Mix marketing (4P/7P)",
+          "tagline": "Produit, Prix, Place, Promotion : orchestrer les leviers opérationnels",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Marketing mix : définition 4P et 7P",
+                "url": "https://www.definitions-marketing.com/definition/marketing-mix/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Politique de prix : définition",
+                "url": "https://www.definitions-marketing.com/definition/politique-de-prix/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Le marketing mix : les 4P",
+                "url": "https://www.manager-go.com/marketing/marketing-mix.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Fixer son prix de vente : méthodes",
+                "url": "https://www.manager-go.com/marketing/fixer-prix-vente.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Marketing-Etudiant",
+                "title": "Le marketing mix 4P 7P",
+                "url": "https://www.marketing-etudiant.fr/cours/marketing-mix.php"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Politique de distribution : guide",
+                "url": "https://blog.hubspot.fr/marketing/politique-de-distribution"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Marketing mix : exemples concrets",
+                "url": "https://blog.hubspot.fr/marketing/marketing-mix"
+              },
+              {
+                "type": "articles",
+                "source": "e-marketing.fr",
+                "title": "Stratégie produit et innovation",
+                "url": "https://www.e-marketing.fr/Thematique/marques-1296/"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Décisions Marketing - revue",
+                "url": "https://www.cairn.info/revue-decisions-marketing.htm"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "BPI France",
+                "title": "Fixer ses prix : guide",
+                "url": "https://bpifrance-creation.fr/moment-de-vie/fixer-prix-vente"
+              }
+            ]
+          }
+        },
+        "3": {
+          "num": 3,
+          "code": "CONSO",
+          "title": "Comportement consommateur & insight client",
+          "tagline": "Décoder les motivations, les parcours et les émotions des clients",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Comportement du consommateur : définition",
+                "url": "https://www.definitions-marketing.com/definition/comportement-du-consommateur/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Insight consommateur",
+                "url": "https://www.definitions-marketing.com/definition/insight-consommateur/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Persona marketing",
+                "url": "https://www.definitions-marketing.com/definition/persona/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Comprendre le comportement client",
+                "url": "https://www.manager-go.com/marketing/comportement-consommateur.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Marketing-Etudiant",
+                "title": "Comportement du consommateur - cours",
+                "url": "https://www.marketing-etudiant.fr/cours/comportement-consommateur.php"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Créer un buyer persona",
+                "url": "https://blog.hubspot.fr/marketing/buyer-persona"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Customer journey : cartographier le parcours",
+                "url": "https://blog.hubspot.fr/service/customer-journey-map"
+              },
+              {
+                "type": "articles",
+                "source": "BDM",
+                "title": "Études usages numériques des Français",
+                "url": "https://www.blogdumoderateur.com/tag/etudes/"
+              },
+              {
+                "type": "articles",
+                "source": "Cairn",
+                "title": "Recherche et Applications en Marketing",
+                "url": "https://www.cairn.info/revue-recherche-et-applications-en-marketing.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Insee",
+                "title": "Consommation des ménages",
+                "url": "https://www.insee.fr/fr/statistiques?theme=11"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Crédoc",
+                "title": "Études consommation et modes de vie",
+                "url": "https://www.credoc.fr/publications"
+              }
+            ]
+          }
+        },
+        "4": {
+          "num": 4,
+          "code": "DIGITAL",
+          "title": "Marketing digital (SEO, SEA, content, emailing)",
+          "tagline": "Maîtriser les leviers d'acquisition et de conversion en ligne",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "BDM",
+                "title": "Actualités SEO et référencement",
+                "url": "https://www.blogdumoderateur.com/seo/"
+              },
+              {
+                "type": "articles",
+                "source": "BDM",
+                "title": "Marketing digital - dossier",
+                "url": "https://www.blogdumoderateur.com/marketing/"
+              },
+              {
+                "type": "articles",
+                "source": "Webmarketing & co'm",
+                "title": "Stratégie SEO complète",
+                "url": "https://www.webmarketing-com.com/category/referencement-naturel-seo"
+              },
+              {
+                "type": "articles",
+                "source": "Webmarketing & co'm",
+                "title": "Guides SEA et Google Ads",
+                "url": "https://www.webmarketing-com.com/category/referencement-payant-sea"
+              },
+              {
+                "type": "articles",
+                "source": "Webmarketing & co'm",
+                "title": "Email marketing : bonnes pratiques",
+                "url": "https://www.webmarketing-com.com/category/emailing"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Guide complet du content marketing",
+                "url": "https://blog.hubspot.fr/marketing/content-marketing"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "SEO : guide débutant",
+                "url": "https://blog.hubspot.fr/marketing/guide-seo"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Email marketing : stratégie efficace",
+                "url": "https://blog.hubspot.fr/marketing/email-marketing"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Inbound marketing : définition",
+                "url": "https://www.definitions-marketing.com/definition/inbound-marketing/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "SEA : définition",
+                "url": "https://www.definitions-marketing.com/definition/sea/"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "BDM",
+                "title": "Études et baromètres digitaux",
+                "url": "https://www.blogdumoderateur.com/etudes/"
+              }
+            ]
+          }
+        },
+        "5": {
+          "num": 5,
+          "code": "B2B",
+          "title": "Marketing B2B & relation client",
+          "tagline": "Account-based marketing, lead gen et fidélisation longue durée",
+          "veille": {
+            "articles": [
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Marketing B2B : définition",
+                "url": "https://www.definitions-marketing.com/definition/marketing-b2b/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "CRM : définition et enjeux",
+                "url": "https://www.definitions-marketing.com/definition/crm/"
+              },
+              {
+                "type": "articles",
+                "source": "Définitions Marketing",
+                "title": "Lead generation",
+                "url": "https://www.definitions-marketing.com/definition/lead-generation/"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Le marketing B2B : spécificités",
+                "url": "https://www.manager-go.com/marketing/marketing-b-to-b.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Gérer la relation client (GRC/CRM)",
+                "url": "https://www.manager-go.com/marketing/relation-client.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Manager Go",
+                "title": "Fidélisation client : leviers efficaces",
+                "url": "https://www.manager-go.com/marketing/fidelisation-client.htm"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Marketing B2B : guide complet",
+                "url": "https://blog.hubspot.fr/marketing/marketing-b2b"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Account-based marketing (ABM)",
+                "url": "https://blog.hubspot.fr/marketing/account-based-marketing"
+              },
+              {
+                "type": "articles",
+                "source": "Hubspot FR",
+                "title": "Lead nurturing : stratégies",
+                "url": "https://blog.hubspot.fr/marketing/lead-nurturing"
+              },
+              {
+                "type": "articles",
+                "source": "Webmarketing & co'm",
+                "title": "Génération de leads B2B",
+                "url": "https://www.webmarketing-com.com/category/generation-de-leads"
+              }
+            ],
+            "videos": [],
+            "whitepapers": [
+              {
+                "type": "whitepapers",
+                "source": "Hubspot FR",
+                "title": "État de l'inbound marketing",
+                "url": "https://www.hubspot.fr/state-of-marketing"
+              }
+            ]
+          }
+        }
+      },
       "veille": {}
     },
     "communication": {

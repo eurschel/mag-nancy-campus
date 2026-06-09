@@ -1,0 +1,159 @@
+{
+  "site": {
+    "name": "Le Mag Campus Nancy",
+    "tagline": "La veille pro qui sert tes études",
+    "campus": "Campus Eduservices Nancy",
+    "schools": ["Pigier", "MyDigitalSchool", "Win Sport School"],
+    "address": "8 rue des Cinq Piquets, 54100 Nancy"
+  },
+  "build_date": "2026-06-09",
+  "default_thematic": "culture-generale",
+  "thematics": {
+    "culture-generale": {
+      "slug": "culture-generale",
+      "title": "Culture générale",
+      "discipline": "Culture générale",
+      "tagline": "Comprendre le monde pour mieux y agir : actu, société, économie, idées.",
+      "color": "#3AA76D",
+      "color_secondary": "#0F172A",
+      "for_who": "Tronc commun à tous les BTS — épreuve de culture générale et expression",
+      "icon": "globe",
+      "modules": {},
+      "veille": {}
+    },
+    "anglais": {
+      "slug": "anglais",
+      "title": "Anglais professionnel",
+      "discipline": "Anglais",
+      "tagline": "Business English, vocabulaire métier, TOEIC, podcasts à écouter.",
+      "color": "#0EA5E9",
+      "color_secondary": "#0F172A",
+      "for_who": "Tronc commun BTS — épreuve d'anglais, TOEIC en bachelor",
+      "icon": "globe-en",
+      "modules": {},
+      "veille": {}
+    },
+    "cejm": {
+      "slug": "cejm",
+      "title": "Économie · Droit · Management (CEJM)",
+      "discipline": "CEJM",
+      "tagline": "Le tronc commun qui pèse 30% de tes BTS : économie, droit, management de l'entreprise.",
+      "color": "#7C3AED",
+      "color_secondary": "#0F172A",
+      "for_who": "Tronc commun BTS — Pigier (MCO, NDRC, GPME, CG, Com, CI…)",
+      "icon": "scale",
+      "modules": {},
+      "veille": {}
+    },
+    "marketing": {
+      "slug": "marketing",
+      "title": "Marketing",
+      "discipline": "Marketing",
+      "tagline": "Stratégie, étude de marché, mix marketing, marque, expérience client.",
+      "color": "#F97316",
+      "color_secondary": "#0F172A",
+      "for_who": "BTS MCO, NDRC, Com · Bachelor Commerce, Communication · MBA",
+      "icon": "target",
+      "modules": {},
+      "veille": {}
+    },
+    "communication": {
+      "slug": "communication",
+      "title": "Communication & contenu",
+      "discipline": "Communication",
+      "tagline": "Communication institutionnelle, marque employeur, brand content, prise de parole.",
+      "color": "#EC4899",
+      "color_secondary": "#0F172A",
+      "for_who": "BTS Communication · Bachelor & MBA Com · MyDigitalSchool",
+      "icon": "megaphone",
+      "modules": {},
+      "veille": {}
+    },
+    "social-media": {
+      "slug": "social-media",
+      "title": "Réseaux sociaux & social media",
+      "discipline": "Social Media",
+      "tagline": "Stratégie réseaux sociaux, community management, formats, plateformes émergentes.",
+      "color": "#A855F7",
+      "color_secondary": "#0F172A",
+      "for_who": "BTS Com, MDS, Bachelor Communication & Webmarketing",
+      "icon": "hashtag",
+      "modules": {},
+      "veille": {}
+    },
+    "relation-client": {
+      "slug": "relation-client",
+      "title": "Relation client & vente",
+      "discipline": "Relation client",
+      "tagline": "Négociation, fidélisation, expérience client, CRM, vente conseil.",
+      "color": "#F43F5E",
+      "color_secondary": "#0F172A",
+      "for_who": "BTS NDRC, MCO · Bachelor Commerce · MBA",
+      "icon": "users",
+      "modules": {},
+      "veille": {}
+    },
+    "management": {
+      "slug": "management",
+      "title": "Management & leadership",
+      "discipline": "Management",
+      "tagline": "Encadrement, motivation, conduite du changement, agilité.",
+      "color": "#22C55E",
+      "color_secondary": "#0F172A",
+      "for_who": "Tous BTS pro, Bachelor & MBA Management",
+      "icon": "users-cog",
+      "modules": {},
+      "veille": {}
+    },
+    "gestion-compta": {
+      "slug": "gestion-compta",
+      "title": "Gestion · Compta · Finance",
+      "discipline": "Gestion / Compta",
+      "tagline": "Comptabilité, finance, paie, gestion budgétaire, contrôle de gestion.",
+      "color": "#06B6D4",
+      "color_secondary": "#0F172A",
+      "for_who": "BTS CG, GPME · DCG, DSCG · Bachelor Gestion-Finance, Paie",
+      "icon": "calculator",
+      "modules": {},
+      "veille": {}
+    },
+    "gestion-projet": {
+      "slug": "gestion-projet",
+      "title": "Gestion de projet",
+      "discipline": "Gestion de projet",
+      "tagline": "Méthodes (agile, scrum, kanban), outils, pilotage, équipes projet.",
+      "color": "#EAB308",
+      "color_secondary": "#0F172A",
+      "for_who": "Bachelor, MBA, MyDigitalSchool, Win Sport",
+      "icon": "kanban",
+      "modules": {},
+      "veille": {}
+    },
+    "rh": {
+      "slug": "rh",
+      "title": "Ressources humaines",
+      "discipline": "RH",
+      "tagline": "Recrutement, formation, paie, droit du travail, marque employeur.",
+      "color": "#10B981",
+      "color_secondary": "#0F172A",
+      "for_who": "BTS GPME · Bachelor RH, Recrutement · MBA RH",
+      "icon": "user-plus",
+      "modules": {},
+      "veille": {}
+    },
+    "ia-outils": {
+      "slug": "ia-outils",
+      "title": "IA & outils numériques",
+      "discipline": "IA & Outils",
+      "tagline": "L'IA générative et les outils qui boostent la productivité dans tous les métiers.",
+      "color": "#C084FC",
+      "color_secondary": "#0F172A",
+      "for_who": "Transversal · indispensable pour MDS, recommandé pour tous",
+      "icon": "spark",
+      "modules": {},
+      "tool_groups": [],
+      "channels": [],
+      "veille": {}
+    }
+  }
+}

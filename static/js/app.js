@@ -26,6 +26,18 @@
     return out;
   }
   function countFiches(slug) { return fichesOf(slug).length; }
+  function countResources(slug) {
+    var n = 0; var mods = modulesOf(slug);
+    Object.keys(mods).forEach(function (k) {
+      var v = (mods[k] && mods[k].veille) || {};
+      n += (v.articles || []).length + (v.videos || []).length + (v.whitepapers || []).length;
+    });
+    return n;
+  }
+  function countModuleResources(m) {
+    var v = (m && m.veille) || {};
+    return (v.articles || []).length + (v.videos || []).length + (v.whitepapers || []).length;
+  }
   function shopLink(code) { var b = CFG.shopUrl || "#"; return b + (code ? ("?q=" + encodeURIComponent(code)) : ""); }
 
   /* ---------- boot ---------- */
@@ -125,7 +137,7 @@
         return '<a class="sidebar-item" href="#theme/' + esc(slug) + "/module/" + esc(k) + '">' +
           '<span class="mod-num">' + esc(("0" + (m.num || k)).slice(-2)) + "</span>" +
           '<span class="label">' + esc(m.short || m.title) + "</span>" +
-          '<span class="mod-count">' + (m.fiches ? m.fiches.length : 0) + "</span></a>";
+          '<span class="mod-count">' + countModuleResources(m) + "</span></a>";
       }).join("");
     }
   }
@@ -255,19 +267,45 @@
     html += '<div class="home-banner home-banner-empty">'
       + '<div class="home-banner-tag"><span class="home-banner-tag-dot"></span>Le Mag Campus Nancy — Édition ' + (window.TABLONOIR && window.TABLONOIR.buildYear || new Date().getFullYear()) + '</div>'
       + '</div>';
-    html += '<div class="schools-strip">'
-      + '<span class="schools-strip-label">// Campus Eduservices Nancy</span>'
-      + '<span class="schools-strip-item"><span class="dot dot-pigier"></span>Pigier</span>'
-      + '<span class="schools-strip-item"><span class="dot dot-mds"></span>MyDigitalSchool</span>'
-      + '<span class="schools-strip-item"><span class="dot dot-win"></span>Win Sport School</span>'
-      + '</div>';
+    html += '<section class="schools-banner">'
+      + '<div class="schools-banner-head">'
+      + '<div class="schools-banner-tag">// Campus Eduservices Nancy</div>'
+      + '<div class="schools-banner-sub">Pigier · MyDigitalSchool · Win Sport School — 1 campus, 700+ étudiants, Rives-de-Meurthe.</div>'
+      + '</div>'
+      + '<div class="schools-banner-cards">'
+      +   '<div class="sb-card sb-pigier">'
+      +     '<div class="sb-card-bar"></div>'
+      +     '<div class="sb-card-body">'
+      +       '<div class="sb-card-logo">P</div>'
+      +       '<div class="sb-card-name">Pigier</div>'
+      +       '<div class="sb-card-desc">Business school — BTS, Bachelor, MBA (commerce, com, RH, gestion, immobilier, paie…)</div>'
+      +     '</div>'
+      +   '</div>'
+      +   '<div class="sb-card sb-mds">'
+      +     '<div class="sb-card-bar"></div>'
+      +     '<div class="sb-card-body">'
+      +       '<div class="sb-card-logo">M</div>'
+      +       '<div class="sb-card-name">MyDigitalSchool</div>'
+      +       '<div class="sb-card-desc">Digital, web, design, audiovisuel — Bachelor & MBA 100% numérique.</div>'
+      +     '</div>'
+      +   '</div>'
+      +   '<div class="sb-card sb-win">'
+      +     '<div class="sb-card-bar"></div>'
+      +     '<div class="sb-card-body">'
+      +       '<div class="sb-card-logo">W</div>'
+      +       '<div class="sb-card-name">Win Sport School</div>'
+      +       '<div class="sb-card-desc">Sport business — Bachelor & MBA management du sport, event, marketing sportif.</div>'
+      +     '</div>'
+      +   '</div>'
+      + '</div>'
+      + '</section>';
     html += '<section class="hero home-hero hero-visual hero-editorial">' +
       '<div class="hero-bg"><svg viewBox="0 0 1200 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><defs><radialGradient id="hg1" cx="20%" cy="30%" r="60%"><stop offset="0%" stop-color="#00BFFF" stop-opacity=".55"/><stop offset="100%" stop-color="#00BFFF" stop-opacity="0"/></radialGradient><radialGradient id="hg2" cx="80%" cy="70%" r="50%"><stop offset="0%" stop-color="#C084FC" stop-opacity=".4"/><stop offset="100%" stop-color="#C084FC" stop-opacity="0"/></radialGradient><pattern id="hp1" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse"><circle cx="30" cy="30" r="1.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="1200" height="460" fill="url(#hp1)"/><rect width="1200" height="460" fill="url(#hg1)"/><rect width="1200" height="460" fill="url(#hg2)"/></svg></div>' +
       '<div class="hero-editorial-grid">' +
         '<div class="hero-text">' +
-          '<div class="hero-badge">BANQUE DE RESSOURCES · ' + esc((STATE.data.build_date || "").slice(0, 7)) + "</div>" +
-          '<h1>Le forum Tablonoir : <span class="accent">On Apprend, on comprend, on prend de l\'avance.</span> Ensemble</h1>' +
-          '<p class="hero-sub">Veille hebdomadaire pour vous apporter tous les indispensables.</p>' +
+          '<div class="hero-badge">LE MAG · ÉDITION ' + esc((STATE.data.build_date || "").slice(0, 7).replace('-', '/')) + "</div>" +
+          '<h1>Le mag <span class="accent">qui sert tes études</span>, semaine après semaine.</h1>' +
+          '<p class="hero-sub">12 thématiques, 500+ ressources triées par tes profs : culture générale, anglais, CEJM, marketing, com, RH, gestion, IA. Et un Récap chaque dimanche.</p>' +
         '</div>' +
         (iaDossier ? (
           '<a class="hero-featured" href="' + esc('/static/' + (iaDossier.file || '')) + '" target="_blank" rel="noopener">' +
@@ -300,14 +338,14 @@
           '<div class="theme-card-icon">' + disciplineIcon(s) + "</div>" +
           '<div class="theme-card-title">' + esc(t.discipline) + "</div>" +
           '<div class="theme-card-tag">' + esc(t.tagline || "") + "</div>" +
-          '<div class="theme-card-foot mono">' + (t.tools && Object.keys(t.tools).length ? (Object.keys(t.tools).length + " outils · mode tuto →") : (modKeys(s).length + " modules · " + countFiches(s) + " fiches →")) + "</div>" +
+          '<div class="theme-card-foot mono">' + (t.tools && Object.keys(t.tools).length ? (Object.keys(t.tools).length + " outils · mode tuto →") : (modKeys(s).length + " modules · " + countResources(s) + " ressources →")) + "</div>" +
           "</div></a>";
       }).join("") + "</div></section>";
     html += recapHomePromo();
     html += '<section class="nl-footer-box">' +
-      '<div class="nl-fb-tag">// LE RÉCAP</div>' +
-      '<h3>Reste pertinent toute la semaine</h3>' +
-      '<p>Chaque dimanche : actu IA, méthodes qui marchent, sources fiables. 15 min de lecture, zéro fluff.</p>' +
+      '<div class="nl-fb-tag">// LE RÉCAP HEBDO</div>' +
+      '<h3>Une fois par semaine, l\'essentiel dans ta boîte mail.</h3>' +
+      '<p>Le Récap, c\'est 15 min pour faire le point : actu IA, méthodes qui marchent, ressources triées. Zéro fluff, désabo en 1 clic.</p>' +
       newsletterFormHTML("card") +
     '</section>';
     setMain(html);
@@ -325,7 +363,7 @@
       '<div class="hero-badge">' + esc(t.discipline.toUpperCase()) + " · VEILLE</div>" +
       "<h1>" + esc(hero.title_main || t.tagline) + ' <span class="accent">' + esc(hero.title_accent || "") + "</span></h1>" +
       '<p class="hero-sub">' + esc(hero.subtitle || "") + "</p>" +
-      '<div class="hero-meta mono">' + (hasTools(slug) ? (Object.keys(toolsOf(slug)).length + " outils · mode tuto") : (modKeys(slug).length + " modules · " + countFiches(slug) + " fiches")) + "</div></section>";
+      '<div class="hero-meta mono">' + (hasTools(slug) ? (Object.keys(toolsOf(slug)).length + " outils · mode tuto") : (modKeys(slug).length + " modules · " + countResources(slug) + " ressources")) + "</div></section>";
     html += recapSection(slug);
 
     if (v.stats && v.stats.length) {
@@ -364,7 +402,7 @@
             '<div class="mod-card-num mono">MODULE ' + esc(m.num || k) + "</div>" +
             '<div class="mod-card-title">' + esc(m.title) + "</div>" +
             (m.punchline ? '<div class="mod-card-punch">' + esc(m.punchline) + "</div>" : "") +
-            '<div class="mod-card-foot mono">' + (m.fiches ? m.fiches.length : 0) + " fiches →</div></a>";
+            '<div class="mod-card-foot mono">' + countModuleResources(m) + " ressources →</div></a>";
         }).join("") + "</div></section>";
     }
     if (t.channels && t.channels.length) {
@@ -528,59 +566,7 @@
     }
 
     /* Grille des fiches du module : chaque fiche = carte riche avec CTA shop discret */
-    html += '<section class="band"><div class="band-tag">// LES FICHES DE CE MODULE</div><h2>' + fiches.length + " fiches</h2>" +
-      '<p class="module-fiche-intro">Chaque fiche développe une notion-clé du module. Le contenu détaillé (synthèse, cours, slides) est disponible sur la boutique Tablonoir.</p>' +
-      '<div class="module-fiche-grid">' +
-      fiches.map(function (f) {
-        var shopUrl = f.shop_url || shopLink(f.shop_query || f.code);
-        var badges = mediaBadges(f.own_media) || '<span class="media-badge">Synthèse</span>';
-        var planHtml = "";
-        if (f.plan && f.plan.length) {
-          planHtml = '<ul class="module-fiche-plan">' +
-            f.plan.slice(0, 4).map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") +
-            (f.plan.length > 4 ? '<li class="more">+ ' + (f.plan.length - 4) + " points…</li>" : "") +
-            "</ul>";
-        }
-        return '<article class="module-fiche" id="fiche-' + esc(f.code) + '">' +
-          '<div class="module-fiche-head"><span class="fiche-code mono">' + esc(f.code) + "</span>" +
-            '<div class="module-fiche-badges">' + badges + "</div></div>" +
-          '<h3 class="module-fiche-title">' + esc(f.title) + "</h3>" +
-          (f.accroche ? '<p class="module-fiche-accroche">' + esc(f.accroche) + "</p>" : "") +
-          planHtml +
-          '<a class="module-fiche-cta" href="' + esc(shopUrl) + '" target="_blank" rel="noopener">Voir cette fiche sur la boutique →</a>' +
-          "</article>";
-      }).join("") + "</div></section>";
-
-    setMain(html);
-    window.scrollTo(0, 0);
-  }
-
-  /* ---------- FICHE (teaser) ---------- */
-  function mediaBadges(om) {
-    om = om || {};
-    var items = [["synthese", "Synthèse"], ["cours", "Cours"], ["slides", "Slides"], ["infographie", "Infographie"], ["podcast", "Podcast"], ["video", "Vidéo"]];
-    return items.filter(function (i) { return om[i[0]]; }).map(function (i) { return '<span class="media-badge">' + esc(i[1]) + "</span>"; }).join("");
-  }
-  function renderFiche(slug, code) {
-    var t = th(slug); if (!t) return renderHome();
-    var hit = null; fichesOf(slug).forEach(function (x) { if (x.fiche.code === code) hit = x; });
-    if (!hit) return renderTheme(slug);
-    var f = hit.fiche, m = modulesOf(slug)[hit.mod] || {}, v = f.veille || {};
-    var html = "";
-    html += '<div class="crumb mono"><a href="#">Tablonoir</a> / <a href="#theme/' + esc(slug) + '">' + esc(t.discipline) +
-      '</a> / <a href="#theme/' + esc(slug) + "/module/" + esc(hit.mod) + '">Module ' + esc(m.num || hit.mod) + "</a> / " + esc(f.code) + "</div>";
-    html += '<section class="fiche-hero"' + (f.hero_image ? ' style="background-image:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.5)),url(' + esc(f.hero_image) + ')"' : "") + ">" +
-      '<div class="fiche-hero-code mono">FICHE ' + esc(f.code) + "</div><h1>" + esc(f.title) + "</h1></section>";
-    if (f.accroche) html += '<section class="band"><div class="band-tag">// L\'ESSENTIEL</div><p class="accroche">' + esc(f.accroche) + "</p></section>";
-
-    html += '<section class="band inverted"><div class="lock-grid"><div>';
-    if (f.plan && f.plan.length) html += '<div class="band-tag">// AU PROGRAMME</div><ul class="plan">' + f.plan.map(function (p) { return "<li>" + esc(p) + "</li>"; }).join("") + "</ul>";
-    else html += '<div class="band-tag">// FICHE COMPLÈTE</div><p class="accroche">Synthèse rédigée + supports prêts à réviser.</p>';
-    html += "</div><aside class=\"product-card\"><div class=\"product-head\">Ce que cette fiche t'apporte</div>" +
-      '<div class="product-media">' + (mediaBadges(f.own_media) || '<span class="media-badge">Synthèse</span>') + "</div>" +
-      '<p class="product-note">Une synthèse rédigée prête à réviser, le cours détaillé, des slides utilisables tels quels' + (f.own_media && f.own_media.podcast ? ", un podcast" : "") + (f.own_media && f.own_media.video ? ", une vidéo pédagogique" : "") + ". Tout est conçu pour aller à l\'essentiel sans rien perdre de la profondeur.</p>" +
-      '<a class="unlock-btn discreet" href="' + esc(f.shop_url || shopLink(f.shop_query || f.code)) + '" target="_blank" rel="noopener">Accéder au contenu détaillé →</a>' +
-      '<div class="product-sub mono">Contenu de référence · Tablonoir</div></aside></section>';
+    
 
     html += '<div class="back-to-module"><a href="#theme/' + esc(slug) + "/module/" + esc(hit.mod) + '">← Voir toutes les fiches du Module ' + esc(m.num || hit.mod) + '</a></div>';
 

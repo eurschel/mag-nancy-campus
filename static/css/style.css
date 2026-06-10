@@ -957,3 +957,168 @@ html[data-theme=light] .ann-pink{   background:rgba(244,114,182,.6); }
 .schools-strip-item .dot-pigier{ background:var(--school-pigier); }
 .schools-strip-item .dot-mds{ background:var(--school-mds); }
 .schools-strip-item .dot-win{ background:var(--school-win); }
+
+/* ============ LE MAG NANCY — REFONTE PLUS LUMINEUSE ============ */
+
+/* Passage au thème clair dominant */
+html[data-theme=dark] {
+  --bg: #FAFAF7;
+  --bg2: #FFFFFF;
+  --panel: #FFFFFF;
+  --txt: #1A1F2E;
+  --muted: #5B6478;
+  --line: #E5E7EB;
+}
+html[data-theme=dark] body { background: #FAFAF7; color: #1A1F2E; }
+
+/* Topnav plus claire */
+html[data-theme=dark] .topnav{ background: #FFFFFF; border-bottom: 1px solid #E5E7EB; }
+html[data-theme=dark] .topnav .brand .name{ color: #1A1F2E; }
+html[data-theme=dark] .topnav .brand .sub{ color: #5B6478; }
+html[data-theme=dark] .nav-search input{ background: #F4F6F8; color: #1A1F2E; }
+html[data-theme=dark] .nav-search input::placeholder{ color: #94A3B8; }
+html[data-theme=dark] .nav-btn{ color: #1A1F2E; }
+html[data-theme=dark] .nav-btn-ghost{ background: var(--campus-green, #3AA76D); color: #FFFFFF !important; border-color: var(--campus-green-dark, #1F7A4D); }
+
+/* Sidebar plus claire */
+html[data-theme=dark] .sidebar{ background: #F4F6F8; border-right: 1px solid #E5E7EB; }
+html[data-theme=dark] .sidebar-label{ color: #5B6478; }
+html[data-theme=dark] .sidebar-item{ color: #1A1F2E; }
+html[data-theme=dark] .sidebar-item:hover{ background: #FFFFFF; color: var(--campus-green-dark, #1F7A4D); }
+html[data-theme=dark] .mod-count{ background: #FFFFFF; color: #5B6478; border: 1px solid #E5E7EB; }
+
+/* Hero banner — thème clair */
+html[data-theme=dark] .home-banner-empty{
+  background: linear-gradient(135deg, var(--campus-green-dark, #1F7A4D), var(--campus-green, #3AA76D)) !important;
+}
+html[data-theme=dark] .home-banner-tag{ color: #FFFFFF; background: rgba(0,0,0,.18); }
+
+/* Schools banner = section large avec 3 cartes colorées */
+.schools-banner{
+  padding: 36px 36px 28px;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F4F6F8 100%);
+  border-bottom: 1px solid #E5E7EB;
+}
+.schools-banner-head{ margin-bottom: 20px; max-width: 760px; }
+.schools-banner-tag{
+  display: inline-block; font-family: "JetBrains Mono", monospace;
+  color: var(--campus-green-dark, #1F7A4D); font-size: 11px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; margin-bottom: 8px;
+}
+.schools-banner-sub{ font-size: 15px; line-height: 1.55; color: #5B6478; }
+
+.schools-banner-cards{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+@media (max-width: 780px){ .schools-banner-cards{ grid-template-columns: 1fr; } }
+
+.sb-card{
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 14px;
+  overflow: hidden;
+  display: flex; flex-direction: column;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.sb-card:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px -10px rgba(0,0,0,.15);
+}
+.sb-card-bar{ height: 6px; }
+.sb-pigier .sb-card-bar{ background: var(--school-pigier, #C8102E); }
+.sb-pigier:hover{ border-color: var(--school-pigier, #C8102E); }
+.sb-pigier .sb-card-logo{ background: var(--school-pigier, #C8102E); color: #FFFFFF; }
+.sb-mds .sb-card-bar{ background: var(--school-mds, #00B8D9); }
+.sb-mds:hover{ border-color: var(--school-mds, #00B8D9); }
+.sb-mds .sb-card-logo{ background: var(--school-mds, #00B8D9); color: #FFFFFF; }
+.sb-win .sb-card-bar{ background: var(--school-win, #FFB400); }
+.sb-win:hover{ border-color: var(--school-win, #FFB400); }
+.sb-win .sb-card-logo{ background: var(--school-win, #FFB400); color: #1A1F2E; }
+
+.sb-card-body{ padding: 18px 20px 20px; }
+.sb-card-logo{
+  width: 44px; height: 44px; border-radius: 12px;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 900; font-size: 22px; font-family: "Host Grotesk", sans-serif;
+  margin-bottom: 12px;
+}
+.sb-card-name{ font-weight: 800; font-size: 17px; color: #1A1F2E; margin-bottom: 6px; }
+.sb-card-desc{ font-size: 13.5px; line-height: 1.55; color: #5B6478; }
+
+/* Hero éditorial sur fond clair */
+html[data-theme=dark] .hero-editorial{
+  background: linear-gradient(180deg, #FFFFFF 0%, #F4F6F8 100%);
+}
+html[data-theme=dark] .hero-bg{ opacity: .5; }
+html[data-theme=dark] .hero-badge{
+  background: var(--campus-green-dark, #1F7A4D); color: #FFFFFF;
+  border-color: var(--campus-green-dark, #1F7A4D);
+}
+html[data-theme=dark] .hero-editorial h1{ color: #1A1F2E; }
+html[data-theme=dark] .hero-editorial .accent{ color: var(--campus-green-dark, #1F7A4D); }
+html[data-theme=dark] .hero-sub{ color: #5B6478; }
+
+/* Cards de thèmes plus vivantes */
+html[data-theme=dark] .theme-card{
+  background: #FFFFFF; border: 1px solid #E5E7EB;
+  box-shadow: 0 1px 3px rgba(0,0,0,.04);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+html[data-theme=dark] .theme-card:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px -12px rgba(0,0,0,.18);
+  border-color: var(--c, #3AA76D);
+}
+html[data-theme=dark] .theme-card-bar{ background: var(--c, #3AA76D); height: 5px; }
+html[data-theme=dark] .theme-card-icon{
+  background: color-mix(in srgb, var(--c, #3AA76D) 12%, #FFFFFF);
+  color: var(--c, #3AA76D);
+}
+html[data-theme=dark] .theme-card-title{ color: #1A1F2E; }
+html[data-theme=dark] .theme-card-tag{ color: #5B6478; }
+html[data-theme=dark] .theme-card-foot{ color: var(--c, #3AA76D); font-weight: 700; }
+
+/* Section bands — fond blanc, séparation douce */
+html[data-theme=dark] .band{
+  background: #FFFFFF;
+  border-bottom: 1px solid #E5E7EB;
+}
+html[data-theme=dark] .band-tag{ color: var(--campus-green-dark, #1F7A4D); }
+html[data-theme=dark] .band.inverted{
+  background: linear-gradient(135deg, var(--campus-green-dark, #1F7A4D), var(--campus-green, #3AA76D));
+  color: #FFFFFF;
+}
+html[data-theme=dark] .band.inverted .band-tag,
+html[data-theme=dark] .band.inverted h2,
+html[data-theme=dark] .band.inverted p{ color: #FFFFFF; }
+
+/* Newsletter encarts — vert au lieu de violet */
+html[data-theme=dark] .nl-footer-box{
+  background: linear-gradient(135deg, rgba(58,167,109,.10), rgba(58,167,109,.04));
+  border-color: rgba(58,167,109,.30);
+}
+html[data-theme=dark] .nl-fb-tag{ color: var(--campus-green-dark, #1F7A4D); }
+html[data-theme=dark] .nl-fb-tag::before, html[data-theme=dark] .nl-footer-box h3{ color: #1A1F2E; }
+html[data-theme=dark] .nl-footer-box p{ color: #5B6478; }
+html[data-theme=dark] .nl-btn{ background: var(--campus-green, #3AA76D); color: #FFFFFF; }
+html[data-theme=dark] .nl-btn:hover{ background: var(--campus-green-dark, #1F7A4D); }
+html[data-theme=dark] .nl-input{ background: #FFFFFF; border-color: #E5E7EB; color: #1A1F2E; }
+
+/* Vignettes (récap) en mode clair */
+html[data-theme=dark] .vignette{
+  background: #FFFFFF; border: 1px solid #E5E7EB;
+  box-shadow: 0 1px 2px rgba(0,0,0,.04);
+}
+html[data-theme=dark] .vignette:hover{ border-color: var(--campus-green, #3AA76D); }
+html[data-theme=dark] .vignette .vignette-source{ color: #5B6478; }
+html[data-theme=dark] .vignette .vignette-title{ color: #1A1F2E; }
+
+/* Bottom nav mobile clair */
+html[data-theme=dark] .bottom-nav{ background: #FFFFFF; border-top-color: #E5E7EB; }
+html[data-theme=dark] .bn-item{ color: #5B6478; }
+html[data-theme=dark] .bn-item.bn-accent{ color: var(--campus-green-dark, #1F7A4D); }
+
+/* Mod cards (page théme) */
+html[data-theme=dark] .mod-card{
+  background: #FFFFFF; border: 1px solid #E5E7EB; color: #1A1F2E;
+}
+html[data-theme=dark] .mod-card:hover{ border-color: var(--campus-green, #3AA76D); transform: translateY(-2px); }
+html[data-theme=dark] .mod-card-foot{ color: var(--campus-green-dark, #1F7A4D); }

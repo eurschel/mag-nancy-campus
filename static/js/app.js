@@ -118,7 +118,7 @@
         return '<a class="sidebar-item" href="#theme/' + esc(s) + '">' +
           '<span class="dot" style="background:' + esc(t.color) + '"></span>' +
           '<span class="label">' + esc(t.discipline) + "</span>" +
-          '<span class="mod-count">' + countFiches(s) + "</span></a>";
+          '<span class="mod-count">' + countResources(s) + "</span></a>";
       }).join("");
     } else if (hasTools(slug)) {
       if (home) home.style.display = "";

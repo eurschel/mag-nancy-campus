@@ -45,7 +45,7 @@
     fetch("/api/data").then(function (r) { return r.json(); }).then(function (d) {
       STATE.data = d;
       var shop = el("shopCta"); if (shop) shop.href = shopLink("");
-      var foot = el("footMeta"); if (foot) foot.textContent = "Tablonoir · maj " + (d.build_date || "");
+      var foot = el("footMeta"); if (foot) foot.textContent = "Le Mag Campus Nancy · maj " + (d.build_date || "");
       route();
     }).catch(function (e) {
       el("mainContent").innerHTML = '<div class="empty">Erreur de chargement. ' + esc(e.message) + "</div>";
@@ -357,7 +357,7 @@
     var t = th(slug); if (!t) return renderHome();
     var v = t.veille || {}, hero = v.hero || {};
     var html = "";
-    html += '<div class="crumb mono"><a href="#">Tablonoir</a> / ' + esc(t.discipline) + "</div>";
+    html += '<div class="crumb mono"><a href="#">Accueil</a> / ' + esc(t.discipline) + "</div>";
     html += '<section class="hero theme-hero" style="--c:' + esc(t.color || "#00BFFF") + '">' +
       '<div class="theme-hero-bg"><div class="theme-hero-icon">' + disciplineIcon(slug) + '</div></div>' +
       '<div class="hero-badge">' + esc(t.discipline.toUpperCase()) + " · VEILLE</div>" +
@@ -433,7 +433,7 @@
     var to = (t.tools || {})[key];
     if (!to) return renderTheme(slug);
     var html = "";
-    html += '<div class="crumb mono"><a href="#">Tablonoir</a> / <a href="#theme/' + esc(slug) + '">' + esc(t.discipline) + "</a> / " + esc(to.name) + "</div>";
+    html += '<div class="crumb mono"><a href="#">Accueil</a> / <a href="#theme/' + esc(slug) + '">' + esc(t.discipline) + "</a> / " + esc(to.name) + "</div>";
     /* Reading time : estimation à partir du contenu rédactionnel (~200 mots/min) */
     var wordCount = 0;
     if (to.what) wordCount += to.what.split(/\s+/).length;
@@ -535,7 +535,7 @@
     });
 
     var html = "";
-    html += '<div class="crumb mono"><a href="#">Tablonoir</a> / <a href="#theme/' + esc(slug) + '">' + esc(t.discipline) + "</a> / Module " + esc(m.num || num) + "</div>";
+    html += '<div class="crumb mono"><a href="#">Accueil</a> / <a href="#theme/' + esc(slug) + '">' + esc(t.discipline) + "</a> / Module " + esc(m.num || num) + "</div>";
 
     /* Hero module */
     html += '<section class="mod-hero"' + (img ? ' style="background-image:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.55)),url(' + esc(img) + ')"' : "") + ">" +
@@ -694,7 +694,7 @@
         '<h2 class="nl-h2">Prêt à recevoir Le Récap ?</h2>' +
         newsletterFormHTML("card") +
       '</section>';
-    document.title = "Newsletter — Le Mag Tablonoir";
+    document.title = "Newsletter — Le Mag Campus Nancy";
     window.scrollTo(0, 0);
   }
 
@@ -706,7 +706,7 @@
         '<h1>Politique de confidentialité</h1>' +
         '<p class="legal-meta">Dernière mise à jour : juin 2026</p>' +
         '<section><h2>1. Qui est responsable de tes données ?</h2>' +
-          '<p>Le Mag Tablonoir est édité par Emmanuel Urschel (auto-entreprise « Tablonoir »). ' +
+          '<p>Le Mag Campus Nancy est édité par le campus Eduservices Nancy (Pigier, MyDigitalSchool, Win Sport School). ' +
           'Pour toute question relative à tes données personnelles : <a href="mailto:bonjour@news.tablonoir.fr">bonjour@news.tablonoir.fr</a>.</p></section>' +
         '<section><h2>2. Quelles données on collecte</h2>' +
           '<ul><li><strong>Inscription newsletter</strong> : ton adresse email, la date d’inscription, ton statut d’abonnement.</li>' +
@@ -729,7 +729,7 @@
           '<p>Aucun. Le site ne dépose aucun cookie tiers. Ton thème (clair/sombre) et tes annotations sont stockés dans <em>localStorage</em> — ce n’est pas un cookie, ça reste chez toi.</p></section>' +
         '<p class="legal-meta">© ' + year + ' Le Mag Tablonoir</p>' +
       '</article>';
-    document.title = "Confidentialité — Le Mag Tablonoir";
+    document.title = "Confidentialité — Le Mag Campus Nancy";
     window.scrollTo(0, 0);
   }
 

@@ -565,23 +565,6 @@
         '<div class="video-cap mono">' + esc(refVideo.title || "") + " · " + esc(refVideo.channel || "") + "</div></section>";
     }
 
-    /* Grille des fiches du module : chaque fiche = carte riche avec CTA shop discret */
-    
-
-    html += '<div class="back-to-module"><a href="#theme/' + esc(slug) + "/module/" + esc(hit.mod) + '">← Voir toutes les fiches du Module ' + esc(m.num || hit.mod) + '</a></div>';
-
-    var groups = [["Articles & blogs", v.articles], ["Vidéos & conférences", v.videos], ["Études & livres blancs", v.whitepapers], ["Livres & MOOCs", v.books]];
-    var any = groups.some(function (g) { return g[1] && g[1].length; });
-    if (any) {
-      html += '<section class="band"><div class="band-tag">// POUR ALLER PLUS LOIN</div><h2>Veille &amp; ressources</h2>';
-      groups.forEach(function (g) { if (g[1] && g[1].length) html += '<h3 class="res-h">' + esc(g[0]) + "</h3>" + vignetteGrid(g[1]); });
-      html += "</section>";
-    }
-    if (f.related_video && f.related_video.id) {
-      html += '<section class="band inverted"><div class="band-tag">// EN VIDÉO</div><div class="video-wrap"><iframe src="https://www.youtube-nocookie.com/embed/' +
-        esc(f.related_video.id) + '" title="' + esc(f.related_video.title || "") + '" frameborder="0" allowfullscreen loading="lazy"></iframe></div>' +
-        '<div class="video-cap mono">' + esc(f.related_video.title || "") + " · " + esc(f.related_video.channel || "") + "</div></section>";
-    }
     setMain(html);
     window.scrollTo(0, 0);
   }

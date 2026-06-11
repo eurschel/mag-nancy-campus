@@ -152,10 +152,15 @@
     return "https://wsrv.nl/?url=" + encodeURIComponent(u) + "&w=640&output=jpg&we&n=-1";
   }
 
-  /* Thumbnail YouTube réelle déduite de l'URL de la ressource */
+  /* Thumbnail YouTube réelle déduite de l'URL de la ressource.
+     mqdefault = 320x180, 16:9 natif (hqdefault est en 4:3 avec bandes noires). */
   function youtubeThumb(url) {
     var m = String(url || "").match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{6,})/i);
-    return m ? "https://i.ytimg.com/vi/" + m[1] + "/hqdefault.jpg" : "";
+    return m ? "https://i.ytimg.com/vi/" + m[1] + "/mqdefault.jpg" : "";
+  }
+  /* Variante redimensionnée d'une URL Unsplash (les cartes n'ont pas besoin du 1600px) */
+  function imgW(url, w) {
+    return String(url || "").replace(/([?&])w=\d+/, "$1w=" + w);
   }
   /* Favicon du domaine source — petit visuel quand la ressource n'a pas d'image */
   function faviconUrl(url) {
@@ -203,7 +208,18 @@
       (src ? '<div class="vignette-src mono">' + favImg + esc(src) + " ↗</div>" : "") + "</div></a>";
   }
   function vignetteGrid(items) {
-    return '<div class="vignette-grid">' + (items || []).map(vignette).join("") + "</div>";
+    /* Une même og:image générique (bannière du site) ne s'affiche qu'une fois par grille ;
+       les doublons retombent sur le favicon — évite le mur de bannières identiques. */
+    var seen = {};
+    return '<div class="vignette-grid">' + (items || []).map(function (it) {
+      if (it && it.image) {
+        if (seen[it.image]) {
+          var copy = {}; for (var k in it) { if (k !== "image") copy[k] = it[k]; }
+          it = copy;
+        } else { seen[it.image] = 1; }
+      }
+      return vignette(it);
+    }).join("") + "</div>";
   }
 
   /* ---------- Le Récap ---------- */
@@ -328,8 +344,9 @@
         var t = ts[s];
         return '<a class="theme-card" href="#theme/' + esc(s) + '" style="--c:' + esc(t.color) + '">' +
           '<div class="theme-card-bar"></div>' +
+          (t.image ? '<div class="theme-card-photo"><img src="' + esc(imgW(t.image, 640)) + '" alt="" loading="lazy" onerror="this.parentNode.style.display=\'none\'"></div>' : '') +
           '<div class="theme-card-body">' +
-          '<div class="theme-card-icon">' + disciplineIcon(s) + "</div>" +
+          (t.image ? "" : '<div class="theme-card-icon">' + disciplineIcon(s) + "</div>") +
           '<div class="theme-card-title">' + esc(t.discipline) + "</div>" +
           '<div class="theme-card-tag">' + esc(t.tagline || "") + "</div>" +
           '<div class="theme-card-foot mono">' + (t.tools && Object.keys(t.tools).length ? (Object.keys(t.tools).length + " outils · mode tuto →") : (modKeys(s).length + " modules · " + countResources(s) + " ressources →")) + "</div>" +
@@ -475,7 +492,7 @@
     if (to.resources && to.resources.length) {
       html += '<section class="band"><div class="band-tag">// MEILLEURS TUTOS & SOURCES</div><h2>Pour aller plus loin</h2>' +
         vignetteGrid(to.resources.map(function (r) {
-          return { type: r.type || "Lien", title: r.title, source: r.type || "", url: r.url };
+          return { type: r.type || "Lien", title: r.title, source: r.type || "", url: r.url, image: r.image };
         })) + "</section>";
     }
 
@@ -500,7 +517,8 @@
   function renderModule(slug, num) {
     var t = th(slug); if (!t) return renderHome();
     var m = modulesOf(slug)[num]; if (!m) return renderTheme(slug);
-    var img = (m.media && m.media.images && m.media.images[0] && m.media.images[0].url) || m.image || "";
+    /* Photo du module, sinon celle du thème (cohérence visuelle des hero) */
+    var img = (m.media && m.media.images && m.media.images[0] && m.media.images[0].url) || m.image || t.image || "";
     var fiches = m.fiches || [];
 
     /* Ressources : on privilégie la curation au niveau module (m.veille), sinon
@@ -534,7 +552,7 @@
     html += '<div class="crumb mono"><a href="#">Accueil</a> / <a href="#theme/' + esc(slug) + '">' + esc(t.discipline) + "</a> / Module " + esc(m.num || num) + "</div>";
 
     /* Hero module */
-    html += '<section class="mod-hero"' + (img ? ' style="background-image:linear-gradient(90deg,rgba(0,0,0,.92),rgba(0,0,0,.55)),url(' + esc(img) + ')"' : "") + ">" +
+    html += '<section class="mod-hero"' + (img ? ' style="background-image:linear-gradient(90deg,rgba(2,24,45,.95),rgba(2,24,45,.6)),url(' + esc(img) + ')"' : "") + ">" +
       '<div class="mod-hero-tag mono">' + esc(m.tag || ("MODULE " + (m.num || num))) + "</div><h1>" + esc(m.title) + "</h1>" +
       (m.punchline ? "<p>" + esc(m.punchline) + "</p>" : "") + "</section>";
 

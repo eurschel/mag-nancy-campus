@@ -22,6 +22,7 @@
       "color_secondary": "#0F172A",
       "for_who": "Tronc commun à tous les BTS — épreuve de culture générale et expression",
       "icon": "globe",
+      "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -551,6 +552,7 @@
       "color_secondary": "#0F172A",
       "for_who": "Tronc commun BTS — épreuve d'anglais, TOEIC en bachelor",
       "icon": "globe-en",
+      "image": "https://images.unsplash.com/photo-1543109740-4bdb38fda756?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -956,6 +958,7 @@
       "color_secondary": "#0F172A",
       "for_who": "Tronc commun BTS — Pigier (MCO, NDRC, GPME, CG, Com, CI…)",
       "icon": "scale",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -1521,6 +1524,7 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS MCO, NDRC, Com · Bachelor Commerce, Communication · MBA",
       "icon": "target",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -1930,6 +1934,7 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS Communication · Bachelor & MBA Com · MyDigitalSchool",
       "icon": "megaphone",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -2226,6 +2231,7 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS Com, MDS, Bachelor Communication & Webmarketing",
       "icon": "hashtag",
+      "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -2564,6 +2570,7 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS NDRC, MCO · Bachelor Commerce · MBA",
       "icon": "users",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -2863,6 +2870,7 @@
       "color_secondary": "#0F172A",
       "for_who": "Tous BTS pro, Bachelor & MBA Management",
       "icon": "users-cog",
+      "image": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -3136,6 +3144,7 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS CG, GPME · DCG, DSCG · Bachelor Gestion-Finance, Paie",
       "icon": "calculator",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -3446,6 +3455,7 @@
       "color_secondary": "#0F172A",
       "for_who": "Bachelor, MBA, MyDigitalSchool, Win Sport",
       "icon": "kanban",
+      "image": "https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -3694,6 +3704,7 @@
       "color_secondary": "#0F172A",
       "for_who": "BTS GPME · Bachelor RH, Recrutement · MBA RH",
       "icon": "user-plus",
+      "image": "https://images.unsplash.com/photo-1565728744382-61accd4aa148?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,
@@ -4017,6 +4028,7 @@
       "color_secondary": "#0F172A",
       "for_who": "Transversal · indispensable pour MDS, recommandé pour tous",
       "icon": "spark",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1600&q=80",
       "modules": {
         "1": {
           "num": 1,

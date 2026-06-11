@@ -6,13 +6,6 @@
   --campus-blue-light: #007ab5;  /* bleu vif Pigier secondaire */
   --campus-gold: #fac422;        /* jaune doré Pigier — accent signature */
   --campus-gold-dark: #d9a814;
-  /* Couleurs officielles des 3 écoles partenaires */
-  --school-pigier: #003e7d;      /* bleu marine Pigier */
-  --school-pigier-accent: #fac422; /* jaune doré Pigier */
-  --school-mds: #e71d73;         /* magenta My Digital School (signature) */
-  --school-mds-accent: #662483;  /* violet MDS */
-  --school-win: #3badef;         /* bleu vif Win Sport School */
-  --school-win-accent: #f59e32;  /* orange Win */
 }
 
 /* ============================================================
@@ -951,21 +944,6 @@ html[data-theme=light] .ann-pink{   background:rgba(244,114,182,.6); }
   background-image:none !important; }
 .home-banner-empty .home-banner-tag{ position:static; background:rgba(0,0,0,.22); }
 
-/* Logos partenaires écoles en bandeau */
-.schools-strip{ display:flex; gap:18px; align-items:center; justify-content:center;
-  padding:18px 24px; border-top:1px solid var(--line);
-  background:rgba(255,255,255,.02); flex-wrap:wrap;
-  font-size:11px; color:var(--muted); letter-spacing:.05em; text-transform:uppercase;
-  font-family:"JetBrains Mono", monospace; }
-.schools-strip-label{ opacity:.7; }
-.schools-strip-item{ display:inline-flex; align-items:center; gap:6px;
-  padding:5px 12px; border-radius:999px; border:1px solid var(--line);
-  background:rgba(255,255,255,.04); }
-.schools-strip-item .dot{ width:7px; height:7px; border-radius:50%; }
-.schools-strip-item .dot-pigier{ background:var(--school-pigier); }
-.schools-strip-item .dot-mds{ background:var(--school-mds); }
-.schools-strip-item .dot-win{ background:var(--school-win); }
-
 /* ============ LE MAG NANCY — REFONTE PLUS LUMINEUSE ============ */
 
 /* ========= Schools banner — campus Eduservices Nancy (dark unified) ========= */
@@ -983,41 +961,15 @@ html[data-theme=light] .ann-pink{   background:rgba(244,114,182,.6); }
 .schools-banner-head h2{ color: #FFFFFF; font-size: 26px; letter-spacing:-.01em; margin-bottom: 8px; }
 .schools-banner-sub{ font-size: 15px; line-height: 1.55; color: #B7C7DA; }
 
-.schools-banner-cards{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-@media (max-width: 780px){ .schools-banner-cards{ grid-template-columns: 1fr; } }
-
-.sb-card{
-  background: rgba(255,255,255,.04);
-  border: 1px solid rgba(255,255,255,.10);
-  border-radius: 14px;
-  overflow: hidden;
-  display: flex; flex-direction: column;
-  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease, background .15s ease;
-}
-.sb-card:hover{
-  transform: translateY(-3px);
-  background: rgba(255,255,255,.07);
-  border-color: rgba(250,196,34,.5);
-  box-shadow: 0 12px 30px -10px rgba(0,0,0,.45);
-}
-.sb-card-bar{ height: 4px; background: var(--campus-gold, #fac422); }
-/* Toutes les écoles dans la charte du mag — Pigier bleu marine + accent jaune doré */
-.sb-pigier .sb-card-bar,
-.sb-mds .sb-card-bar,
-.sb-win .sb-card-bar{ background: var(--campus-gold, #fac422); }
-.sb-pigier .sb-card-logo,
-.sb-mds .sb-card-logo,
-.sb-win .sb-card-logo{ background: var(--campus-blue-light, #007ab5); color: #FFFFFF; }
-
-.sb-card-body{ padding: 18px 20px 20px; }
-.sb-card-logo{
-  width: 44px; height: 44px; border-radius: 12px;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 900; font-size: 22px; font-family: "Host Grotesk", sans-serif;
-  margin-bottom: 12px;
-}
-.sb-card-name{ font-weight: 800; font-size: 17px; color: #FFFFFF; margin-bottom: 6px; }
-.sb-card-desc{ font-size: 13.5px; line-height: 1.55; color: #B7C7DA; }
+/* Chips campus unifiées (pas de segmentation par école) */
+.campus-chips{ display:flex; flex-wrap:wrap; gap:10px; }
+.campus-chip{ display:inline-flex; align-items:center; gap:6px;
+  padding:7px 14px; border-radius:999px;
+  background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.12);
+  color:#d4e0ee; font-family:"JetBrains Mono", monospace; font-size:11.5px;
+  letter-spacing:.04em; }
+.campus-chip::before{ content:""; width:7px; height:7px; border-radius:50%;
+  background:var(--campus-gold,#fac422); }
 
 /* ========= Dark accent override : --cyan devient bleu Pigier ========= */
 :root{

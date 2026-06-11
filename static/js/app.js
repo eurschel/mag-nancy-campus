@@ -152,6 +152,17 @@
     return "https://wsrv.nl/?url=" + encodeURIComponent(u) + "&w=640&output=jpg&we&n=-1";
   }
 
+  /* Thumbnail YouTube réelle déduite de l'URL de la ressource */
+  function youtubeThumb(url) {
+    var m = String(url || "").match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{6,})/i);
+    return m ? "https://i.ytimg.com/vi/" + m[1] + "/hqdefault.jpg" : "";
+  }
+  /* Favicon du domaine source — petit visuel quand la ressource n'a pas d'image */
+  function faviconUrl(url) {
+    var m = String(url || "").match(/^https?:\/\/([^\/?#]+)/i);
+    return m ? "https://www.google.com/s2/favicons?sz=64&domain=" + encodeURIComponent(m[1]) : "";
+  }
+
   /* Détermine la catégorie de la vignette à partir du type/source/url */
   function vignetteKind(item) {
     var t = (item.type || "").toLowerCase();
@@ -177,16 +188,19 @@
     var title = item.title || item.label || "";
     var src = item.source || "";
     var kind = vignetteKind(item);
-    var imgSrc = item.image ? proxyImage(item.image) : "";
+    var imgSrc = item.image ? proxyImage(item.image) : youtubeThumb(item.url);
+    var hasThumb = !!imgSrc;
     var thumbOverlay = kind === "video" ? '<div class="vignette-play">' + kindIcon("video") + '</div>' : "";
     var img = imgSrc ? '<div class="vignette-thumb"><img src="' + esc(imgSrc) + '" alt="" loading="lazy" onerror="this.parentNode.style.display=\'none\'; this.closest(\'.vignette\').classList.remove(\'has-thumb\');">' + thumbOverlay + '</div>' : "";
     var noThumbIcon = !imgSrc ? '<div class="vignette-icon">' + kindIcon(kind) + '</div>' : "";
-    return '<a class="vignette k-' + kind + (item.image ? ' has-thumb' : '') + ' t-' + esc(type.toLowerCase()) + '" href="' + esc(item.url || "#") + '" target="_blank" rel="noopener">' +
+    var fav = !hasThumb ? faviconUrl(item.url) : "";
+    var favImg = fav ? '<img class="vignette-fav" src="' + esc(fav) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">' : "";
+    return '<a class="vignette k-' + kind + (hasThumb ? ' has-thumb' : '') + ' t-' + esc(type.toLowerCase()) + '" href="' + esc(item.url || "#") + '" target="_blank" rel="noopener">' +
       img +
       '<div class="vignette-top"><span class="vignette-type">' + esc(type) + "</span></div>" +
       noThumbIcon +
       '<div class="vignette-body"><div class="vignette-title">' + esc(title) + "</div>" +
-      (src ? '<div class="vignette-src mono">' + esc(src) + " ↗</div>" : "") + "</div></a>";
+      (src ? '<div class="vignette-src mono">' + favImg + esc(src) + " ↗</div>" : "") + "</div></a>";
   }
   function vignetteGrid(items) {
     return '<div class="vignette-grid">' + (items || []).map(vignette).join("") + "</div>";
@@ -264,7 +278,7 @@
     });
     iaNews = iaNews.slice(0, 5);
     var html = "";
-    html += '<div class="home-banner home-banner-empty">'
+    html += '<div class="home-banner">'
       + '<div class="home-banner-tag"><span class="home-banner-tag-dot"></span>Le Mag Campus Nancy — Édition ' + (window.TABLONOIR && window.TABLONOIR.buildYear || new Date().getFullYear()) + '</div>'
       + '</div>';
     html += '<section class="schools-banner">'
@@ -358,7 +372,9 @@
     var v = t.veille || {}, hero = v.hero || {};
     var html = "";
     html += '<div class="crumb mono"><a href="#">Accueil</a> / ' + esc(t.discipline) + "</div>";
-    html += '<section class="hero theme-hero" style="--c:' + esc(t.color || "#00BFFF") + '">' +
+    /* Bandeau photo par thématique : photo + voile bleu marine (lisibilité texte) */
+    var themePhoto = t.image ? 'background-image:linear-gradient(90deg,rgba(2,24,45,.93),rgba(2,24,45,.55)),url(' + esc(t.image) + ');' : '';
+    html += '<section class="hero theme-hero' + (t.image ? ' has-photo' : '') + '" style="--c:' + esc(t.color || "#00BFFF") + ';' + themePhoto + '">' +
       '<div class="theme-hero-bg"><div class="theme-hero-icon">' + disciplineIcon(slug) + '</div></div>' +
       '<div class="hero-badge">' + esc(t.discipline.toUpperCase()) + " · VEILLE</div>" +
       "<h1>" + esc(hero.title_main || t.tagline) + ' <span class="accent">' + esc(hero.title_accent || "") + "</span></h1>" +

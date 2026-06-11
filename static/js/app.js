@@ -281,36 +281,16 @@
     html += '<div class="home-banner">'
       + '<div class="home-banner-tag"><span class="home-banner-tag-dot"></span>Le Mag Campus Nancy — Édition ' + (window.TABLONOIR && window.TABLONOIR.buildYear || new Date().getFullYear()) + '</div>'
       + '</div>';
+    /* Présentation campus unifiée — pas de segmentation par école */
     html += '<section class="schools-banner">'
       + '<div class="schools-banner-head">'
       + '<div class="schools-banner-tag">// Campus Eduservices Nancy</div>'
-      + '<div class="schools-banner-sub">Pigier · MyDigitalSchool · Win Sport School — 1 campus, 700+ étudiants, Rives-de-Meurthe.</div>'
+      + '<div class="schools-banner-sub">Un campus, 700+ étudiants, au cœur des Rives-de-Meurthe — commerce, communication, digital, RH, gestion et sport business, du BTS au MBA.</div>'
       + '</div>'
-      + '<div class="schools-banner-cards">'
-      +   '<div class="sb-card sb-pigier">'
-      +     '<div class="sb-card-bar"></div>'
-      +     '<div class="sb-card-body">'
-      +       '<div class="sb-card-logo">P</div>'
-      +       '<div class="sb-card-name">Pigier</div>'
-      +       '<div class="sb-card-desc">Business school — BTS, Bachelor, MBA (commerce, com, RH, gestion, immobilier, paie…)</div>'
-      +     '</div>'
-      +   '</div>'
-      +   '<div class="sb-card sb-mds">'
-      +     '<div class="sb-card-bar"></div>'
-      +     '<div class="sb-card-body">'
-      +       '<div class="sb-card-logo">M</div>'
-      +       '<div class="sb-card-name">MyDigitalSchool</div>'
-      +       '<div class="sb-card-desc">Digital, web, design, audiovisuel — Bachelor & MBA 100% numérique.</div>'
-      +     '</div>'
-      +   '</div>'
-      +   '<div class="sb-card sb-win">'
-      +     '<div class="sb-card-bar"></div>'
-      +     '<div class="sb-card-body">'
-      +       '<div class="sb-card-logo">W</div>'
-      +       '<div class="sb-card-name">Win Sport School</div>'
-      +       '<div class="sb-card-desc">Sport business — Bachelor & MBA management du sport, event, marketing sportif.</div>'
-      +     '</div>'
-      +   '</div>'
+      + '<div class="campus-chips">'
+      +   '<span class="campus-chip">700+ étudiants</span>'
+      +   '<span class="campus-chip">Rives-de-Meurthe · Nancy</span>'
+      +   '<span class="campus-chip">BTS · Bachelor · MBA</span>'
       + '</div>'
       + '</section>';
     html += '<section class="hero home-hero hero-visual hero-editorial">' +
@@ -722,7 +702,7 @@
         '<h1>Politique de confidentialité</h1>' +
         '<p class="legal-meta">Dernière mise à jour : juin 2026</p>' +
         '<section><h2>1. Qui est responsable de tes données ?</h2>' +
-          '<p>Le Mag Campus Nancy est édité par le campus Eduservices Nancy (Pigier, MyDigitalSchool, Win Sport School). ' +
+          '<p>Le Mag Campus Nancy est édité par le campus Eduservices Nancy. ' +
           'Pour toute question relative à tes données personnelles : <a href="mailto:bonjour@news.tablonoir.fr">bonjour@news.tablonoir.fr</a>.</p></section>' +
         '<section><h2>2. Quelles données on collecte</h2>' +
           '<ul><li><strong>Inscription newsletter</strong> : ton adresse email, la date d’inscription, ton statut d’abonnement.</li>' +

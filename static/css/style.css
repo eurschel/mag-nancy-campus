@@ -1015,6 +1015,13 @@ html[data-theme=light]{ --bg:#fff; --bg2:#f6f6f9; --panel:#fff; --line:#e2e2ea;
 .vignette-fav{ width:16px; height:16px; border-radius:4px;
   vertical-align:-3px; margin-right:6px; background:#fff; padding:1px; }
 
+/* Photo sur les cartes thèmes de la home */
+.theme-card-photo{ aspect-ratio:16/7; overflow:hidden;
+  background:rgba(255,255,255,.03); border-bottom:1px solid var(--line); }
+.theme-card-photo img{ width:100%; height:100%; object-fit:cover; display:block;
+  filter:saturate(.92); transition:transform .35s ease; }
+.theme-card:hover .theme-card-photo img{ transform:scale(1.045); }
+
 /* Compteur modules/ressources lisible sur bandeau photo */
 .theme-hero.has-photo .hero-meta{ color:#b9c9da; text-shadow:0 1px 8px rgba(2,24,45,.7); }
 

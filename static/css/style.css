@@ -1015,6 +1015,25 @@ html[data-theme=light]{ --bg:#fff; --bg2:#f6f6f9; --panel:#fff; --line:#e2e2ea;
 .vignette-fav{ width:16px; height:16px; border-radius:4px;
   vertical-align:-3px; margin-right:6px; background:#fff; padding:1px; }
 
+/* Grille quinconce (masonry) — grosses vignettes façon feed Discover tablette */
+.vignette-grid.vignette-masonry{ display:block; columns:300px 3; column-gap:18px; }
+.vignette-grid.vignette-masonry .vignette{ display:inline-flex; width:100%;
+  margin:0 0 18px; break-inside:avoid; -webkit-column-break-inside:avoid;
+  vertical-align:top; min-height:0; }
+.vignette-grid.vignette-masonry .vignette-title{ font-size:16.5px; line-height:1.4; font-weight:700; }
+.vignette-grid.vignette-masonry .vignette.has-thumb .vignette-body{ padding:12px 16px 16px; }
+.vignette-grid.vignette-masonry .vignette:not(.has-thumb) .vignette-body{ padding:18px 64px 18px 18px; }
+.vignette-grid.vignette-masonry .vignette-src{ font-size:11px; }
+
+/* Modules en chips compactes sur la page thème */
+.module-strip-band{ padding-top:30px; padding-bottom:10px; }
+.module-strip{ display:flex; flex-wrap:wrap; gap:10px; }
+.module-chip{ display:inline-flex; align-items:center; gap:9px; padding:9px 15px;
+  border:1px solid var(--line); border-radius:999px; background:var(--panel);
+  color:var(--txt); font-size:13px; font-weight:600; transition:.15s; }
+.module-chip:hover{ border-color:var(--campus-gold,#fac422); transform:translateY(-1px); }
+.module-chip-num{ color:var(--campus-gold,#fac422); font-size:11px; }
+
 /* Photo sur les cartes thèmes de la home */
 .theme-card-photo{ aspect-ratio:16/7; overflow:hidden;
   background:rgba(255,255,255,.03); border-bottom:1px solid var(--line); }

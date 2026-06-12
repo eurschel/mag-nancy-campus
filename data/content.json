@@ -315,14 +315,7 @@
                 "url": "https://www.youtube.com/watch?v=ymZMsmGCu_Q"
               }
             ],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "Ministère des Armées",
-                "title": "Guide contre la désinformation (juillet 2024, PDF)",
-                "url": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Guide%20contre%20la%20d%C3%A9sinformation%20-%20Minist%C3%A9re%20des%20Arm%C3%A9es%20-%20Juillet%202024.pdf"
-              }
-            ]
+            "whitepapers": []
           }
         },
         "4": {
@@ -608,12 +601,6 @@
               },
               {
                 "type": "articles",
-                "source": "Anglais Facile",
-                "title": "Exercices de compréhension orale",
-                "url": "https://www.anglaisfacile.com/cours-anglais/comprehension-anglais.php"
-              },
-              {
-                "type": "articles",
                 "source": "ISpeakSpokeSpoken",
                 "title": "Comprendre l'anglais oral",
                 "url": "https://ispeakspokespoken.com/comprehension-orale-anglais/",
@@ -652,20 +639,7 @@
                 "url": "https://learnenglish.britishcouncil.org/general-english/podcasts"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Learn English with Lucy",
-                "title": "British vs American English Pronunciation",
-                "url": "https://www.youtube.com/watch?v=4PRWi5wK_qE"
-              },
-              {
-                "type": "videos",
-                "source": "YouTube / BBC Learning English",
-                "title": "6 Minute English - News headlines",
-                "url": "https://www.youtube.com/watch?v=mfb3HJa5YO0"
-              }
-            ],
+            "videos": [],
             "whitepapers": [
               {
                 "type": "whitepapers",
@@ -704,24 +678,6 @@
               },
               {
                 "type": "articles",
-                "source": "ISpeakSpokeSpoken",
-                "title": "Vocabulaire business anglais",
-                "url": "https://ispeakspokespoken.com/vocabulaire-business-anglais/"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Vocabulaire anglais des affaires",
-                "url": "https://wallstreetenglish.fr/blog/vocabulaire-anglais/vocabulaire-anglais-des-affaires"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Anglais professionnel - expressions courantes",
-                "url": "https://wallstreetenglish.fr/blog/conseils-pour-apprendre-l-anglais/anglais-professionnel"
-              },
-              {
-                "type": "articles",
                 "source": "British Council",
                 "title": "You're Hired - business English series",
                 "url": "https://learnenglish.britishcouncil.org/business-english/youre-hired"
@@ -739,14 +695,7 @@
                 "url": "https://www.bbc.com/news/business"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Learn English with Lucy",
-                "title": "Business English Vocabulary",
-                "url": "https://www.youtube.com/watch?v=8b7sCRZUVf8"
-              }
-            ],
+            "videos": [],
             "whitepapers": [
               {
                 "type": "whitepapers",
@@ -766,12 +715,6 @@
             "articles": [
               {
                 "type": "articles",
-                "source": "ETS Global",
-                "title": "TOEIC - Préparation",
-                "url": "https://www.etsglobal.org/fr/fr/toeic-tests/preparation"
-              },
-              {
-                "type": "articles",
                 "source": "ISpeakSpokeSpoken",
                 "title": "Réussir le TOEIC - méthode complète",
                 "url": "https://ispeakspokespoken.com/toeic/",
@@ -779,33 +722,9 @@
               },
               {
                 "type": "articles",
-                "source": "Wall Street English",
-                "title": "Comment se préparer au TOEIC",
-                "url": "https://wallstreetenglish.fr/blog/passer-les-examens-d-anglais/comment-bien-preparer-le-toeic"
-              },
-              {
-                "type": "articles",
                 "source": "British Council",
                 "title": "IELTS preparation",
                 "url": "https://learnenglish.britishcouncil.org/exams/ielts-preparation"
-              },
-              {
-                "type": "articles",
-                "source": "ETS Global",
-                "title": "TOEIC Listening and Reading - exemples",
-                "url": "https://www.etsglobal.org/fr/fr/toeic-tests/toeic-listening-and-reading-test"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Score TOEIC - comment l'interpréter",
-                "url": "https://wallstreetenglish.fr/blog/passer-les-examens-d-anglais/score-toeic"
-              },
-              {
-                "type": "articles",
-                "source": "Anglais Facile",
-                "title": "Tests d'anglais en ligne",
-                "url": "https://www.anglaisfacile.com/cours-anglais/tests-anglais.php"
               }
             ],
             "videos": [],
@@ -853,43 +772,12 @@
               {
                 "type": "articles",
                 "source": "ISpeakSpokeSpoken",
-                "title": "Email professionnel en anglais",
-                "url": "https://ispeakspokespoken.com/email-anglais/"
-              },
-              {
-                "type": "articles",
-                "source": "ISpeakSpokeSpoken",
                 "title": "CV en anglais",
                 "url": "https://ispeakspokespoken.com/cv-anglais/",
                 "image": "https://www.ispeakspokespoken.com/wp-content/uploads/rediger-cv-anglais.png"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Écrire un email professionnel en anglais",
-                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/email-professionnel-en-anglais"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Rédiger un CV en anglais",
-                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/cv-en-anglais"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Lettre de motivation en anglais",
-                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/lettre-de-motivation-en-anglais"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Learn English with Lucy",
-                "title": "How to Write Professional Emails in English",
-                "url": "https://www.youtube.com/watch?v=g6jXyfwOWKM"
-              }
-            ],
+            "videos": [],
             "whitepapers": [
               {
                 "type": "whitepapers",
@@ -931,30 +819,6 @@
                 "title": "Pronunciation",
                 "url": "https://www.bbc.co.uk/learningenglish/english/features/pronunciation",
                 "image": "https://ichef.bbci.co.uk/images/ic/1200xn/p04pwx2q.jpg"
-              },
-              {
-                "type": "articles",
-                "source": "ISpeakSpokeSpoken",
-                "title": "Entretien d'embauche en anglais",
-                "url": "https://ispeakspokespoken.com/entretien-embauche-anglais/"
-              },
-              {
-                "type": "articles",
-                "source": "ISpeakSpokeSpoken",
-                "title": "Se présenter en anglais",
-                "url": "https://ispeakspokespoken.com/se-presenter-en-anglais/"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Réussir un entretien d'embauche en anglais",
-                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/entretien-en-anglais"
-              },
-              {
-                "type": "articles",
-                "source": "Wall Street English",
-                "title": "Faire une présentation en anglais",
-                "url": "https://wallstreetenglish.fr/blog/anglais-au-travail/faire-une-presentation-en-anglais"
               },
               {
                 "type": "articles",
@@ -1027,18 +891,6 @@
               },
               {
                 "type": "articles",
-                "source": "Banque de France",
-                "title": "Projections macroéconomiques pour la France",
-                "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/projections-macroeconomiques-france"
-              },
-              {
-                "type": "articles",
-                "source": "OFCE",
-                "title": "Perspectives économiques 2024-2025",
-                "url": "https://www.ofce.sciences-po.fr/publications/revues.php"
-              },
-              {
-                "type": "articles",
                 "source": "Vie publique",
                 "title": "Différence entre microéconomie et macroéconomie",
                 "url": "https://www.vie-publique.fr/fiches/270238-quelle-est-la-difference-entre-microeconomie-et-macroeconomie"
@@ -1062,34 +914,8 @@
                 "url": "https://www.insee.fr/fr/statistiques/7651654"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Dessine-moi l'éco",
-                "title": "Qu'est-ce que la croissance économique ?",
-                "url": "https://www.youtube.com/watch?v=Pl4N7Iagjlk"
-              },
-              {
-                "type": "videos",
-                "source": "YouTube / Xerfi Canal",
-                "title": "La mondialisation en mutation",
-                "url": "https://www.youtube.com/watch?v=6_dDQzVTaJU"
-              },
-              {
-                "type": "videos",
-                "source": "YouTube / Heu?reka",
-                "title": "Le PIB, c'est quoi exactement ?",
-                "url": "https://www.youtube.com/watch?v=eOyrCedKZyA"
-              }
-            ],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "France Stratégie",
-                "title": "Les politiques industrielles en France",
-                "url": "https://www.strategie.gouv.fr/sites/strategie.gouv.fr/files/atoms/files/fs-rapport-politiques-industrielles-29-novembre-2020_0.pdf"
-              }
-            ]
+            "videos": [],
+            "whitepapers": []
           }
         },
         "2": {
@@ -1116,12 +942,6 @@
                 "source": "Vie publique",
                 "title": "Qu'est-ce que la politique monétaire ?",
                 "url": "https://www.vie-publique.fr/fiches/270265-quest-ce-que-la-politique-monetaire"
-              },
-              {
-                "type": "articles",
-                "source": "Banque de France",
-                "title": "Le rôle de la BCE et l'Eurosystème",
-                "url": "https://www.banque-france.fr/fr/la-banque-de-france/missions/leurosysteme-et-la-banque-centrale-europeenne-bce"
               },
               {
                 "type": "articles",
@@ -1164,31 +984,12 @@
             "videos": [
               {
                 "type": "videos",
-                "source": "YouTube / Dessine-moi l'éco",
-                "title": "Comment fonctionne la BCE ?",
-                "url": "https://www.youtube.com/watch?v=Hk_VOY5OZyc"
-              },
-              {
-                "type": "videos",
                 "source": "YouTube / Toute l'Europe",
                 "title": "L'Union européenne en 3 minutes",
                 "url": "https://www.youtube.com/watch?v=O37yJBFRrfg"
               }
             ],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "Banque de France",
-                "title": "Rapport annuel de la Banque de France",
-                "url": "https://www.banque-france.fr/fr/publications-et-statistiques/publications/rapport-annuel-de-la-banque-de-france"
-              },
-              {
-                "type": "whitepapers",
-                "source": "Cour des comptes",
-                "title": "Rapport sur la situation et les perspectives des finances publiques",
-                "url": "https://www.ccomptes.fr/fr/publications/le-rapport-sur-la-situation-et-les-perspectives-des-finances-publiques-2024"
-              }
-            ]
+            "whitepapers": []
           }
         },
         "3": {
@@ -1209,12 +1010,6 @@
                 "source": "Vie publique",
                 "title": "Qu'est-ce que la hiérarchie des normes ?",
                 "url": "https://www.vie-publique.fr/fiches/19524-quest-ce-que-la-hierarchie-des-normes"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Les juridictions de l'ordre judiciaire et administratif",
-                "url": "https://www.service-public.fr/particuliers/vosdroits/F18839"
               },
               {
                 "type": "articles",
@@ -1242,12 +1037,6 @@
               },
               {
                 "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Conditions de validité d'un contrat",
-                "url": "https://www.service-public.fr/particuliers/vosdroits/F31363"
-              },
-              {
-                "type": "articles",
                 "source": "Vie publique",
                 "title": "Quels sont les différents types de responsabilité civile ?",
                 "url": "https://www.vie-publique.fr/fiches/38071-quels-sont-les-differents-types-de-responsabilite-civile"
@@ -1259,34 +1048,8 @@
                 "url": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Jurixio",
-                "title": "Les sources du droit expliquées",
-                "url": "https://www.youtube.com/watch?v=cN8s11sBohw"
-              },
-              {
-                "type": "videos",
-                "source": "YouTube / Jurixio",
-                "title": "Comment former un contrat valide ?",
-                "url": "https://www.youtube.com/watch?v=L5LquhHGEYM"
-              },
-              {
-                "type": "videos",
-                "source": "YouTube / Jurixio",
-                "title": "La responsabilité civile en 10 minutes",
-                "url": "https://www.youtube.com/watch?v=ePoMHIGcTrM"
-              }
-            ],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "Ministère de la Justice",
-                "title": "Les chiffres-clés de la Justice 2023",
-                "url": "https://www.justice.gouv.fr/sites/default/files/2023-10/Chiffres_Cles_2023.pdf"
-              }
-            ]
+            "videos": [],
+            "whitepapers": []
           }
         },
         "4": {
@@ -1302,12 +1065,6 @@
                 "title": "Le contrat de travail CDI",
                 "url": "https://www.service-public.fr/particuliers/vosdroits/F1910",
                 "image": "https://www.service-public.gouv.fr/resources/v-be93ae652b/assets/img/sp-share.png"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Le contrat à durée déterminée (CDD)",
-                "url": "https://www.service-public.fr/particuliers/vosdroits/F1909"
               },
               {
                 "type": "articles",
@@ -1344,22 +1101,10 @@
               },
               {
                 "type": "articles",
-                "source": "BPI France Création",
-                "title": "Choisir le statut juridique de son entreprise",
-                "url": "https://bpifrance-creation.fr/encyclopedie/structures-juridiques/sarl-eurl-sa-sas-sasu-snc/comment-choisir-statut-juridique"
-              },
-              {
-                "type": "articles",
                 "source": "Service-Public.fr",
                 "title": "Société à responsabilité limitée (SARL)",
                 "url": "https://entreprendre.service-public.fr/vosdroits/F31201",
                 "image": "https://www.service-public.gouv.fr/resources/v-be93ae652b/assets/img/ent-share.png"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Société par actions simplifiée (SAS)",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F32595"
               },
               {
                 "type": "articles",
@@ -1368,14 +1113,7 @@
                 "url": "https://travail-emploi.gouv.fr/droit-du-travail/la-duree-du-travail"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Maître Eolas",
-                "title": "Comprendre la rupture conventionnelle",
-                "url": "https://www.youtube.com/watch?v=qZ45OPLWa3I"
-              }
-            ],
+            "videos": [],
             "whitepapers": [
               {
                 "type": "whitepapers",
@@ -1404,42 +1142,6 @@
               {
                 "type": "articles",
                 "source": "Manager Go",
-                "title": "Les structures organisationnelles",
-                "url": "https://www.manager-go.com/organisation-entreprise/dossiers-methodes/structures-organisationnelles"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Le processus de décision en management",
-                "url": "https://www.manager-go.com/management/dossiers-methodes/processus-de-decision"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Analyse SWOT - Méthode et exemples",
-                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/diagnostic-swot"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "La chaîne de valeur de Porter",
-                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/chaine-de-valeur-de-porter"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Les 5 forces de Porter",
-                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/5-forces-de-porter"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Tableau de bord et indicateurs de performance",
-                "url": "https://www.manager-go.com/management-de-la-performance/dossiers-methodes/methode-tableau-de-bord"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
                 "title": "Définir la stratégie d'entreprise",
                 "url": "https://www.manager-go.com/strategie-entreprise/"
               },
@@ -1455,18 +1157,6 @@
                 "source": "Xerfi Canal",
                 "title": "Stratégie d'entreprise et management",
                 "url": "https://www.xerficanal.com/strategie-management/"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Mintzberg : les configurations organisationnelles",
-                "url": "https://www.manager-go.com/organisation-entreprise/dossiers-methodes/mintzberg-configurations-structurelles"
-              },
-              {
-                "type": "articles",
-                "source": "Harvard Business Review France",
-                "title": "Articles en accès libre sur la stratégie",
-                "url": "https://www.hbrfrance.fr/category/strategie/"
               }
             ],
             "videos": [
@@ -1503,24 +1193,6 @@
             "articles": [
               {
                 "type": "articles",
-                "source": "Réseau CERTA",
-                "title": "Sujets et corrigés CEJM",
-                "url": "https://www.reseaucerta.org/cejm-bts-services"
-              },
-              {
-                "type": "articles",
-                "source": "CRCM-TL",
-                "title": "Ressources et sujets corrigés CEJM",
-                "url": "https://crcm-tl.fr/index.php/economie-droit-management/cejm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Rédiger une note de synthèse - Méthode",
-                "url": "https://www.manager-go.com/efficacite-professionnelle/dossiers-methodes/note-de-synthese"
-              },
-              {
-                "type": "articles",
                 "source": "Service-Public.fr",
                 "title": "BTS - Modalités d'examen",
                 "url": "https://www.service-public.fr/particuliers/vosdroits/F285",
@@ -1533,28 +1205,8 @@
                 "url": "https://www.vie-publique.fr/fiches/268559-comment-est-elaboree-une-decision-de-justice"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Jurixio",
-                "title": "Méthodologie du cas pratique en droit",
-                "url": "https://www.youtube.com/watch?v=2N0VgnQrwRY"
-              }
-            ],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "Réseau CERTA",
-                "title": "Sujets zéro et corrigés CEJM",
-                "url": "https://www.reseaucerta.org/cejm-bts-services"
-              },
-              {
-                "type": "whitepapers",
-                "source": "CRCM-TL",
-                "title": "Banque de ressources CEJM",
-                "url": "https://crcm-tl.fr/index.php/economie-droit-management/cejm/sujets-et-corriges"
-              }
-            ]
+            "videos": [],
+            "whitepapers": []
           }
         }
       },
@@ -1591,18 +1243,6 @@
                 "title": "Étude de marché : définition",
                 "url": "https://www.definitions-marketing.com/definition/etude-de-marche/",
                 "image": "https://www.definitions-marketing.com/media/parametre/logo-min.png"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Élaborer sa stratégie marketing",
-                "url": "https://www.manager-go.com/marketing/strategie-marketing.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "L'analyse SWOT : méthode et exemple",
-                "url": "https://www.manager-go.com/strategie-entreprise/dossiers-methodes/diagnostic-swot"
               },
               {
                 "type": "articles",
@@ -1644,14 +1284,7 @@
                 "url": "https://www.insee.fr/fr/statistiques"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Xerfi Canal",
-                "title": "Analyses stratégiques sectorielles",
-                "url": "https://www.youtube.com/user/XerfiCanalTV"
-              }
-            ],
+            "videos": [],
             "whitepapers": [
               {
                 "type": "whitepapers",
@@ -1686,28 +1319,10 @@
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Le marketing mix : les 4P",
-                "url": "https://www.manager-go.com/marketing/marketing-mix.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Fixer son prix de vente : méthodes",
-                "url": "https://www.manager-go.com/marketing/fixer-prix-vente.htm"
-              },
-              {
-                "type": "articles",
                 "source": "Marketing-Etudiant",
                 "title": "Le marketing mix 4P 7P",
                 "url": "https://www.marketing-etudiant.fr/cours/marketing-mix.php",
                 "image": "http://www.marketing-etudiant.fr/images_zol/new_logo.png"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Politique de distribution : guide",
-                "url": "https://blog.hubspot.fr/marketing/politique-de-distribution"
               },
               {
                 "type": "articles",
@@ -1732,14 +1347,7 @@
               }
             ],
             "videos": [],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "BPI France",
-                "title": "Fixer ses prix : guide",
-                "url": "https://bpifrance-creation.fr/moment-de-vie/fixer-prix-vente"
-              }
-            ]
+            "whitepapers": []
           }
         },
         "3": {
@@ -1771,12 +1379,6 @@
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Comprendre le comportement client",
-                "url": "https://www.manager-go.com/marketing/comportement-consommateur.htm"
-              },
-              {
-                "type": "articles",
                 "source": "Marketing-Etudiant",
                 "title": "Comportement du consommateur - cours",
                 "url": "https://www.marketing-etudiant.fr/cours/comportement-consommateur.php",
@@ -1784,28 +1386,10 @@
               },
               {
                 "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Créer un buyer persona",
-                "url": "https://blog.hubspot.fr/marketing/buyer-persona"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Customer journey : cartographier le parcours",
-                "url": "https://blog.hubspot.fr/service/customer-journey-map"
-              },
-              {
-                "type": "articles",
                 "source": "BDM",
                 "title": "Études usages numériques des Français",
                 "url": "https://www.blogdumoderateur.com/tag/etudes/",
                 "image": "https://f.hellowork.com/blogdumoderateur/2013/01/poor-rich-girl.png"
-              },
-              {
-                "type": "articles",
-                "source": "Cairn",
-                "title": "Recherche et Applications en Marketing",
-                "url": "https://www.cairn.info/revue-recherche-et-applications-en-marketing.htm"
               },
               {
                 "type": "articles",
@@ -1850,39 +1434,9 @@
               {
                 "type": "articles",
                 "source": "Webmarketing & co'm",
-                "title": "Stratégie SEO complète",
-                "url": "https://www.webmarketing-com.com/category/referencement-naturel-seo"
-              },
-              {
-                "type": "articles",
-                "source": "Webmarketing & co'm",
-                "title": "Guides SEA et Google Ads",
-                "url": "https://www.webmarketing-com.com/category/referencement-payant-sea"
-              },
-              {
-                "type": "articles",
-                "source": "Webmarketing & co'm",
                 "title": "Email marketing : bonnes pratiques",
                 "url": "https://www.webmarketing-com.com/category/emailing",
                 "image": "https://cd381e70.delivery.rocketcdn.me/wp-content/uploads/2013/11/email-marketing-1-v.jpg"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Guide complet du content marketing",
-                "url": "https://blog.hubspot.fr/marketing/content-marketing"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "SEO : guide débutant",
-                "url": "https://blog.hubspot.fr/marketing/guide-seo"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Email marketing : stratégie efficace",
-                "url": "https://blog.hubspot.fr/marketing/email-marketing"
               },
               {
                 "type": "articles",
@@ -1937,48 +1491,6 @@
                 "source": "Définitions Marketing",
                 "title": "Lead generation",
                 "url": "https://www.definitions-marketing.com/definition/lead-generation/"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Le marketing B2B : spécificités",
-                "url": "https://www.manager-go.com/marketing/marketing-b-to-b.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Gérer la relation client (GRC/CRM)",
-                "url": "https://www.manager-go.com/marketing/relation-client.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Fidélisation client : leviers efficaces",
-                "url": "https://www.manager-go.com/marketing/fidelisation-client.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Marketing B2B : guide complet",
-                "url": "https://blog.hubspot.fr/marketing/marketing-b2b"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Account-based marketing (ABM)",
-                "url": "https://blog.hubspot.fr/marketing/account-based-marketing"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Lead nurturing : stratégies",
-                "url": "https://blog.hubspot.fr/marketing/lead-nurturing"
-              },
-              {
-                "type": "articles",
-                "source": "Webmarketing & co'm",
-                "title": "Génération de leads B2B",
-                "url": "https://www.webmarketing-com.com/category/generation-de-leads"
               }
             ],
             "videos": [],
@@ -2847,12 +2359,6 @@
                 "title": "Les 7 étapes du processus de vente B2B",
                 "url": "https://blog.hubspot.fr/sales/etapes-essentielles-processus-vente-b2b",
                 "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/pexels-rodnae-productions-7414309.jpg"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "8 conseils pour conclure davantage de ventes B2B",
-                "url": "https://blog.hubspot.fr/sales/conseils-ventes-b2b"
               }
             ],
             "videos": [
@@ -3058,12 +2564,6 @@
               {
                 "type": "articles",
                 "source": "Cadre & Dirigeant Magazine",
-                "title": "Le management du leader transformationnel",
-                "url": "https://www.cadre-dirigeant-magazine.com/manager/le-leadership-base-sur-lemotion-du-leader-transformationnel/"
-              },
-              {
-                "type": "articles",
-                "source": "Cadre & Dirigeant Magazine",
                 "title": "Êtes-vous manager, leader ou les deux ?",
                 "url": "https://www.cadre-dirigeant-magazine.com/manager/etes-vous-plutot-manager-plutot-leader/",
                 "image": "https://www.cadre-dirigeant-magazine.com/wp-content/uploads/2022/08/LeaderouManager-CreditPhoto-Depositphotos-scaled.jpg"
@@ -3236,12 +2736,6 @@
               {
                 "type": "articles",
                 "source": "Manager Go",
-                "title": "Comment rendre votre entreprise agile ?",
-                "url": "https://www.manager-go.com/organisation-entreprise/agilite-et-developpement.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
                 "title": "10 actions concrètes pour une entreprise agile",
                 "url": "https://www.manager-go.com/organisation-entreprise/entreprise-agile-10-actions.htm",
                 "image": "https://www.manager-go.com/assets/Uploads/Entreprise-agile.png"
@@ -3362,39 +2856,9 @@
               },
               {
                 "type": "articles",
-                "source": "Compta Online",
-                "title": "Le compte de résultat : définition",
-                "url": "https://www.compta-online.com/le-compte-de-resultat-ao535"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Obligations comptables du commerçant",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F22270"
-              },
-              {
-                "type": "articles",
-                "source": "BPI France Création",
-                "title": "Tenir sa comptabilité au quotidien",
-                "url": "https://bpifrance-creation.fr/encyclopedie/comptabilite-gestion-financiere/comptabilite/tenir-comptabilite-au-quotidien"
-              },
-              {
-                "type": "articles",
-                "source": "Compta Online",
-                "title": "Les amortissements comptables",
-                "url": "https://www.compta-online.com/les-amortissements-comptables-ao537"
-              },
-              {
-                "type": "articles",
                 "source": "Légifrance",
                 "title": "Code de commerce - obligations comptables",
                 "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000005634379/LEGISCTA000006146049/"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Comprendre les états financiers",
-                "url": "https://www.manager-go.com/finance/etats-financiers.htm"
               }
             ],
             "videos": [],
@@ -3432,21 +2896,9 @@
               },
               {
                 "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Bénéfices industriels et commerciaux (BIC)",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F32094"
-              },
-              {
-                "type": "articles",
                 "source": "Légifrance",
                 "title": "Code général des impôts",
                 "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069577/"
-              },
-              {
-                "type": "articles",
-                "source": "BPI France Création",
-                "title": "Choisir son régime fiscal",
-                "url": "https://bpifrance-creation.fr/encyclopedie/fiscalite-entreprise"
               },
               {
                 "type": "articles",
@@ -3491,24 +2943,6 @@
               {
                 "type": "articles",
                 "source": "Manager Go",
-                "title": "Calculer la rentabilité d'un investissement (VAN, TRI)",
-                "url": "https://www.manager-go.com/finance/dossiers-methodes/choix-investissement"
-              },
-              {
-                "type": "articles",
-                "source": "BPI France Création",
-                "title": "Le plan de financement initial",
-                "url": "https://bpifrance-creation.fr/encyclopedie/previsionnel/plan-financement-initial"
-              },
-              {
-                "type": "articles",
-                "source": "BPI France Création",
-                "title": "Le besoin en fonds de roulement (BFR)",
-                "url": "https://bpifrance-creation.fr/encyclopedie/comptabilite-gestion-financiere/comprendre-mecanismes-financiers/besoin-fonds"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
                 "title": "Les soldes intermédiaires de gestion (SIG)",
                 "url": "https://www.manager-go.com/finance/soldes-intermediaires-de-gestion.htm",
                 "image": "https://www.manager-go.com/assets/Uploads/sig3min-min.JPG"
@@ -3522,14 +2956,7 @@
               }
             ],
             "videos": [],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "Cairn",
-                "title": "Revue Finance Contrôle Stratégie",
-                "url": "https://www.cairn.info/revue-finance-controle-strategie.htm"
-              }
-            ]
+            "whitepapers": []
           }
         },
         "4": {
@@ -3542,20 +2969,8 @@
               {
                 "type": "articles",
                 "source": "Manager Go",
-                "title": "Construire un budget prévisionnel",
-                "url": "https://www.manager-go.com/finance/budget.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
                 "title": "Le contrôle de gestion : missions et outils",
                 "url": "https://www.manager-go.com/controle-de-gestion.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Tableau de bord de gestion",
-                "url": "https://www.manager-go.com/management/tableau-de-bord.htm"
               },
               {
                 "type": "articles",
@@ -3563,24 +2978,6 @@
                 "title": "Calcul du seuil de rentabilité",
                 "url": "https://www.manager-go.com/finance/seuil-de-rentabilite.htm",
                 "image": "https://www.manager-go.com/assets/Uploads/definition-seuil-de-rentabilite.png"
-              },
-              {
-                "type": "articles",
-                "source": "BPI France Création",
-                "title": "Le compte de résultat prévisionnel",
-                "url": "https://bpifrance-creation.fr/encyclopedie/previsionnel/compte-resultat-previsionnel"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Méthode ABC",
-                "url": "https://www.manager-go.com/finance/methode-abc.htm"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Analyse des écarts budgétaires",
-                "url": "https://www.manager-go.com/finance/analyse-des-ecarts.htm"
               }
             ],
             "videos": [],
@@ -3603,18 +3000,6 @@
               },
               {
                 "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "DSN - Déclaration sociale nominative",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F32004"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Cotisations sociales : taux et calcul",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F23878"
-              },
-              {
-                "type": "articles",
                 "source": "Légifrance",
                 "title": "Code du travail - Salaire",
                 "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072050/LEGISCTA000006177833/"
@@ -3632,12 +3017,6 @@
                 "title": "Heures supplémentaires et complémentaires",
                 "url": "https://www.service-public.fr/particuliers/vosdroits/F2374",
                 "image": "https://www.service-public.gouv.fr/resources/v-be93ae652b/assets/img/sp-share.png"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Prélèvement à la source par l'employeur",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F32524"
               },
               {
                 "type": "articles",
@@ -3681,48 +3060,32 @@
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Le cahier des charges",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/cahier-des-charges"
+                "source": "MOOC GdP / Centrale Lille",
+                "title": "Les notions fondamentales de la gestion de projet (cours complet)",
+                "url": "https://gestiondeprojet.pm/fondamentaux-de-la-gestion-de-projet/",
+                "image": "https://gestiondeprojet.pm/wp-content/uploads/2016/01/rRtlKchqG07VXanwklpa3kRBcyKxW0C-hRnNWkE_VQ3TlfX1wIKUlRTfrcZJ.png"
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Définir le périmètre d'un projet",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/cadrage-de-projet"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Note de cadrage projet",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/note-de-cadrage"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Parties prenantes : identifier et analyser",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/parties-prenantes"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "WBS - Work Breakdown Structure",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/wbs"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Gestion de projet : guide complet",
-                "url": "https://blog.hubspot.fr/marketing/gestion-projet"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Le diagramme de Gantt",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/diagramme-de-gantt"
+                "source": "Atlassian",
+                "title": "12 principes et concepts de la gestion de projet",
+                "url": "https://www.atlassian.com/fr/work-management/project-management/principles"
               }
             ],
-            "videos": [],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Rémi Bachelet (Centrale Lille)",
+                "title": "Les fondamentaux de la gestion de projet 1/8",
+                "url": "https://www.youtube.com/watch?v=7IqLwURwMsc"
+              },
+              {
+                "type": "videos",
+                "source": "YouTube / Rémi Bachelet (Centrale Lille)",
+                "title": "Les fondamentaux de la gestion de projet 2/8",
+                "url": "https://www.youtube.com/watch?v=96J3eNnr42M"
+              }
+            ],
             "whitepapers": [
               {
                 "type": "whitepapers",
@@ -3730,6 +3093,21 @@
                 "title": "Revue Gestion 2000 - Management de projet",
                 "url": "https://www.cairn.info/revue-gestion-2000.htm",
                 "image": "https://shs.cairn.info/numero/G12000_425/cover/thumbnail?lang=fr"
+              }
+            ],
+            "books": [
+              {
+                "type": "books",
+                "source": "MOOC GdP / Centrale Lille",
+                "title": "MOOC GdP : formations gratuites en gestion de projet (portail officiel)",
+                "url": "https://mooc.gestiondeprojet.pm/"
+              },
+              {
+                "type": "books",
+                "source": "FUN MOOC",
+                "title": "Manager un projet avec méthode (cours en ligne gratuit)",
+                "url": "https://www.fun-mooc.fr/fr/cours/appliquer-les-methodes-professionnelles-cles-du-management-de-pr/",
+                "image": "https://1c1fef7b-2fa0-455a-987d-673bcdd072ae.svc.edge.scw.cloud/media/filer_public_thumbnails/filer_public/23/b6/23b6413d-658a-4364-8af5-141677072595/eg006_-_les_bases_du_management_de_projet.png__1200x630_q85_crop_replace_alpha-%23FFFFFF_subsampling-2_upscale.jpg"
               }
             ]
           }
@@ -3743,36 +3121,6 @@
             "articles": [
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Méthode Agile : principes et bénéfices",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/methode-agile"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Scrum : framework agile",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/scrum"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "La méthode Kanban",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/kanban"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Cycle en V vs Agile",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/cycle-en-v"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Méthode Agile : guide complet",
-                "url": "https://blog.hubspot.fr/marketing/methode-agile"
-              },
-              {
-                "type": "articles",
                 "source": "Hubspot FR",
                 "title": "Scrum master : rôle et missions",
                 "url": "https://blog.hubspot.fr/marketing/scrum-master",
@@ -3780,12 +3128,43 @@
               },
               {
                 "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Kanban : méthode de gestion visuelle",
-                "url": "https://blog.hubspot.fr/marketing/kanban"
+                "source": "Atlassian",
+                "title": "Présentation d'Agile : le guide",
+                "url": "https://www.atlassian.com/fr/agile"
+              },
+              {
+                "type": "articles",
+                "source": "Atlassian",
+                "title": "Qu'est-ce que Scrum ? Guide du framework Agile",
+                "url": "https://www.atlassian.com/fr/agile/scrum"
+              },
+              {
+                "type": "articles",
+                "source": "Atlassian",
+                "title": "En quoi consiste Kanban dans la gestion de projet ?",
+                "url": "https://www.atlassian.com/fr/agile/kanban"
+              },
+              {
+                "type": "articles",
+                "source": "Atlassian",
+                "title": "Kanban ou Scrum : quel Agile êtes-vous ?",
+                "url": "https://www.atlassian.com/fr/agile/kanban/kanban-vs-scrum"
+              },
+              {
+                "type": "articles",
+                "source": "Atlassian",
+                "title": "Scrumban : maîtriser deux méthodologies Agile",
+                "url": "https://www.atlassian.com/fr/agile/project-management/scrumban"
               }
             ],
-            "videos": [],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Rémi Bachelet (Centrale Lille)",
+                "title": "Gestion de projet : les bases (cours)",
+                "url": "https://www.youtube.com/watch?v=b4Qma0z2PsI"
+              }
+            ],
             "whitepapers": []
           }
         },
@@ -3799,48 +3178,45 @@
               {
                 "type": "articles",
                 "source": "Hubspot FR",
-                "title": "Trello : guide d'utilisation",
-                "url": "https://blog.hubspot.fr/marketing/trello"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
                 "title": "Notion : tout savoir sur l'outil",
                 "url": "https://blog.hubspot.fr/marketing/notion",
                 "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/media/applicationnotion.jpeg"
               },
               {
                 "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Asana : présentation et utilisation",
-                "url": "https://blog.hubspot.fr/marketing/asana"
+                "source": "Asana France",
+                "title": "Les 8 meilleurs logiciels de gestion de projet gratuits",
+                "url": "https://asana.com/fr/resources/best-project-management-software",
+                "image": "https://assets.asana.biz/transform/66f3f815-4015-4b82-92b8-a50f02d68add/web-RC26-grid-project-code-batch4"
               },
               {
                 "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Les meilleurs outils de gestion de projet",
-                "url": "https://blog.hubspot.fr/marketing/logiciel-gestion-projet"
+                "source": "Notion Facile",
+                "title": "Le guide de la gestion de projet sur Notion",
+                "url": "https://blog.notionfacile.fr/gestion-de-projet/",
+                "image": "https://blog.notionfacile.fr/content/images/2026/03/gestion-de-projet.webp"
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Choisir son logiciel de gestion de projet",
-                "url": "https://www.manager-go.com/gestion-de-projet/logiciel-gestion-projet.htm"
+                "source": "Trello",
+                "title": "Guide de démarrage Trello (officiel, en français)",
+                "url": "https://trello.com/fr/guide"
               },
               {
                 "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Microsoft Teams pour collaborer",
-                "url": "https://blog.hubspot.fr/marketing/microsoft-teams"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Slack : usage en entreprise",
-                "url": "https://blog.hubspot.fr/marketing/slack"
+                "source": "Atlassian",
+                "title": "Tutoriel Kanban complet avec Jira",
+                "url": "https://www.atlassian.com/fr/agile/tutorials/how-to-do-kanban-with-jira"
               }
             ],
-            "videos": [],
+            "videos": [
+              {
+                "type": "videos",
+                "source": "YouTube / Rémi Bachelet (Centrale Lille)",
+                "title": "Gestion de projet — outils 1/11 : introduction et plan du cours",
+                "url": "https://www.youtube.com/watch?v=ustcFn9jAHU"
+              }
+            ],
             "whitepapers": []
           }
         },
@@ -3853,51 +3229,29 @@
             "articles": [
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Analyse des risques projet",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/analyse-des-risques"
+                "source": "Asana France",
+                "title": "Diagramme de Gantt : guide complet pour vos projets",
+                "url": "https://asana.com/fr/resources/gantt-chart-basics",
+                "image": "https://assets.asana.biz/m/83ed9e308fa6c10/original/article-project-management-gantt-chart-basics-2x.png"
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Matrice des risques",
-                "url": "https://www.manager-go.com/management-du-risque/dossiers-methodes/matrice-des-risques"
+                "source": "Atlassian",
+                "title": "Exemples de diagrammes de Gantt",
+                "url": "https://www.atlassian.com/fr/agile/project-management/gantt-chart-examples"
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Tableau de bord projet",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/tableau-de-bord-projet"
+                "source": "Asana France",
+                "title": "Processus de gestion des risques projet en 6 étapes",
+                "url": "https://asana.com/fr/resources/project-risk-management-process",
+                "image": "https://assets.asana.biz/m/7b85b449045c4769/original/article-project-management-project-risk-management-process-2x.png"
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Indicateurs de pilotage projet",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/indicateurs-de-pilotage"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Comité de pilotage : rôle et organisation",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/comite-de-pilotage"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Revue de projet et bilan",
-                "url": "https://www.manager-go.com/gestion-de-projet/dossiers-methodes/bilan-projet"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Méthode AMDEC",
-                "url": "https://www.manager-go.com/management-du-risque/dossiers-methodes/amdec"
-              },
-              {
-                "type": "articles",
-                "source": "Hubspot FR",
-                "title": "Gérer les risques d'un projet",
-                "url": "https://blog.hubspot.fr/marketing/gestion-risques-projet"
+                "source": "Atlassian",
+                "title": "La gestion des risques dans un projet",
+                "url": "https://www.atlassian.com/fr/work-management/project-management/risk-management"
               }
             ],
             "videos": [],
@@ -3934,12 +3288,6 @@
               {
                 "type": "articles",
                 "source": "Apec",
-                "title": "Recruter un cadre : étapes et conseils",
-                "url": "https://www.apec.fr/recruteur/page-conseils.html"
-              },
-              {
-                "type": "articles",
-                "source": "Apec",
                 "title": "Études Apec - Tendances recrutement cadres",
                 "url": "https://corporate.apec.fr/home/nos-etudes.html"
               },
@@ -3962,12 +3310,6 @@
                 "title": "Marque employeur : stratégie et exemples",
                 "url": "https://blog.hubspot.fr/marketing/marque-employeur",
                 "image": "https://53.fs1.hubspotusercontent-na1.net/hubfs/53/media/personnesenentretien.jpeg"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Conduire un entretien de recrutement",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/entretien-de-recrutement"
               },
               {
                 "type": "articles",
@@ -4003,24 +3345,6 @@
               },
               {
                 "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Plan de développement des compétences",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F32010"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Bilan de compétences",
-                "url": "https://www.service-public.fr/particuliers/vosdroits/F14999"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Construire un plan de formation",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/plan-de-formation"
-              },
-              {
-                "type": "articles",
                 "source": "ANDRH",
                 "title": "Développement des compétences",
                 "url": "https://www.andrh.fr/actualites",
@@ -4032,23 +3356,10 @@
                 "title": "VAE - Validation des acquis de l'expérience",
                 "url": "https://www.service-public.fr/particuliers/vosdroits/F2401",
                 "image": "https://www.service-public.gouv.fr/resources/v-be93ae652b/assets/img/sp-share.png"
-              },
-              {
-                "type": "articles",
-                "source": "Apec",
-                "title": "Évolution professionnelle et formation",
-                "url": "https://www.apec.fr/candidat/evoluer-dans-sa-carriere.html"
               }
             ],
             "videos": [],
-            "whitepapers": [
-              {
-                "type": "whitepapers",
-                "source": "France Stratégie",
-                "title": "Compétences transférables et transversales",
-                "url": "https://www.strategie.gouv.fr/publications/competences-transferables"
-              }
-            ]
+            "whitepapers": []
           }
         },
         "3": {
@@ -4095,12 +3406,6 @@
               {
                 "type": "articles",
                 "source": "Service-Public.fr",
-                "title": "Convention collective : application",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F23896"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
                 "title": "Représentants du personnel - CSE",
                 "url": "https://entreprendre.service-public.fr/vosdroits/F32084",
                 "image": "https://www.service-public.gouv.fr/resources/v-be93ae652b/assets/img/sp-share.png"
@@ -4133,39 +3438,9 @@
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Conduire un entretien annuel",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/entretien-annuel-evaluation"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "GPEC : gestion prévisionnelle",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/gpec"
-              },
-              {
-                "type": "articles",
-                "source": "Apec",
-                "title": "Mobilité interne : enjeux",
-                "url": "https://www.apec.fr/candidat/evoluer-dans-sa-carriere.html"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Fiche de poste : élaboration",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/fiche-de-poste"
-              },
-              {
-                "type": "articles",
                 "source": "Welcome to the Jungle",
                 "title": "Mobilité interne et carrière",
                 "url": "https://www.welcometothejungle.com/fr/articles/mobilite-interne"
-              },
-              {
-                "type": "articles",
-                "source": "Manager Go",
-                "title": "Référentiel de compétences",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/referentiel-competences"
               }
             ],
             "videos": [],
@@ -4189,12 +3464,6 @@
             "articles": [
               {
                 "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Index égalité professionnelle femmes-hommes",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F34470"
-              },
-              {
-                "type": "articles",
                 "source": "Welcome to the Jungle",
                 "title": "Diversité et inclusion en entreprise",
                 "url": "https://www.welcometothejungle.com/fr/collections/diversite-inclusion"
@@ -4214,21 +3483,9 @@
               },
               {
                 "type": "articles",
-                "source": "Manager Go",
-                "title": "Risques psychosociaux : prévention",
-                "url": "https://www.manager-go.com/ressources-humaines/dossiers-methodes/risques-psychosociaux"
-              },
-              {
-                "type": "articles",
                 "source": "Welcome to the Jungle",
                 "title": "Télétravail et hybridation",
                 "url": "https://www.welcometothejungle.com/fr/articles/teletravail"
-              },
-              {
-                "type": "articles",
-                "source": "Service-Public.fr",
-                "title": "Document unique d'évaluation des risques (DUERP)",
-                "url": "https://entreprendre.service-public.fr/vosdroits/F34750"
               }
             ],
             "videos": [],
@@ -4273,12 +3530,6 @@
               {
                 "type": "articles",
                 "source": "Blog du Modérateur",
-                "title": "Claude : tout savoir sur l'IA générative d'Anthropic",
-                "url": "https://www.blogdumoderateur.com/tools/claude-ai/"
-              },
-              {
-                "type": "articles",
-                "source": "Blog du Modérateur",
                 "title": "Gemini : tout savoir sur l'IA générative de Google",
                 "url": "https://www.blogdumoderateur.com/tools/gemini/",
                 "image": "https://f.hellowork.com/bdmtools/2025/03/Gemini-Code-Assist-Interface-1200x628.jpg"
@@ -4292,28 +3543,10 @@
               },
               {
                 "type": "articles",
-                "source": "Frandroid",
-                "title": "ChatGPT, Gemini, Claude : quel est le meilleur chatbot IA ?",
-                "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/1809443_chatgpt-gemini-copilot-le-vrai-comparatif-des-ia-generatives"
-              },
-              {
-                "type": "articles",
-                "source": "Korben",
-                "title": "ChatGPT - Le guide pour bien démarrer",
-                "url": "https://korben.info/chatgpt-guide-debutant.html"
-              },
-              {
-                "type": "articles",
                 "source": "Journal du Net",
                 "title": "Prompt ChatGPT : comment bien rédiger ses requêtes",
                 "url": "https://www.journaldunet.com/intelligence-artificielle/1517995-prompt-chatgpt-comment-le-rediger-pour-obtenir-les-meilleurs-resultats/",
                 "image": "https://img-0.journaldunet.com/fQmG4G3e3NL_2crZMgoXXsW_M78=/1500x/smart/fefd57647b694b9d928e80848b88b530/ccmcms-jdn/39457235.png"
-              },
-              {
-                "type": "articles",
-                "source": "Siècle Digital",
-                "title": "Prompt engineering : le guide",
-                "url": "https://siecledigital.fr/2023/05/05/prompt-engineering-le-guide-pour-rediger-des-prompts-efficaces/"
               }
             ],
             "videos": [
@@ -4351,34 +3584,10 @@
               },
               {
                 "type": "articles",
-                "source": "Blog du Modérateur",
-                "title": "Notion AI : que vaut l'IA intégrée à Notion ?",
-                "url": "https://www.blogdumoderateur.com/notion-ai-test/"
-              },
-              {
-                "type": "articles",
-                "source": "Blog du Modérateur",
-                "title": "Obsidian : présentation de l'outil de prise de notes",
-                "url": "https://www.blogdumoderateur.com/tools/obsidian/"
-              },
-              {
-                "type": "articles",
-                "source": "Korben",
-                "title": "Obsidian : ma méthode de prise de notes",
-                "url": "https://korben.info/obsidian-prise-de-notes.html"
-              },
-              {
-                "type": "articles",
                 "source": "Journal du Net",
                 "title": "No-code : top des meilleures plateformes",
                 "url": "https://www.journaldunet.com/solutions/dsi/1500551-no-code-quelles-sont-les-meilleures-plateformes/",
                 "image": "https://img-0.journaldunet.com/pMvbdOlPIme--UOx5Jz9ANwr18U=/1500x/smart/9188e2e5838446b7956dea80dde75836/ccmcms-jdn/24391454.jpg"
-              },
-              {
-                "type": "articles",
-                "source": "Siècle Digital",
-                "title": "Notion AI : un assistant intelligent",
-                "url": "https://siecledigital.fr/2023/02/23/notion-ai-est-disponible/"
               }
             ],
             "videos": [],
@@ -4415,44 +3624,13 @@
               },
               {
                 "type": "articles",
-                "source": "Numerama",
-                "title": "Sora : OpenAI dévoile son IA de génération de vidéos",
-                "url": "https://www.numerama.com/tech/1635553-sora-openai-devoile-son-ia-de-generation-de-videos.html"
-              },
-              {
-                "type": "articles",
-                "source": "Numerama",
-                "title": "Runway Gen-3 : l'IA qui génère des vidéos réalistes",
-                "url": "https://www.numerama.com/tech/1768829-runway-gen-3-alpha-genere-videos-realistes.html"
-              },
-              {
-                "type": "articles",
                 "source": "Frandroid",
                 "title": "Midjourney : tout savoir",
                 "url": "https://www.frandroid.com/culture-tech/intelligence-artificielle/1568661_midjourney",
                 "image": "https://c0.lestechnophiles.com/images.frandroid.com/wp-content/uploads/2023/03/ulrich-elon-musk-portrait-crash-of-a-tesla-model-3-in-the-backg-36d4e1c6-da68-4243-b360-9d45c2084a11.jpg?resize=1600,900&key=3bcc79fc&watermark"
-              },
-              {
-                "type": "articles",
-                "source": "Korben",
-                "title": "Créer des images avec l'IA : mon guide Midjourney",
-                "url": "https://korben.info/midjourney-guide.html"
-              },
-              {
-                "type": "articles",
-                "source": "Siècle Digital",
-                "title": "Adobe Firefly : nouveau standard pour la création visuelle ?",
-                "url": "https://siecledigital.fr/2023/03/22/adobe-firefly-presentation/"
               }
             ],
-            "videos": [
-              {
-                "type": "videos",
-                "source": "YouTube / Underscore_",
-                "title": "Comment fonctionne une IA qui génère des images ?",
-                "url": "https://www.youtube.com/watch?v=fb-bAFkkH0g"
-              }
-            ],
+            "videos": [],
             "whitepapers": []
           }
         },
@@ -4466,45 +3644,9 @@
               {
                 "type": "articles",
                 "source": "Blog du Modérateur",
-                "title": "Perplexity AI : le moteur de recherche dopé à l'IA",
-                "url": "https://www.blogdumoderateur.com/tools/perplexity-ai/"
-              },
-              {
-                "type": "articles",
-                "source": "Blog du Modérateur",
                 "title": "NotebookLM : tout savoir sur l'outil de Google",
                 "url": "https://www.blogdumoderateur.com/tools/notebooklm/",
                 "image": "https://f.hellowork.com/bdmtools/2025/01/notebooklm-interface-1200x628.jpg"
-              },
-              {
-                "type": "articles",
-                "source": "Blog du Modérateur",
-                "title": "ChatGPT Search : le moteur de recherche d'OpenAI",
-                "url": "https://www.blogdumoderateur.com/chatgpt-search-disponible-tous/"
-              },
-              {
-                "type": "articles",
-                "source": "Numerama",
-                "title": "Perplexity : moteur de recherche IA concurrent de Google",
-                "url": "https://www.numerama.com/tech/1545832-perplexity-moteur-recherche-ia-concurrent-google.html"
-              },
-              {
-                "type": "articles",
-                "source": "Numerama",
-                "title": "NotebookLM : Google transforme vos notes en podcast",
-                "url": "https://www.numerama.com/tech/1814596-notebooklm-loutil-google-qui-transforme-vos-notes-en-podcast.html"
-              },
-              {
-                "type": "articles",
-                "source": "Korben",
-                "title": "Perplexity : le moteur IA que j'utilise tous les jours",
-                "url": "https://korben.info/perplexity-ai-moteur-recherche.html"
-              },
-              {
-                "type": "articles",
-                "source": "Siècle Digital",
-                "title": "NotebookLM, l'assistant IA de Google",
-                "url": "https://siecledigital.fr/2023/12/06/notebooklm-google-assistant-recherche/"
               }
             ],
             "videos": [],
@@ -4518,12 +3660,6 @@
           "tagline": "Créer des slides, contenus marketing et supports en quelques minutes",
           "veille": {
             "articles": [
-              {
-                "type": "articles",
-                "source": "Blog du Modérateur",
-                "title": "Gamma : créer des présentations grâce à l'IA",
-                "url": "https://www.blogdumoderateur.com/tools/gamma-app/"
-              },
               {
                 "type": "articles",
                 "source": "Blog du Modérateur",
@@ -4544,18 +3680,6 @@
                 "title": "Copy.ai : générateur de contenu marketing par IA",
                 "url": "https://www.blogdumoderateur.com/tools/copy-ai/",
                 "image": "https://f.hellowork.com/bdmtools/2024/02/copy-ay-une.jpg"
-              },
-              {
-                "type": "articles",
-                "source": "Korben",
-                "title": "Gamma : créer des slides pro en quelques minutes",
-                "url": "https://korben.info/gamma-app-presentation-ia.html"
-              },
-              {
-                "type": "articles",
-                "source": "Siècle Digital",
-                "title": "Les meilleurs outils IA pour créer des présentations",
-                "url": "https://siecledigital.fr/2023/06/15/meilleurs-outils-ia-presentations/"
               }
             ],
             "videos": [],

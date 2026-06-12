@@ -207,11 +207,11 @@
       '<div class="vignette-body"><div class="vignette-title">' + esc(title) + "</div>" +
       (src ? '<div class="vignette-src mono">' + favImg + esc(src) + " ↗</div>" : "") + "</div></a>";
   }
-  function vignetteGrid(items) {
+  function vignetteGrid(items, extraClass) {
     /* Une même og:image générique (bannière du site) ne s'affiche qu'une fois par grille ;
        les doublons retombent sur le favicon — évite le mur de bannières identiques. */
     var seen = {};
-    return '<div class="vignette-grid">' + (items || []).map(function (it) {
+    return '<div class="vignette-grid' + (extraClass ? ' ' + extraClass : '') + '">' + (items || []).map(function (it) {
       if (it && it.image) {
         if (seen[it.image]) {
           var copy = {}; for (var k in it) { if (k !== "image") copy[k] = it[k]; }
@@ -315,7 +315,7 @@
         '<div class="hero-text">' +
           '<div class="hero-badge">LE MAG · ÉDITION ' + esc((STATE.data.build_date || "").slice(0, 7).replace('-', '/')) + "</div>" +
           '<h1>Le mag <span class="accent">qui sert tes études</span>, semaine après semaine.</h1>' +
-          '<p class="hero-sub">12 thématiques, 500+ ressources triées par tes profs : culture générale, anglais, CEJM, marketing, com, RH, gestion, IA. Et un Récap chaque dimanche.</p>' +
+          '<p class="hero-sub">12 thématiques, ' + Object.keys(ts).reduce(function (a, s) { return a + countResources(s); }, 0) + ' ressources vérifiées et triées par tes profs : culture générale, anglais, CEJM, marketing, com, RH, gestion, IA. Et un Récap chaque dimanche.</p>' +
         '</div>' +
         (iaDossier ? (
           '<a class="hero-featured" href="' + esc('/static/' + (iaDossier.file || '')) + '" target="_blank" rel="noopener">' +
@@ -408,15 +408,33 @@
           }).join("") + "</div>" + newsHtml + "</section>";
       });
     } else {
-      html += '<section class="band"><div class="band-tag">// LES MODULES</div><h2>Explorer par module</h2><div class="mod-grid">' +
+      /* Modules en accès rapide (chips compactes) — la sidebar les liste déjà */
+      html += '<section class="band module-strip-band"><div class="band-tag">// LES MODULES</div><div class="module-strip">' +
         modKeys(slug).map(function (k) {
           var m = modulesOf(slug)[k];
-          return '<a class="mod-card" href="#theme/' + esc(slug) + "/module/" + esc(k) + '">' +
-            '<div class="mod-card-num mono">MODULE ' + esc(m.num || k) + "</div>" +
-            '<div class="mod-card-title">' + esc(m.title) + "</div>" +
-            (m.punchline ? '<div class="mod-card-punch">' + esc(m.punchline) + "</div>" : "") +
-            '<div class="mod-card-foot mono">' + countModuleResources(m) + " ressources →</div></a>";
+          return '<a class="module-chip" href="#theme/' + esc(slug) + "/module/" + esc(k) + '">' +
+            '<span class="module-chip-num mono">' + esc(("0" + (m.num || k)).slice(-2)) + "</span>" +
+            '<span>' + esc(m.short || m.title) + "</span></a>";
         }).join("") + "</div></section>";
+      /* Veille agrégée du thème, répartie par sources (comme le mag perso),
+         en grosses vignettes quinconce (masonry façon feed tablette) */
+      var agg = { articles: [], videos: [], whitepapers: [], books: [] };
+      var seenUrl = {};
+      modKeys(slug).forEach(function (k) {
+        var mv = modulesOf(slug)[k].veille || {};
+        ["articles", "videos", "whitepapers", "books"].forEach(function (kk) {
+          (mv[kk] || []).forEach(function (r) {
+            var key = kk + "|" + (r.url || "");
+            if (r.url && !seenUrl[key]) { seenUrl[key] = 1; agg[kk].push(r); }
+          });
+        });
+      });
+      var tGroups = [["Articles & blogs", agg.articles], ["Vidéos & conférences", agg.videos], ["Études & livres blancs", agg.whitepapers], ["Livres & MOOCs", agg.books]];
+      if (tGroups.some(function (g) { return g[1].length; })) {
+        html += '<section class="band"><div class="band-tag">// LA VEILLE ' + esc(t.discipline.toUpperCase()) + '</div><h2>Ce qu\'il faut lire, regarder et explorer</h2>';
+        tGroups.forEach(function (g) { if (g[1].length) html += '<h3 class="res-h">' + esc(g[0]) + "</h3>" + vignetteGrid(g[1], "vignette-masonry"); });
+        html += "</section>";
+      }
     }
     if (t.channels && t.channels.length) {
       html += '<section class="band"><div class="band-tag">// VEILLE VIDÉO</div><h2>Chaînes YouTube à suivre</h2>' +
@@ -568,7 +586,7 @@
     var anyRes = groups.some(function (g) { return g[1].length; });
     if (anyRes) {
       html += '<section class="band"><div class="band-tag">// RESSOURCES &amp; VEILLE</div><h2>Ce qu\'il faut lire, regarder et explorer</h2>';
-      groups.forEach(function (g) { if (g[1].length) html += '<h3 class="res-h">' + esc(g[0]) + "</h3>" + vignetteGrid(g[1]); });
+      groups.forEach(function (g) { if (g[1].length) html += '<h3 class="res-h">' + esc(g[0]) + "</h3>" + vignetteGrid(g[1], "vignette-masonry"); });
       html += "</section>";
     }
 

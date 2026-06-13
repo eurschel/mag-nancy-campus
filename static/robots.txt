@@ -1,0 +1,4 @@
+# Le Mag Campus Nancy — accès restreint en cours de mise en place
+# Ne pas indexer en attendant l'authentification
+User-agent: *
+Disallow: /
